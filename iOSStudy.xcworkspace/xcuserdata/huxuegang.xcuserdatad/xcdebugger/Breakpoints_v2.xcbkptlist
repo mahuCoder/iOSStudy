@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/&#x5e38;&#x7528;&#x7b2c;&#x4e09;&#x65b9;/&#x5730;&#x56fe;/&#x767e;&#x5ea6;&#x5730;&#x56fe;/YXYThrid_BaiduMapRootVC.m"
+            timestampString = "580699471.790125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "-mapView:viewForAnnotation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/&#x5e38;&#x7528;&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x767b;&#x5f55;/&#x5fae;&#x4fe1;&#x767b;&#x5f55;/YXYVThrid_AuthLogin_wechatVC.m"
+            timestampString = "588590907.163518"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-onReq:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/&#x5e38;&#x7528;&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x767b;&#x5f55;/&#x5fae;&#x4fe1;&#x767b;&#x5f55;/YXYVThrid_AuthLogin_wechatVC.m"
+            timestampString = "588590907.163586"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-onResp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

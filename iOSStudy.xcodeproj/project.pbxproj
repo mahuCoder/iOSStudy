@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2732211F05D2361049D1566E /* libPods-iOSStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */; };
+		F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C012293DEC20076B663 /* YXYAlertViewController.m */; };
+		F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C042293FA210076B663 /* YXYPresentationRightController.m */; };
+		F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C0A2297E6C30076B663 /* CustomPaopaoView.m */; };
+		F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C0D2297F2A10076B663 /* BMKAnimationAnnotationView.m */; };
+		F10E0C1E229BDD790076B663 /* BMKCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C17229BDD790076B663 /* BMKCluster.m */; };
+		F10E0C20229BDD790076B663 /* BMKClusterQuadtree.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C19229BDD790076B663 /* BMKClusterQuadtree.m */; };
+		F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C1C229BDD790076B663 /* BMKClusterManager.m */; };
+		F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C22229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.m */; };
+		F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C26229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m */; };
+		F12CAAB72282CC480004704C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB62282CC480004704C /* AppDelegate.m */; };
+		F12CAABA2282CC480004704C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB92282CC480004704C /* ViewController.m */; };
+		F12CAABD2282CC480004704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CAABB2282CC480004704C /* Main.storyboard */; };
+		F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12CAABE2282CC4A0004704C /* Assets.xcassets */; };
+		F12CAAC22282CC4A0004704C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CAAC02282CC4A0004704C /* LaunchScreen.storyboard */; };
+		F12CAAC52282CC4A0004704C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAC42282CC4A0004704C /* main.m */; };
+		F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */; };
+		F1372C5B228EBE15006771F0 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1372C50228EBE15006771F0 /* mapapi.bundle */; };
+		F1372C5C228EBE15006771F0 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C51228EBE15006771F0 /* BaiduMapAPI_Map.framework */; };
+		F1372C5D228EBE15006771F0 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C53228EBE15006771F0 /* libcrypto.a */; };
+		F1372C5E228EBE15006771F0 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C54228EBE15006771F0 /* libssl.a */; };
+		F1372C5F228EBE15006771F0 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C55228EBE15006771F0 /* BaiduMapAPI_Utils.framework */; };
+		F1372C60228EBE15006771F0 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C56228EBE15006771F0 /* BaiduMapAPI_Base.framework */; };
+		F1372C61228EBE15006771F0 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C57228EBE15006771F0 /* BaiduMapAPI_Search.framework */; };
+		F1372C62228EBE16006771F0 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C58228EBE15006771F0 /* BaiduMapAPI_Cloud.framework */; };
+		F1372C63228EBE16006771F0 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C5A228EBE15006771F0 /* BMKLocationKit.framework */; };
+		F1372C652292775D006771F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C642292775D006771F0 /* CoreGraphics.framework */; };
+		F1372C672292776A006771F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C662292776A006771F0 /* CoreLocation.framework */; };
+		F1372C6922927772006771F0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C6822927772006771F0 /* libc++.tbd */; };
+		F1372C6B2292777A006771F0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C6A2292777A006771F0 /* libsqlite3.0.tbd */; };
+		F1372C6D22927782006771F0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C6C22927781006771F0 /* OpenGLES.framework */; };
+		F1372C6F22927789006771F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C6E22927789006771F0 /* QuartzCore.framework */; };
+		F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C7122927885006771F0 /* YXYThrid_MapVC.m */; };
+		F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */; };
+		F1372C762292A18D006771F0 /* mapapi.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C50228EBE15006771F0 /* mapapi.bundle */; };
+		F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */; };
+		F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DF92282CCE500C4A856 /* YXYBaseViewController.m */; };
+		F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DFE2282CCE500C4A856 /* YXYBasic_PCHAddVC.m */; };
+		F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8E002282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m */; };
+		F1CD8E0E2282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8E012282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m */; };
+		F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8E0F2282CD2900C4A856 /* YXYTabBarViewController.m */; };
+		F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E355A3230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m */; };
+		F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E355A6230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m */; };
+		F1E355AB2314D84900A7CFB3 /* ToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E355AA2314D84900A7CFB3 /* ToastManager.m */; };
+		F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E355AE23150A9400A7CFB3 /* YXYThrid_ToastListVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE671F4901D84D23C40CBFC /* Pods-iOSStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSStudy.release.xcconfig"; path = "Target Support Files/Pods-iOSStudy/Pods-iOSStudy.release.xcconfig"; sourceTree = "<group>"; };
+		F10E0C002293DEC20076B663 /* YXYAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYAlertViewController.h; sourceTree = "<group>"; };
+		F10E0C012293DEC20076B663 /* YXYAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYAlertViewController.m; sourceTree = "<group>"; };
+		F10E0C032293FA210076B663 /* YXYPresentationRightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYPresentationRightController.h; sourceTree = "<group>"; };
+		F10E0C042293FA210076B663 /* YXYPresentationRightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYPresentationRightController.m; sourceTree = "<group>"; };
+		F10E0C092297E6C30076B663 /* CustomPaopaoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPaopaoView.h; sourceTree = "<group>"; };
+		F10E0C0A2297E6C30076B663 /* CustomPaopaoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPaopaoView.m; sourceTree = "<group>"; };
+		F10E0C0C2297F2A10076B663 /* BMKAnimationAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMKAnimationAnnotationView.h; sourceTree = "<group>"; };
+		F10E0C0D2297F2A10076B663 /* BMKAnimationAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMKAnimationAnnotationView.m; sourceTree = "<group>"; };
+		F10E0C16229BDD780076B663 /* BMKCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKCluster.h; sourceTree = "<group>"; };
+		F10E0C17229BDD790076B663 /* BMKCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKCluster.m; sourceTree = "<group>"; };
+		F10E0C19229BDD790076B663 /* BMKClusterQuadtree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterQuadtree.m; sourceTree = "<group>"; };
+		F10E0C1B229BDD790076B663 /* BMKClusterQuadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterQuadtree.h; sourceTree = "<group>"; };
+		F10E0C1C229BDD790076B663 /* BMKClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterManager.m; sourceTree = "<group>"; };
+		F10E0C1D229BDD790076B663 /* BMKClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterManager.h; sourceTree = "<group>"; };
+		F10E0C22229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXYThrid_BaiduMap_Define.m; path = "iOSStudy/常用第三方/地图/百度地图/YXYThrid_BaiduMap_Define.m"; sourceTree = SOURCE_ROOT; };
+		F10E0C23229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXYThrid_BaiduMap_Define.h; path = "iOSStudy/常用第三方/地图/百度地图/YXYThrid_BaiduMap_Define.h"; sourceTree = SOURCE_ROOT; };
+		F10E0C25229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_BaiduMapLoadingVC.h; sourceTree = "<group>"; };
+		F10E0C26229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BaiduMapLoadingVC.m; sourceTree = "<group>"; };
+		F12CAAB22282CC480004704C /* iOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12CAAB52282CC480004704C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F12CAAB62282CC480004704C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F12CAAB82282CC480004704C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F12CAAB92282CC480004704C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F12CAABC2282CC480004704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12CAABE2282CC4A0004704C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12CAAC12282CC4A0004704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12CAAC32282CC4A0004704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12CAAC42282CC4A0004704C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1372C2A228E6758006771F0 /* YXYThrid_RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_RootVC.h; sourceTree = "<group>"; };
+		F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_RootVC.m; sourceTree = "<group>"; };
+		F1372C50228EBE15006771F0 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		F1372C51228EBE15006771F0 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		F1372C53228EBE15006771F0 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		F1372C54228EBE15006771F0 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		F1372C55228EBE15006771F0 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		F1372C56228EBE15006771F0 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		F1372C57228EBE15006771F0 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		F1372C58228EBE15006771F0 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		F1372C5A228EBE15006771F0 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
+		F1372C642292775D006771F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1372C662292776A006771F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F1372C6822927772006771F0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F1372C6A2292777A006771F0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F1372C6C22927781006771F0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F1372C6E22927789006771F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1372C7022927885006771F0 /* YXYThrid_MapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_MapVC.h; sourceTree = "<group>"; };
+		F1372C7122927885006771F0 /* YXYThrid_MapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_MapVC.m; sourceTree = "<group>"; };
+		F1372C732292830A006771F0 /* YXYThrid_BaiduMapRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_BaiduMapRootVC.h; sourceTree = "<group>"; };
+		F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BaiduMapRootVC.m; sourceTree = "<group>"; };
+		F1CD8DF42282CCE500C4A856 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		F1CD8DF72282CCE500C4A856 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		F1CD8DF92282CCE500C4A856 /* YXYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYBaseViewController.m; sourceTree = "<group>"; };
+		F1CD8DFA2282CCE500C4A856 /* YXYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYBaseViewController.h; sourceTree = "<group>"; };
+		F1CD8DFD2282CCE500C4A856 /* YXYBasic_PCHAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYBasic_PCHAddVC.h; sourceTree = "<group>"; };
+		F1CD8DFE2282CCE500C4A856 /* YXYBasic_PCHAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYBasic_PCHAddVC.m; sourceTree = "<group>"; };
+		F1CD8E002282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYBASIC_CocoaPodsInstallVC.m; sourceTree = "<group>"; };
+		F1CD8E012282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYBASIC_CocoaPodsUseVC.m; sourceTree = "<group>"; };
+		F1CD8E022282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYBASIC_CocoaPodsUseVC.h; sourceTree = "<group>"; };
+		F1CD8E032282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYBASIC_CocoaPodsInstallVC.h; sourceTree = "<group>"; };
+		F1CD8E092282CCE500C4A856 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F1CD8E0F2282CD2900C4A856 /* YXYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXYTabBarViewController.m; path = iOSStudy/YXYTabBarViewController.m; sourceTree = SOURCE_ROOT; };
+		F1CD8E102282CD2900C4A856 /* YXYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXYTabBarViewController.h; path = iOSStudy/YXYTabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		F1E355A2230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_AuthLoginVC.h; sourceTree = "<group>"; };
+		F1E355A3230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_AuthLoginVC.m; sourceTree = "<group>"; };
+		F1E355A5230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYVThrid_AuthLogin_wechatVC.h; sourceTree = "<group>"; };
+		F1E355A6230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYVThrid_AuthLogin_wechatVC.m; sourceTree = "<group>"; };
+		F1E355A92314D84900A7CFB3 /* ToastManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastManager.h; sourceTree = "<group>"; };
+		F1E355AA2314D84900A7CFB3 /* ToastManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastManager.m; sourceTree = "<group>"; };
+		F1E355AD23150A9400A7CFB3 /* YXYThrid_ToastListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_ToastListVC.h; sourceTree = "<group>"; };
+		F1E355AE23150A9400A7CFB3 /* YXYThrid_ToastListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_ToastListVC.m; sourceTree = "<group>"; };
+		FD7D4D9906D8740CDB0F0FF9 /* Pods-iOSStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSStudy.debug.xcconfig"; path = "Target Support Files/Pods-iOSStudy/Pods-iOSStudy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12CAAAF2282CC480004704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1372C762292A18D006771F0 /* mapapi.bundle in Frameworks */,
+				F1372C6F22927789006771F0 /* QuartzCore.framework in Frameworks */,
+				F1372C6D22927782006771F0 /* OpenGLES.framework in Frameworks */,
+				F1372C6B2292777A006771F0 /* libsqlite3.0.tbd in Frameworks */,
+				F1372C6922927772006771F0 /* libc++.tbd in Frameworks */,
+				F1372C672292776A006771F0 /* CoreLocation.framework in Frameworks */,
+				F1372C652292775D006771F0 /* CoreGraphics.framework in Frameworks */,
+				F1372C5E228EBE15006771F0 /* libssl.a in Frameworks */,
+				2732211F05D2361049D1566E /* libPods-iOSStudy.a in Frameworks */,
+				F1372C62228EBE16006771F0 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				F1372C5C228EBE15006771F0 /* BaiduMapAPI_Map.framework in Frameworks */,
+				F1372C63228EBE16006771F0 /* BMKLocationKit.framework in Frameworks */,
+				F1372C60228EBE15006771F0 /* BaiduMapAPI_Base.framework in Frameworks */,
+				F1372C5F228EBE15006771F0 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				F1372C5D228EBE15006771F0 /* libcrypto.a in Frameworks */,
+				F1372C61228EBE15006771F0 /* BaiduMapAPI_Search.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1312941720EF0635BAE50AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD7D4D9906D8740CDB0F0FF9 /* Pods-iOSStudy.debug.xcconfig */,
+				AAE671F4901D84D23C40CBFC /* Pods-iOSStudy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F3EDA5B3387B9310007E0B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C6E22927789006771F0 /* QuartzCore.framework */,
+				F1372C6C22927781006771F0 /* OpenGLES.framework */,
+				F1372C6A2292777A006771F0 /* libsqlite3.0.tbd */,
+				F1372C6822927772006771F0 /* libc++.tbd */,
+				F1372C662292776A006771F0 /* CoreLocation.framework */,
+				F1372C642292775D006771F0 /* CoreGraphics.framework */,
+				2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10E0C15229BDD0A0076B663 /* 点聚合 */ = {
+			isa = PBXGroup;
+			children = (
+				F10E0C16229BDD780076B663 /* BMKCluster.h */,
+				F10E0C17229BDD790076B663 /* BMKCluster.m */,
+				F10E0C1D229BDD790076B663 /* BMKClusterManager.h */,
+				F10E0C1C229BDD790076B663 /* BMKClusterManager.m */,
+				F10E0C1B229BDD790076B663 /* BMKClusterQuadtree.h */,
+				F10E0C19229BDD790076B663 /* BMKClusterQuadtree.m */,
+			);
+			path = "点聚合";
+			sourceTree = "<group>";
+		};
+		F12CAAA92282CC480004704C = {
+			isa = PBXGroup;
+			children = (
+				F12CAAB42282CC480004704C /* iOSStudy */,
+				F12CAAB32282CC480004704C /* Products */,
+				1312941720EF0635BAE50AB1 /* Pods */,
+				4F3EDA5B3387B9310007E0B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F12CAAB32282CC480004704C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12CAAB22282CC480004704C /* iOSStudy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12CAAB42282CC480004704C /* iOSStudy */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C27228E669D006771F0 /* 常用第三方 */,
+				F1CD8E082282CCE500C4A856 /* 常见UI样式 */,
+				F1CD8E062282CCE500C4A856 /* 热门技术 */,
+				F1CD8E072282CCE500C4A856 /* 热门开源 */,
+				F1CD8DF22282CCE500C4A856 /* Common */,
+				F1CD8DFB2282CCE500C4A856 /* ios基础 */,
+				F1CD8E052282CCE500C4A856 /* ios进阶 */,
+				F1CD8E092282CCE500C4A856 /* PrefixHeader.pch */,
+				F12CAAB52282CC480004704C /* AppDelegate.h */,
+				F12CAAB62282CC480004704C /* AppDelegate.m */,
+				F1CD8E102282CD2900C4A856 /* YXYTabBarViewController.h */,
+				F1CD8E0F2282CD2900C4A856 /* YXYTabBarViewController.m */,
+				F12CAAB82282CC480004704C /* ViewController.h */,
+				F12CAAB92282CC480004704C /* ViewController.m */,
+				F12CAABB2282CC480004704C /* Main.storyboard */,
+				F12CAABE2282CC4A0004704C /* Assets.xcassets */,
+				F12CAAC02282CC4A0004704C /* LaunchScreen.storyboard */,
+				F12CAAC32282CC4A0004704C /* Info.plist */,
+				F12CAAC42282CC4A0004704C /* main.m */,
+			);
+			path = iOSStudy;
+			sourceTree = "<group>";
+		};
+		F1372C27228E669D006771F0 /* 常用第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C2A228E6758006771F0 /* YXYThrid_RootVC.h */,
+				F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */,
+				F1E355AC23150A4800A7CFB3 /* 吐司 */,
+				F1E3559F230FB6ED00A7CFB3 /* 第三方登录 */,
+				F1372C28228E66BE006771F0 /* 地图 */,
+			);
+			path = "常用第三方";
+			sourceTree = "<group>";
+		};
+		F1372C28228E66BE006771F0 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C7022927885006771F0 /* YXYThrid_MapVC.h */,
+				F1372C7122927885006771F0 /* YXYThrid_MapVC.m */,
+				F1372C29228E66EF006771F0 /* 百度地图 */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		F1372C29228E66EF006771F0 /* 百度地图 */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C732292830A006771F0 /* YXYThrid_BaiduMapRootVC.h */,
+				F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */,
+				F10E0C25229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.h */,
+				F10E0C26229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m */,
+				F10E0C092297E6C30076B663 /* CustomPaopaoView.h */,
+				F10E0C0A2297E6C30076B663 /* CustomPaopaoView.m */,
+				F10E0C0C2297F2A10076B663 /* BMKAnimationAnnotationView.h */,
+				F10E0C0D2297F2A10076B663 /* BMKAnimationAnnotationView.m */,
+				F10E0C23229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.h */,
+				F10E0C22229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.m */,
+				F10E0C15229BDD0A0076B663 /* 点聚合 */,
+				F1372C2D228E9C68006771F0 /* SDK */,
+			);
+			path = "百度地图";
+			sourceTree = "<group>";
+		};
+		F1372C2D228E9C68006771F0 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C4F228EBE15006771F0 /* 百度地图 */,
+				F1372C59228EBE15006771F0 /* 百度定位 */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		F1372C4F228EBE15006771F0 /* 百度地图 */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C50228EBE15006771F0 /* mapapi.bundle */,
+				F1372C51228EBE15006771F0 /* BaiduMapAPI_Map.framework */,
+				F1372C52228EBE15006771F0 /* thirdlibs */,
+				F1372C55228EBE15006771F0 /* BaiduMapAPI_Utils.framework */,
+				F1372C56228EBE15006771F0 /* BaiduMapAPI_Base.framework */,
+				F1372C57228EBE15006771F0 /* BaiduMapAPI_Search.framework */,
+				F1372C58228EBE15006771F0 /* BaiduMapAPI_Cloud.framework */,
+			);
+			path = "百度地图";
+			sourceTree = "<group>";
+		};
+		F1372C52228EBE15006771F0 /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C53228EBE15006771F0 /* libcrypto.a */,
+				F1372C54228EBE15006771F0 /* libssl.a */,
+			);
+			path = thirdlibs;
+			sourceTree = "<group>";
+		};
+		F1372C59228EBE15006771F0 /* 百度定位 */ = {
+			isa = PBXGroup;
+			children = (
+				F1372C5A228EBE15006771F0 /* BMKLocationKit.framework */,
+			);
+			path = "百度定位";
+			sourceTree = "<group>";
+		};
+		F1CD8DF22282CCE500C4A856 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8DF32282CCE500C4A856 /* Define */,
+				F1CD8DF52282CCE500C4A856 /* Category */,
+				F1CD8DF82282CCE500C4A856 /* Base */,
+				F1E355A82314D5FA00A7CFB3 /* Toast */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F1CD8DF32282CCE500C4A856 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8DF42282CCE500C4A856 /* Define.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		F1CD8DF52282CCE500C4A856 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */,
+				F1CD8DF72282CCE500C4A856 /* UIView+Additions.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F1CD8DF82282CCE500C4A856 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8DFA2282CCE500C4A856 /* YXYBaseViewController.h */,
+				F1CD8DF92282CCE500C4A856 /* YXYBaseViewController.m */,
+				F10E0C002293DEC20076B663 /* YXYAlertViewController.h */,
+				F10E0C012293DEC20076B663 /* YXYAlertViewController.m */,
+				F10E0C032293FA210076B663 /* YXYPresentationRightController.h */,
+				F10E0C042293FA210076B663 /* YXYPresentationRightController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F1CD8DFB2282CCE500C4A856 /* ios基础 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8DFC2282CCE500C4A856 /* PCH添加 */,
+				F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */,
+				F1CD8E042282CCE500C4A856 /* 终端命令 */,
+			);
+			path = "ios基础";
+			sourceTree = "<group>";
+		};
+		F1CD8DFC2282CCE500C4A856 /* PCH添加 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8DFD2282CCE500C4A856 /* YXYBasic_PCHAddVC.h */,
+				F1CD8DFE2282CCE500C4A856 /* YXYBasic_PCHAddVC.m */,
+			);
+			path = "PCH添加";
+			sourceTree = "<group>";
+		};
+		F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD8E032282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.h */,
+				F1CD8E002282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m */,
+				F1CD8E012282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m */,
+				F1CD8E022282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.h */,
+			);
+			path = "CocoaPods添加";
+			sourceTree = "<group>";
+		};
+		F1CD8E042282CCE500C4A856 /* 终端命令 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "终端命令";
+			sourceTree = "<group>";
+		};
+		F1CD8E052282CCE500C4A856 /* ios进阶 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ios进阶";
+			sourceTree = "<group>";
+		};
+		F1CD8E062282CCE500C4A856 /* 热门技术 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "热门技术";
+			sourceTree = "<group>";
+		};
+		F1CD8E072282CCE500C4A856 /* 热门开源 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "热门开源";
+			sourceTree = "<group>";
+		};
+		F1CD8E082282CCE500C4A856 /* 常见UI样式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "常见UI样式";
+			sourceTree = "<group>";
+		};
+		F1E3559F230FB6ED00A7CFB3 /* 第三方登录 */ = {
+			isa = PBXGroup;
+			children = (
+				F1E355A0230FB6ED00A7CFB3 /* 支付宝登录 */,
+				F1E355A1230FB6ED00A7CFB3 /* 微信登录 */,
+				F1E355A2230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.h */,
+				F1E355A3230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m */,
+			);
+			path = "第三方登录";
+			sourceTree = "<group>";
+		};
+		F1E355A0230FB6ED00A7CFB3 /* 支付宝登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "支付宝登录";
+			sourceTree = "<group>";
+		};
+		F1E355A1230FB6ED00A7CFB3 /* 微信登录 */ = {
+			isa = PBXGroup;
+			children = (
+				F1E355A5230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.h */,
+				F1E355A6230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m */,
+			);
+			path = "微信登录";
+			sourceTree = "<group>";
+		};
+		F1E355A82314D5FA00A7CFB3 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				F1E355A92314D84900A7CFB3 /* ToastManager.h */,
+				F1E355AA2314D84900A7CFB3 /* ToastManager.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		F1E355AC23150A4800A7CFB3 /* 吐司 */ = {
+			isa = PBXGroup;
+			children = (
+				F1E355AD23150A9400A7CFB3 /* YXYThrid_ToastListVC.h */,
+				F1E355AE23150A9400A7CFB3 /* YXYThrid_ToastListVC.m */,
+			);
+			path = "吐司";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12CAAB12282CC480004704C /* iOSStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12CAAC82282CC4A0004704C /* Build configuration list for PBXNativeTarget "iOSStudy" */;
+			buildPhases = (
+				20C183284E62E3D104DA38A6 /* [CP] Check Pods Manifest.lock */,
+				F12CAAAE2282CC480004704C /* Sources */,
+				F12CAAAF2282CC480004704C /* Frameworks */,
+				F12CAAB02282CC480004704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSStudy;
+			productName = iOSStudy;
+			productReference = F12CAAB22282CC480004704C /* iOSStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12CAAAA2282CC480004704C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YXY;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yunhun;
+				TargetAttributes = {
+					F12CAAB12282CC480004704C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F12CAAAD2282CC480004704C /* Build configuration list for PBXProject "iOSStudy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12CAAA92282CC480004704C;
+			productRefGroup = F12CAAB32282CC480004704C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12CAAB12282CC480004704C /* iOSStudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12CAAB02282CC480004704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12CAAC22282CC4A0004704C /* LaunchScreen.storyboard in Resources */,
+				F1372C5B228EBE15006771F0 /* mapapi.bundle in Resources */,
+				F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */,
+				F12CAABD2282CC480004704C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20C183284E62E3D104DA38A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12CAAAE2282CC480004704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CD8E0E2282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m in Sources */,
+				F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */,
+				F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */,
+				F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */,
+				F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */,
+				F10E0C1E229BDD790076B663 /* BMKCluster.m in Sources */,
+				F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */,
+				F1E355AB2314D84900A7CFB3 /* ToastManager.m in Sources */,
+				F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */,
+				F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */,
+				F12CAABA2282CC480004704C /* ViewController.m in Sources */,
+				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,
+				F12CAAC52282CC4A0004704C /* main.m in Sources */,
+				F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */,
+				F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */,
+				F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */,
+				F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */,
+				F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */,
+				F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */,
+				F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */,
+				F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */,
+				F12CAAB72282CC480004704C /* AppDelegate.m in Sources */,
+				F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */,
+				F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */,
+				F10E0C20229BDD790076B663 /* BMKClusterQuadtree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F12CAABB2282CC480004704C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12CAABC2282CC480004704C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12CAAC02282CC4A0004704C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12CAAC12282CC4A0004704C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12CAAC62282CC4A0004704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F12CAAC72282CC4A0004704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12CAAC92282CC4A0004704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7D4D9906D8740CDB0F0FF9 /* Pods-iOSStudy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3X72X9478;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度定位",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSStudy/PrefixHeader.pch";
+				INFOPLIST_FILE = iOSStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunhu.www.MeHealthySeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F12CAACA2282CC4A0004704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE671F4901D84D23C40CBFC /* Pods-iOSStudy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3X72X9478;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度定位",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSStudy/PrefixHeader.pch";
+				INFOPLIST_FILE = iOSStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunhu.www.MeHealthySeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12CAAAD2282CC480004704C /* Build configuration list for PBXProject "iOSStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12CAAC62282CC4A0004704C /* Debug */,
+				F12CAAC72282CC4A0004704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12CAAC82282CC4A0004704C /* Build configuration list for PBXNativeTarget "iOSStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12CAAC92282CC4A0004704C /* Debug */,
+				F12CAACA2282CC4A0004704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12CAAAA2282CC480004704C /* Project object */;
+}
