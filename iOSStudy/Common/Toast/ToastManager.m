@@ -76,11 +76,81 @@
     }
     [hud hideAnimated:YES afterDelay:delay];
 }
-
++(void)hideHud
+{
+    [MBProgressHUD hideHUDForView:[UIApplication sharedApplication].keyWindow animated:YES];
+}
 + (void)hideHud:(UIView *)view
 {
     if (view == nil)
         view = [UIApplication sharedApplication].keyWindow;
     [MBProgressHUD hideHUDForView:view animated:YES];
 }
++(MBProgressHUD *)showHorizontalProgressBarWithMessage:(NSString *)message
+{
+    MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
+    hud.mode = MBProgressHUDModeDeterminateHorizontalBar;
+    hud.label.text = message;
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7f];
+    hud.removeFromSuperViewOnHide = YES;
+    //设置进度条颜色
+    [hud setContentColor:[UIColor whiteColor]];
+
+    return hud;
+}
++(MBProgressHUD *)showCircularProgressWithMessage:(NSString *)message
+{
+    MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
+    hud.mode = MBProgressHUDModeAnnularDeterminate;
+    hud.label.text = message;
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7f];
+    hud.removeFromSuperViewOnHide = YES;
+    //设置进度条颜色
+    [hud setContentColor:[UIColor whiteColor]];
+    return hud;
+}
++(MBProgressHUD *)showActivityIndicatorWithMessage:(NSString *)message
+{
+    MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.label.text = message;
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7f];
+    hud.removeFromSuperViewOnHide = YES;
+    //设置进度条颜色
+    [hud setContentColor:[UIColor whiteColor]];
+    return hud;
+}
++(MBProgressHUD *)showFanProgressBarWithMessage:(NSString *)message
+{
+    MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
+    hud.mode = MBProgressHUDModeDeterminate;
+    hud.label.text = message;
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7f];
+    hud.removeFromSuperViewOnHide = YES;
+    //设置进度条颜色
+    [hud setContentColor:[UIColor whiteColor]];
+    return hud;
+}
++(void)showCustomViewWithCustomView:(UIView *)customView message:(NSString *)message
+{
+    MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
+    hud.mode = MBProgressHUDModeCustomView;
+    hud.label.text = message;
+    hud.customView = customView;
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7f];
+    hud.removeFromSuperViewOnHide = YES;
+    //设置进度条颜色
+    [hud setContentColor:[UIColor whiteColor]];
+    CGFloat delay = 1.0f;
+    if (message.length >= 20) {
+        delay = 3.0f;
+    }
+    [hud hideAnimated:YES afterDelay:delay];
+}
+
 @end

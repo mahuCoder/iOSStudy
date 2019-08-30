@@ -25,5 +25,42 @@
 
 + (void)showText:(NSString*)text icon:(NSString *)icon toView:(UIView *)view afterComplete:(void(^)(void))complete;
 
+/**
+ 横条进度条
+
+ @param message 加载信息
+ @return 进度视图
+ */
++(MBProgressHUD *)showHorizontalProgressBarWithMessage:(NSString *)message;
+
+/**
+ 圆形进度条
+
+ @param message 加载信息
+ @return 进度试图
+ */
++(MBProgressHUD *)showCircularProgressWithMessage:(NSString *)message;
+
+/**
+ 菊花加载
+
+ @param message 加载信息
+ @return 进度试图
+ */
++(MBProgressHUD *)showActivityIndicatorWithMessage:(NSString *)message;
+
+/**
+ 扇形进度条
+
+ @param message 加载信息
+ @return 进度试图
+ */
++(MBProgressHUD *)showFanProgressBarWithMessage:(NSString *)message;
+
++(void)showCustomViewWithCustomView:(UIView *)customView message:(NSString *)message;
+
+
++ (void)hideHud:(UIView *)view;
++ (void)hideHud;
 @end
 

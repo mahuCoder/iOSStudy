@@ -8,7 +8,7 @@
 
 #import "YXYThrid_ToastListVC.h"
 
-@interface YXYThrid_ToastListVC ()
+@interface YXYThrid_ToastListVC ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *arrayData;
@@ -98,17 +98,102 @@
             break;
         case 4:
         {
-            
+            MBProgressHUD *hud = [ToastManager showHorizontalProgressBarWithMessage:@"正在加载..."];
+            // 模拟网络请求进度
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                float progress = 0.0f;
+                while (progress< 1.0f) {
+                    progress += 0.01f;
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        hud.progress = progress;
+                        hud.label.text = [NSString stringWithFormat:@"正在加载...%d%%", (int)(progress * 100)];
+                    });
+                    // 进程挂起50毫秒
+                    usleep(50000);//单位微秒 。sleep单位秒
+                }
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [ToastManager hideHud];
+                });
+            });
         }
             break;
         case 5:
         {
-            
+            MBProgressHUD *hud = [ToastManager showFanProgressBarWithMessage:@"正在加载..."];
+            // 模拟网络请求进度
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                float progress = 0.0f;
+                while (progress< 1.0f) {
+                    progress += 0.01f;
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        hud.progress = progress;
+                        hud.label.text = [NSString stringWithFormat:@"正在加载...%d%%", (int)(progress * 100)];
+                    });
+                    // 进程挂起50毫秒
+                    usleep(50000);//单位微秒 。sleep单位秒
+                }
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [ToastManager hideHud];
+                });
+            });
         }
             break;
         case 6:
         {
-            
+            MBProgressHUD *hud = [ToastManager showCircularProgressWithMessage:@"正在加载..."];
+            // 模拟网络请求进度
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                float progress = 0.0f;
+                while (progress< 1.0f) {
+                    progress += 0.01f;
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        hud.progress = progress;
+                        hud.label.text = [NSString stringWithFormat:@"正在加载...%d%%", (int)(progress * 100)];
+                    });
+                    // 进程挂起50毫秒
+                    usleep(50000);//单位微秒 。sleep单位秒
+                }
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [ToastManager hideHud];
+                });
+            });
+        }
+            break;
+        case 7:
+        {
+            MBProgressHUD *hud = [ToastManager showActivityIndicatorWithMessage:@"正在加载..."];
+            // 模拟网络请求进度
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                float progress = 0.0f;
+                while (progress< 1.0f) {
+                    progress += 0.01f;
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        hud.progress = progress;
+                        hud.label.text = [NSString stringWithFormat:@"正在加载...%d%%", (int)(progress * 100)];
+                    });
+                    // 进程挂起50毫秒
+                    usleep(50000);//单位微秒 。sleep单位秒
+                }
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [ToastManager hideHud];
+                });
+            });
+        }
+            break;
+        case 8:
+        {
+            UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"WeChat"]];
+//            hud.customView = imgView;
+            CABasicAnimation *animation =  [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+            //默认是顺时针效果，若将fromValue和toValue的值互换，则为逆时针效果
+            animation.fromValue = [NSNumber numberWithFloat:0.f];
+            animation.toValue =  [NSNumber numberWithFloat: M_PI *2];
+            animation.duration  = 1;
+            animation.autoreverses = NO;
+            animation.fillMode =kCAFillModeForwards;
+            animation.repeatCount = MAXFLOAT; //如果这里想设置成一直自旋转，可以设置为MAXFLOAT，否则设置具体的数值则代表执行多少次
+            [imgView.layer addAnimation:animation forKey:nil];
+             [ToastManager showCustomViewWithCustomView:imgView message:@"我是自定义的"];
         }
             break;
         default:
