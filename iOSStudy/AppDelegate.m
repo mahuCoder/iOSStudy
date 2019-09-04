@@ -12,7 +12,7 @@
 
 #import "YXYThrid_BaiduMap_Define.h"//百度地图
 #import "WXApi.h"
-
+#import <IQKeyboardManager.h>
 @interface AppDelegate ()<WXApiDelegate>
 
 @end
@@ -24,8 +24,9 @@
     
     //百度初始化
     [YXYThrid_BaiduMap_Define initBaiduMapWithDelegateObject:self];
-    
-    
+    //IQKeyboardManager
+    [IQKeyboardManager sharedManager].enable = YES;
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;//空白地方点击
     
     
     

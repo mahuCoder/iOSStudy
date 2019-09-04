@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.arrayData = @[@"Toast（MB）",@"地图",@"登录",@"支付",@"音频播放",@"视频播放",@"直播",@"分享",];
-    self.arrayVC = @[@"YXYThrid_ToastListVC",@"YXYThrid_MapVC", @"YXYThrid_AuthLoginVC", @"", @"", @"", @"", @""];
+    self.arrayVC = @[@"YXYThrid_ToastListVC",@"YXYThrid_MapVC", @"YXYThrid_AuthLoginVC", @"", @"", @"", @"YXYThrid_liveVideoRootVC", @""];
     [self.view addSubview:self.tableView];
 //    self.tableView mas
 }

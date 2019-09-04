@@ -42,6 +42,33 @@
 		F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C7122927885006771F0 /* YXYThrid_MapVC.m */; };
 		F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */; };
 		F1372C762292A18D006771F0 /* mapapi.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C50228EBE15006771F0 /* mapapi.bundle */; };
+		F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */; };
+		F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F069B231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m */; };
+		F17F06D023191A7F00D1FFAB /* AlivcLibRtmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */; };
+		F17F06D123191A7F00D1FFAB /* AlivcLibFaceResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F17F06C923191A7F00D1FFAB /* AlivcLibFaceResource.bundle */; };
+		F17F06D223191A7F00D1FFAB /* AlivcLivePusher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CA23191A7F00D1FFAB /* AlivcLivePusher.framework */; };
+		F17F06D323191A7F00D1FFAB /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CB23191A7F00D1FFAB /* AliThirdparty.framework */; };
+		F17F06D423191A7F00D1FFAB /* AliyunLanguageSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F17F06CC23191A7F00D1FFAB /* AliyunLanguageSource.bundle */; };
+		F17F06D523191A7F00D1FFAB /* AlivcLibFace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CD23191A7F00D1FFAB /* AlivcLibFace.framework */; };
+		F17F06D623191A7F00D1FFAB /* AlivcLibBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */; };
+		F17F06D723191A7F00D1FFAB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */; };
+		F17F06D823191B5400D1FFAB /* AlivcLibRtmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */; };
+		F17F06D923191B5400D1FFAB /* AlivcLibRtmp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F17F06DA23191B5400D1FFAB /* AlivcLivePusher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CA23191A7F00D1FFAB /* AlivcLivePusher.framework */; };
+		F17F06DB23191B5400D1FFAB /* AlivcLivePusher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CA23191A7F00D1FFAB /* AlivcLivePusher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F17F06DC23191B5400D1FFAB /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CB23191A7F00D1FFAB /* AliThirdparty.framework */; };
+		F17F06DD23191B5400D1FFAB /* AliThirdparty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CB23191A7F00D1FFAB /* AliThirdparty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F17F06DE23191B5400D1FFAB /* AlivcLibFace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CD23191A7F00D1FFAB /* AlivcLibFace.framework */; };
+		F17F06DF23191B5400D1FFAB /* AlivcLibFace.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CD23191A7F00D1FFAB /* AlivcLibFace.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F17F06E023191B5400D1FFAB /* AlivcLibBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */; };
+		F17F06E123191B5400D1FFAB /* AlivcLibBeauty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F17F06E223191B5400D1FFAB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */; };
+		F17F06E323191B5400D1FFAB /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F17F06E6231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06E5231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m */; };
+		F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */; };
+		F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */; };
+		F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */; };
+		F17F06F8231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */; };
 		F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */; };
 		F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DF92282CCE500C4A856 /* YXYBaseViewController.m */; };
 		F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DFE2282CCE500C4A856 /* YXYBasic_PCHAddVC.m */; };
@@ -53,6 +80,35 @@
 		F1E355AB2314D84900A7CFB3 /* ToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E355AA2314D84900A7CFB3 /* ToastManager.m */; };
 		F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E355AE23150A9400A7CFB3 /* YXYThrid_ToastListVC.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F17F06A62319133B00D1FFAB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F17F06DD23191B5400D1FFAB /* AliThirdparty.framework in Embed Frameworks */,
+				F17F06D923191B5400D1FFAB /* AlivcLibRtmp.framework in Embed Frameworks */,
+				F17F06E323191B5400D1FFAB /* AliyunPlayerSDK.framework in Embed Frameworks */,
+				F17F06E123191B5400D1FFAB /* AlivcLibBeauty.framework in Embed Frameworks */,
+				F17F06DB23191B5400D1FFAB /* AlivcLivePusher.framework in Embed Frameworks */,
+				F17F06DF23191B5400D1FFAB /* AlivcLibFace.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17F06A72319133B00D1FFAB /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +162,29 @@
 		F1372C7122927885006771F0 /* YXYThrid_MapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_MapVC.m; sourceTree = "<group>"; };
 		F1372C732292830A006771F0 /* YXYThrid_BaiduMapRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_BaiduMapRootVC.h; sourceTree = "<group>"; };
 		F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BaiduMapRootVC.m; sourceTree = "<group>"; };
+		F17F06972319112900D1FFAB /* YXYThrid_liveVideoRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideoRootVC.h; sourceTree = "<group>"; };
+		F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoRootVC.m; sourceTree = "<group>"; };
+		F17F069A231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideo_aliVC.h; sourceTree = "<group>"; };
+		F17F069B231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideo_aliVC.m; sourceTree = "<group>"; };
+		F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcLibRtmp.framework; sourceTree = "<group>"; };
+		F17F06C923191A7F00D1FFAB /* AlivcLibFaceResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlivcLibFaceResource.bundle; sourceTree = "<group>"; };
+		F17F06CA23191A7F00D1FFAB /* AlivcLivePusher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcLivePusher.framework; sourceTree = "<group>"; };
+		F17F06CB23191A7F00D1FFAB /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliThirdparty.framework; sourceTree = "<group>"; };
+		F17F06CC23191A7F00D1FFAB /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AliyunLanguageSource.bundle; sourceTree = "<group>"; };
+		F17F06CD23191A7F00D1FFAB /* AlivcLibFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcLibFace.framework; sourceTree = "<group>"; };
+		F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcLibBeauty.framework; sourceTree = "<group>"; };
+		F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
+		F17F06E4231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideo_aliRoomNameVC.h; sourceTree = "<group>"; };
+		F17F06E5231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideo_aliRoomNameVC.m; sourceTree = "<group>"; };
+		F17F06EA231CC70A00D1FFAB /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		F17F06ED231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYBASIC_xcode_setLanguageVC.h; sourceTree = "<group>"; };
+		F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYBASIC_xcode_setLanguageVC.m; sourceTree = "<group>"; };
+		F17F06F0231D149700D1FFAB /* YXYThrid_liveVideoPreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideoPreView.h; sourceTree = "<group>"; };
+		F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoPreView.m; sourceTree = "<group>"; };
+		F17F06F3231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideoPreSkinSetView.h; sourceTree = "<group>"; };
+		F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoPreSkinSetView.m; sourceTree = "<group>"; };
+		F17F06F6231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXY_CountdowTimeLabel.h; sourceTree = "<group>"; };
+		F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXY_CountdowTimeLabel.m; sourceTree = "<group>"; };
 		F1CD8DF42282CCE500C4A856 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		F1CD8DF72282CCE500C4A856 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
@@ -137,6 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1372C762292A18D006771F0 /* mapapi.bundle in Frameworks */,
+				F17F06DE23191B5400D1FFAB /* AlivcLibFace.framework in Frameworks */,
+				F17F06D623191A7F00D1FFAB /* AlivcLibBeauty.framework in Frameworks */,
+				F17F06D023191A7F00D1FFAB /* AlivcLibRtmp.framework in Frameworks */,
+				F17F06E023191B5400D1FFAB /* AlivcLibBeauty.framework in Frameworks */,
 				F1372C6F22927789006771F0 /* QuartzCore.framework in Frameworks */,
 				F1372C6D22927782006771F0 /* OpenGLES.framework in Frameworks */,
 				F1372C6B2292777A006771F0 /* libsqlite3.0.tbd in Frameworks */,
@@ -148,10 +231,18 @@
 				F1372C62228EBE16006771F0 /* BaiduMapAPI_Cloud.framework in Frameworks */,
 				F1372C5C228EBE15006771F0 /* BaiduMapAPI_Map.framework in Frameworks */,
 				F1372C63228EBE16006771F0 /* BMKLocationKit.framework in Frameworks */,
+				F17F06DC23191B5400D1FFAB /* AliThirdparty.framework in Frameworks */,
+				F17F06D723191A7F00D1FFAB /* AliyunPlayerSDK.framework in Frameworks */,
+				F17F06E223191B5400D1FFAB /* AliyunPlayerSDK.framework in Frameworks */,
+				F17F06D223191A7F00D1FFAB /* AlivcLivePusher.framework in Frameworks */,
 				F1372C60228EBE15006771F0 /* BaiduMapAPI_Base.framework in Frameworks */,
+				F17F06D523191A7F00D1FFAB /* AlivcLibFace.framework in Frameworks */,
 				F1372C5F228EBE15006771F0 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				F17F06DA23191B5400D1FFAB /* AlivcLivePusher.framework in Frameworks */,
+				F17F06D823191B5400D1FFAB /* AlivcLibRtmp.framework in Frameworks */,
 				F1372C5D228EBE15006771F0 /* libcrypto.a in Frameworks */,
 				F1372C61228EBE15006771F0 /* BaiduMapAPI_Search.framework in Frameworks */,
+				F17F06D323191A7F00D1FFAB /* AliThirdparty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +332,7 @@
 		F1372C27228E669D006771F0 /* 常用第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				F17F068A23190FDE00D1FFAB /* 直播 */,
 				F1372C2A228E6758006771F0 /* YXYThrid_RootVC.h */,
 				F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */,
 				F1E355AC23150A4800A7CFB3 /* 吐司 */,
@@ -319,6 +411,66 @@
 			path = "百度定位";
 			sourceTree = "<group>";
 		};
+		F17F068A23190FDE00D1FFAB /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F06972319112900D1FFAB /* YXYThrid_liveVideoRootVC.h */,
+				F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */,
+				F17F068B23190FEB00D1FFAB /* 阿里云直播 */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		F17F068B23190FEB00D1FFAB /* 阿里云直播 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F06C723191A7F00D1FFAB /* SDK */,
+				F17F069A231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.h */,
+				F17F069B231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m */,
+				F17F06E4231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.h */,
+				F17F06E5231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m */,
+				F17F06F0231D149700D1FFAB /* YXYThrid_liveVideoPreView.h */,
+				F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */,
+				F17F06F3231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.h */,
+				F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */,
+				F17F06F6231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.h */,
+				F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */,
+			);
+			path = "阿里云直播";
+			sourceTree = "<group>";
+		};
+		F17F06C723191A7F00D1FFAB /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */,
+				F17F06C923191A7F00D1FFAB /* AlivcLibFaceResource.bundle */,
+				F17F06CA23191A7F00D1FFAB /* AlivcLivePusher.framework */,
+				F17F06CB23191A7F00D1FFAB /* AliThirdparty.framework */,
+				F17F06CC23191A7F00D1FFAB /* AliyunLanguageSource.bundle */,
+				F17F06CD23191A7F00D1FFAB /* AlivcLibFace.framework */,
+				F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */,
+				F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		F17F06EB231D09DC00D1FFAB /* Xcode配置 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F06EC231D09EE00D1FFAB /* 设置App语言 */,
+			);
+			path = "Xcode配置";
+			sourceTree = "<group>";
+		};
+		F17F06EC231D09EE00D1FFAB /* 设置App语言 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F06ED231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.h */,
+				F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */,
+			);
+			path = "设置App语言";
+			sourceTree = "<group>";
+		};
 		F1CD8DF22282CCE500C4A856 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +486,7 @@
 			isa = PBXGroup;
 			children = (
 				F1CD8DF42282CCE500C4A856 /* Define.h */,
+				F17F06EA231CC70A00D1FFAB /* MacroDefine.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -363,6 +516,7 @@
 		F1CD8DFB2282CCE500C4A856 /* ios基础 */ = {
 			isa = PBXGroup;
 			children = (
+				F17F06EB231D09DC00D1FFAB /* Xcode配置 */,
 				F1CD8DFC2282CCE500C4A856 /* PCH添加 */,
 				F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */,
 				F1CD8E042282CCE500C4A856 /* 终端命令 */,
@@ -384,8 +538,8 @@
 			children = (
 				F1CD8E032282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.h */,
 				F1CD8E002282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m */,
-				F1CD8E012282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m */,
 				F1CD8E022282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.h */,
+				F1CD8E012282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m */,
 			);
 			path = "CocoaPods添加";
 			sourceTree = "<group>";
@@ -481,6 +635,9 @@
 				F12CAAAE2282CC480004704C /* Sources */,
 				F12CAAAF2282CC480004704C /* Frameworks */,
 				F12CAAB02282CC480004704C /* Resources */,
+				F17F06A62319133B00D1FFAB /* Embed Frameworks */,
+				F17F06A72319133B00D1FFAB /* Embed PlugIns */,
+				04A2383A017B010DBFDB9DAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -530,6 +687,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12CAAC22282CC4A0004704C /* LaunchScreen.storyboard in Resources */,
+				F17F06D123191A7F00D1FFAB /* AlivcLibFaceResource.bundle in Resources */,
+				F17F06D423191A7F00D1FFAB /* AliyunLanguageSource.bundle in Resources */,
 				F1372C5B228EBE15006771F0 /* mapapi.bundle in Resources */,
 				F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */,
 				F12CAABD2282CC480004704C /* Main.storyboard in Resources */,
@@ -539,6 +698,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04A2383A017B010DBFDB9DAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		20C183284E62E3D104DA38A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,19 +760,26 @@
 				F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */,
 				F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */,
 				F12CAABA2282CC480004704C /* ViewController.m in Sources */,
+				F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */,
+				F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */,
 				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,
 				F12CAAC52282CC4A0004704C /* main.m in Sources */,
 				F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */,
 				F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */,
+				F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */,
+				F17F06E6231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m in Sources */,
 				F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */,
 				F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */,
 				F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */,
 				F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */,
 				F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */,
+				F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */,
 				F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */,
 				F12CAAB72282CC480004704C /* AppDelegate.m in Sources */,
 				F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */,
 				F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */,
+				F17F06F8231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m in Sources */,
+				F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */,
 				F10E0C20229BDD790076B663 /* BMKClusterQuadtree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,10 +925,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3X72X9478;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图",
 					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度定位",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/直播/阿里云直播/arm",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/直播/阿里云直播/SDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSStudy/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSStudy/Info.plist;
@@ -752,7 +943,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图/thirdlibs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunhu.www.MeHealthySeller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunhu.www.iOSStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -765,10 +956,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3X72X9478;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图",
 					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度定位",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/直播/阿里云直播/arm",
+					"$(PROJECT_DIR)/iOSStudy/常用第三方/直播/阿里云直播/SDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSStudy/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSStudy/Info.plist;
@@ -780,7 +974,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSStudy/常用第三方/地图/百度地图/SDK/百度地图/thirdlibs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunhu.www.MeHealthySeller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunhu.www.iOSStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

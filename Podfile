@@ -8,6 +8,8 @@ platform :ios, '9.3'
    pod 'WechatOpenSDK'
    #
    pod 'MBProgressHUD'
+   #
+   pod 'IQKeyboardManager'
 
 ##百度地图SDK
 #pod 'BaiduMapKit'

@@ -16,5 +16,6 @@
 #import <Masonry/Masonry.h>
 #endif
 #import "ToastManager.h"
+#import "MacroDefine.h"
 
 #endif /* Define_h */
