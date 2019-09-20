@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [self setRandowColor];
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+    {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    } 
+//    self.view.backgroundColor = [self setRandowColor];
+    self.view.backgroundColor = HEXCOLOR(0xeeeeee);
     
     
 }

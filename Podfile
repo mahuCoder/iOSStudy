@@ -9,8 +9,17 @@ platform :ios, '9.3'
    #
    pod 'MBProgressHUD'
    #
+   pod 'Toast', '~> 4.0.0'
+   #
    pod 'IQKeyboardManager'
-
+   #腾讯bugly
+   pod 'Bugly'
+   #友盟 //依赖库
+   pod 'UMCCommon'
+   #友盟//统计 SDK
+   pod 'UMCAnalytics'
+   #友盟- 调试日志
+   #pod 'UMCCommonLog'
 ##百度地图SDK
 #pod 'BaiduMapKit'
 

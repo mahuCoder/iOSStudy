@@ -1,8 +1,8 @@
 //
-//  YXYThrid_liveVideo_aliRoomNameVC.h
+//  YXYIosBasic_UILabelVC.h
 //  iOSStudy
 //
-//  Created by 胡雪刚 on 2019/9/2.
+//  Created by 胡雪刚 on 2019/9/18.
 //  Copyright © 2019 yunhun. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YXYThrid_liveVideo_aliRoomNameVC : YXYBaseViewController
+@interface YXYIosBasic_UILabelVC : YXYBaseViewController
 
 @end
 

@@ -8,6 +8,8 @@
 
 #import "YXYTabBarViewController.h"
 #import "YXYThrid_RootVC.h"
+#import "YXYIosBasic_RootVC.h"
+#import "YXYOftenFunctionRootVC.h"
 //#im
 
 
@@ -22,8 +24,12 @@
     
     UINavigationController *thrid_navc = [[UINavigationController alloc] initWithRootViewController:[[YXYThrid_RootVC alloc] init]];
     thrid_navc.title = @"三方";
-    self.viewControllers = @[thrid_navc];
     
+    UINavigationController *basic_navc = [[UINavigationController alloc] initWithRootViewController:[[YXYIosBasic_RootVC alloc] init] ];
+    basic_navc.title = @"基础";
+    UINavigationController *offen_navc = [[UINavigationController alloc] initWithRootViewController:[[YXYOftenFunctionRootVC alloc] init] ];
+    offen_navc.title = @"常用";
+    self.viewControllers = @[basic_navc,thrid_navc,offen_navc];
 }
 
 /*

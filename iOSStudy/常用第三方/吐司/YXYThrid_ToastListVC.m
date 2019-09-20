@@ -7,6 +7,7 @@
 //
 
 #import "YXYThrid_ToastListVC.h"
+#import "UIView+Toast.h"
 
 @interface YXYThrid_ToastListVC ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Toast";
-    self.arrayData = @[@"只显示文字",@"操作成功",@"操作失败",@"自定义图标",@"横条加载",@"扇形加载",@"环形加载",@"菊花加载",@"自定义view"];
+    self.arrayData = @[@"只显示文字",@"操作成功",@"操作失败",@"自定义图标",@"横条加载",@"扇形加载",@"环形加载",@"菊花加载",@"自定义view",@"底部Toast（非MB）",@"顶部Toast(非MB)"];
     [self.view addSubview:self.tableView];
     //    self.tableView mas
 }
@@ -76,27 +77,27 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
-        case 0:
+            case 0:
             {
                 [ToastManager showToast:@"普通显示"];
             }
             break;
-        case 1:
+            case 1:
         {
             [ToastManager showSuccess:@"操作成功"];
         }
             break;
-        case 2:
+            case 2:
         {
             [ToastManager showError:@"操作失败"];
         }
             break;
-        case 3:
+            case 3:
         {
             [ToastManager showText:@"警告" icon:@"attention" toView:nil afterComplete:nil];
         }
             break;
-        case 4:
+            case 4:
         {
             MBProgressHUD *hud = [ToastManager showHorizontalProgressBarWithMessage:@"正在加载..."];
             // 模拟网络请求进度
@@ -117,7 +118,7 @@
             });
         }
             break;
-        case 5:
+            case 5:
         {
             MBProgressHUD *hud = [ToastManager showFanProgressBarWithMessage:@"正在加载..."];
             // 模拟网络请求进度
@@ -138,7 +139,7 @@
             });
         }
             break;
-        case 6:
+            case 6:
         {
             MBProgressHUD *hud = [ToastManager showCircularProgressWithMessage:@"正在加载..."];
             // 模拟网络请求进度
@@ -159,7 +160,7 @@
             });
         }
             break;
-        case 7:
+            case 7:
         {
             MBProgressHUD *hud = [ToastManager showActivityIndicatorWithMessage:@"正在加载..."];
             // 模拟网络请求进度
@@ -180,7 +181,7 @@
             });
         }
             break;
-        case 8:
+            case 8:
         {
             UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"WeChat"]];
 //            hud.customView = imgView;
@@ -196,6 +197,15 @@
              [ToastManager showCustomViewWithCustomView:imgView message:@"我是自定义的"];
         }
             break;
+            case 9:
+        {
+            [self.view makeToast:@"我是底部Toast"];
+        }
+            break;
+            case 10:
+        {
+            [self.view makeToast:@"我是顶部Toast" duration:2 position:CSToastPositionTop];
+        }
         default:
             break;
     }

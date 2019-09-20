@@ -13,6 +13,9 @@
 #import "YXYThrid_BaiduMap_Define.h"//百度地图
 #import "WXApi.h"
 #import <IQKeyboardManager.h>
+#import <Bugly/Bugly.h>
+#import <UMCommon/UMCommon.h>
+#import <UMAnalytics/MobClick.h>
 @interface AppDelegate ()<WXApiDelegate>
 
 @end
@@ -21,14 +24,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    //百度初始化
+#pragma 百度地图
     [YXYThrid_BaiduMap_Define initBaiduMapWithDelegateObject:self];
-    //IQKeyboardManager
+#pragma IQKeyboardManager
     [IQKeyboardManager sharedManager].enable = YES;
     [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;//空白地方点击
-    
-    
+#pragma bugly
+      [Bugly startWithAppId:@"cea36e069f"];
+#pragma 友盟
+    [UMConfigure initWithAppkey:@"5cd13ae30cafb212550003e7" channel:nil];
+    [MobClick setScenarioType:E_UM_NORMAL];//支持普通场景
+    [MobClick setAutoPageEnabled:YES];
     
     YXYTabBarViewController *tabBarVC = [[YXYTabBarViewController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

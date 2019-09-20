@@ -17,6 +17,16 @@
 		F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C1C229BDD790076B663 /* BMKClusterManager.m */; };
 		F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C22229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.m */; };
 		F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C26229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m */; };
+		F11643C3232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643C2232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m */; };
+		F11643C6232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643C5232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m */; };
+		F11643C9232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643C8232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.m */; };
+		F11643CD232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11643CC232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib */; };
+		F11643D0232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643CF232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m */; };
+		F11643D3232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643D2232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m */; };
+		F11643D623307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643D523307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m */; };
+		F11643D92330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643D82330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m */; };
+		F11643DC2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */; };
+		F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */; };
 		F12CAAB72282CC480004704C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB62282CC480004704C /* AppDelegate.m */; };
 		F12CAABA2282CC480004704C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB92282CC480004704C /* ViewController.m */; };
 		F12CAABD2282CC480004704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CAABB2282CC480004704C /* Main.storyboard */; };
@@ -42,6 +52,10 @@
 		F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C7122927885006771F0 /* YXYThrid_MapVC.m */; };
 		F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */; };
 		F1372C762292A18D006771F0 /* mapapi.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = F1372C50228EBE15006771F0 /* mapapi.bundle */; };
+		F1375F6123323F1800F49328 /* YXYIosBasic_UILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F6023323F1800F49328 /* YXYIosBasic_UILabelVC.m */; };
+		F1375F642332434D00F49328 /* YXYIosBasic_UILabelFontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F632332434D00F49328 /* YXYIosBasic_UILabelFontVC.m */; };
+		F1375F67233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F66233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m */; };
+		F1375F6A233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F69233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m */; };
 		F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */; };
 		F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F069B231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m */; };
 		F17F06D023191A7F00D1FFAB /* AlivcLibRtmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */; };
@@ -64,11 +78,19 @@
 		F17F06E123191B5400D1FFAB /* AlivcLibBeauty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F17F06E223191B5400D1FFAB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */; };
 		F17F06E323191B5400D1FFAB /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F17F06E6231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06E5231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m */; };
 		F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */; };
 		F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */; };
 		F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */; };
 		F17F06F8231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */; };
+		F17F06FB231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06FA231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m */; };
+		F17F06FF231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06FE231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m */; };
+		F17F07042320DFD000D1FFAB /* YXYOftenFunctionRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F07032320DFD000D1FFAB /* YXYOftenFunctionRootVC.m */; };
+		F17F070E2320E0D900D1FFAB /* app指纹登录流程图.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F17F070D2320E0D800D1FFAB /* app指纹登录流程图.pdf */; };
+		F17F07112320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F07102320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.m */; };
+		F17F07142320FAF400D1FFAB /* TDTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F07132320FAF400D1FFAB /* TDTouchID.m */; };
+		F17F0719232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F0718232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m */; };
+		F17F071C23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F071B23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m */; };
+		F1A8AB322332003600C84532 /* YXYIosBasic_UIViewFrameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A8AB312332003600C84532 /* YXYIosBasic_UIViewFrameVC.m */; };
 		F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */; };
 		F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DF92282CCE500C4A856 /* YXYBaseViewController.m */; };
 		F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CD8DFE2282CCE500C4A856 /* YXYBasic_PCHAddVC.m */; };
@@ -131,6 +153,25 @@
 		F10E0C23229BDFAC0076B663 /* YXYThrid_BaiduMap_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXYThrid_BaiduMap_Define.h; path = "iOSStudy/常用第三方/地图/百度地图/YXYThrid_BaiduMap_Define.h"; sourceTree = SOURCE_ROOT; };
 		F10E0C25229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_BaiduMapLoadingVC.h; sourceTree = "<group>"; };
 		F10E0C26229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BaiduMapLoadingVC.m; sourceTree = "<group>"; };
+		F11643C1232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewVC.h; sourceTree = "<group>"; };
+		F11643C2232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewVC.m; sourceTree = "<group>"; };
+		F11643C4232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewLifeVC.h; sourceTree = "<group>"; };
+		F11643C5232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewLifeVC.m; sourceTree = "<group>"; };
+		F11643C7232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewLiftTestView.h; sourceTree = "<group>"; };
+		F11643C8232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewLiftTestView.m; sourceTree = "<group>"; };
+		F11643CC232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YXYIosBasic_UIViewLiftTestView.xib; sourceTree = "<group>"; };
+		F11643CE232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewAnimationCureVC.h; sourceTree = "<group>"; };
+		F11643CF232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewAnimationCureVC.m; sourceTree = "<group>"; };
+		F11643D1232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewContentModeVC.h; sourceTree = "<group>"; };
+		F11643D2232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewContentModeVC.m; sourceTree = "<group>"; };
+		F11643D423307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewContentModeDetailVC.h; sourceTree = "<group>"; };
+		F11643D523307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewContentModeDetailVC.m; sourceTree = "<group>"; };
+		F11643D72330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewAnimationTransitionVC.h; sourceTree = "<group>"; };
+		F11643D82330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewAnimationTransitionVC.m; sourceTree = "<group>"; };
+		F11643DA2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewAnimationOptionsVC.h; sourceTree = "<group>"; };
+		F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewAnimationOptionsVC.m; sourceTree = "<group>"; };
+		F11643DD2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h; sourceTree = "<group>"; };
+		F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m; sourceTree = "<group>"; };
 		F12CAAB22282CC480004704C /* iOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12CAAB52282CC480004704C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F12CAAB62282CC480004704C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,6 +203,14 @@
 		F1372C7122927885006771F0 /* YXYThrid_MapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_MapVC.m; sourceTree = "<group>"; };
 		F1372C732292830A006771F0 /* YXYThrid_BaiduMapRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_BaiduMapRootVC.h; sourceTree = "<group>"; };
 		F1372C742292830A006771F0 /* YXYThrid_BaiduMapRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BaiduMapRootVC.m; sourceTree = "<group>"; };
+		F1375F5F23323F1800F49328 /* YXYIosBasic_UILabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UILabelVC.h; sourceTree = "<group>"; };
+		F1375F6023323F1800F49328 /* YXYIosBasic_UILabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelVC.m; sourceTree = "<group>"; };
+		F1375F622332434D00F49328 /* YXYIosBasic_UILabelFontVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UILabelFontVC.h; sourceTree = "<group>"; };
+		F1375F632332434D00F49328 /* YXYIosBasic_UILabelFontVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelFontVC.m; sourceTree = "<group>"; };
+		F1375F65233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UILabelNSLineBreakModeVC.h; sourceTree = "<group>"; };
+		F1375F66233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelNSLineBreakModeVC.m; sourceTree = "<group>"; };
+		F1375F68233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UILabelAttributedTextVC.h; sourceTree = "<group>"; };
+		F1375F69233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelAttributedTextVC.m; sourceTree = "<group>"; };
 		F17F06972319112900D1FFAB /* YXYThrid_liveVideoRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideoRootVC.h; sourceTree = "<group>"; };
 		F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoRootVC.m; sourceTree = "<group>"; };
 		F17F069A231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideo_aliVC.h; sourceTree = "<group>"; };
@@ -174,8 +223,6 @@
 		F17F06CD23191A7F00D1FFAB /* AlivcLibFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcLibFace.framework; sourceTree = "<group>"; };
 		F17F06CE23191A7F00D1FFAB /* AlivcLibBeauty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcLibBeauty.framework; sourceTree = "<group>"; };
 		F17F06CF23191A7F00D1FFAB /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
-		F17F06E4231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideo_aliRoomNameVC.h; sourceTree = "<group>"; };
-		F17F06E5231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideo_aliRoomNameVC.m; sourceTree = "<group>"; };
 		F17F06EA231CC70A00D1FFAB /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
 		F17F06ED231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYBASIC_xcode_setLanguageVC.h; sourceTree = "<group>"; };
 		F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYBASIC_xcode_setLanguageVC.m; sourceTree = "<group>"; };
@@ -185,6 +232,23 @@
 		F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoPreSkinSetView.m; sourceTree = "<group>"; };
 		F17F06F6231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXY_CountdowTimeLabel.h; sourceTree = "<group>"; };
 		F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXY_CountdowTimeLabel.m; sourceTree = "<group>"; };
+		F17F06F9231FA6FB00D1FFAB /* YXYIosBasic_RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_RootVC.h; sourceTree = "<group>"; };
+		F17F06FA231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_RootVC.m; sourceTree = "<group>"; };
+		F17F06FD231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIRootVC.h; sourceTree = "<group>"; };
+		F17F06FE231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIRootVC.m; sourceTree = "<group>"; };
+		F17F07022320DFD000D1FFAB /* YXYOftenFunctionRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYOftenFunctionRootVC.h; sourceTree = "<group>"; };
+		F17F07032320DFD000D1FFAB /* YXYOftenFunctionRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYOftenFunctionRootVC.m; sourceTree = "<group>"; };
+		F17F070D2320E0D800D1FFAB /* app指纹登录流程图.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "app指纹登录流程图.pdf"; sourceTree = "<group>"; };
+		F17F070F2320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYOfenFimction_TouchLoginVC.h; sourceTree = "<group>"; };
+		F17F07102320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYOfenFimction_TouchLoginVC.m; sourceTree = "<group>"; };
+		F17F07122320FAF400D1FFAB /* TDTouchID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTouchID.h; sourceTree = "<group>"; };
+		F17F07132320FAF400D1FFAB /* TDTouchID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTouchID.m; sourceTree = "<group>"; };
+		F17F0717232633FB00D1FFAB /* YXYThrid_BuglyRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_BuglyRootVC.h; sourceTree = "<group>"; };
+		F17F0718232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BuglyRootVC.m; sourceTree = "<group>"; };
+		F17F071A23265ADA00D1FFAB /* YXYThrid_UmengRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_UmengRootVC.h; sourceTree = "<group>"; };
+		F17F071B23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_UmengRootVC.m; sourceTree = "<group>"; };
+		F1A8AB302332003600C84532 /* YXYIosBasic_UIViewFrameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewFrameVC.h; sourceTree = "<group>"; };
+		F1A8AB312332003600C84532 /* YXYIosBasic_UIViewFrameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewFrameVC.m; sourceTree = "<group>"; };
 		F1CD8DF42282CCE500C4A856 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		F1CD8DF72282CCE500C4A856 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
@@ -285,6 +349,42 @@
 			path = "点聚合";
 			sourceTree = "<group>";
 		};
+		F11643BF232F315800C3C7CE /* 倒计时动画 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "倒计时动画";
+			path = "iOSStudy/常用功能/倒计时动画";
+			sourceTree = SOURCE_ROOT;
+		};
+		F11643C0232F31A500C3C7CE /* UI_UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F11643C1232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.h */,
+				F11643C2232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m */,
+				F11643D1232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.h */,
+				F11643D2232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m */,
+				F11643CE232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.h */,
+				F11643CF232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m */,
+				F11643D72330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.h */,
+				F11643D82330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m */,
+				F11643DA2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.h */,
+				F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */,
+				F11643DD2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h */,
+				F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */,
+				F1A8AB302332003600C84532 /* YXYIosBasic_UIViewFrameVC.h */,
+				F1A8AB312332003600C84532 /* YXYIosBasic_UIViewFrameVC.m */,
+				F11643C4232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.h */,
+				F11643C5232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m */,
+				F11643C7232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.h */,
+				F11643C8232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.m */,
+				F11643D423307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.h */,
+				F11643D523307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m */,
+				F11643CC232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib */,
+			);
+			path = UI_UIView;
+			sourceTree = "<group>";
+		};
 		F12CAAA92282CC480004704C = {
 			isa = PBXGroup;
 			children = (
@@ -307,12 +407,12 @@
 			isa = PBXGroup;
 			children = (
 				F1372C27228E669D006771F0 /* 常用第三方 */,
-				F1CD8E082282CCE500C4A856 /* 常见UI样式 */,
 				F1CD8E062282CCE500C4A856 /* 热门技术 */,
 				F1CD8E072282CCE500C4A856 /* 热门开源 */,
 				F1CD8DF22282CCE500C4A856 /* Common */,
 				F1CD8DFB2282CCE500C4A856 /* ios基础 */,
 				F1CD8E052282CCE500C4A856 /* ios进阶 */,
+				F17F07012320DE5D00D1FFAB /* 常用功能 */,
 				F1CD8E092282CCE500C4A856 /* PrefixHeader.pch */,
 				F12CAAB52282CC480004704C /* AppDelegate.h */,
 				F12CAAB62282CC480004704C /* AppDelegate.m */,
@@ -332,12 +432,14 @@
 		F1372C27228E669D006771F0 /* 常用第三方 */ = {
 			isa = PBXGroup;
 			children = (
-				F17F068A23190FDE00D1FFAB /* 直播 */,
 				F1372C2A228E6758006771F0 /* YXYThrid_RootVC.h */,
 				F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */,
+				F17F068A23190FDE00D1FFAB /* 直播 */,
 				F1E355AC23150A4800A7CFB3 /* 吐司 */,
 				F1E3559F230FB6ED00A7CFB3 /* 第三方登录 */,
 				F1372C28228E66BE006771F0 /* 地图 */,
+				F17F0715232633CF00D1FFAB /* 友盟 */,
+				F17F0716232633CF00D1FFAB /* Bugly */,
 			);
 			path = "常用第三方";
 			sourceTree = "<group>";
@@ -411,6 +513,21 @@
 			path = "百度定位";
 			sourceTree = "<group>";
 		};
+		F1375F5E2332381900F49328 /* UI_UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				F1375F5F23323F1800F49328 /* YXYIosBasic_UILabelVC.h */,
+				F1375F6023323F1800F49328 /* YXYIosBasic_UILabelVC.m */,
+				F1375F622332434D00F49328 /* YXYIosBasic_UILabelFontVC.h */,
+				F1375F632332434D00F49328 /* YXYIosBasic_UILabelFontVC.m */,
+				F1375F65233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.h */,
+				F1375F66233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m */,
+				F1375F68233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.h */,
+				F1375F69233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m */,
+			);
+			path = UI_UILabel;
+			sourceTree = "<group>";
+		};
 		F17F068A23190FDE00D1FFAB /* 直播 */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,8 +544,6 @@
 				F17F06C723191A7F00D1FFAB /* SDK */,
 				F17F069A231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.h */,
 				F17F069B231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m */,
-				F17F06E4231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.h */,
-				F17F06E5231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m */,
 				F17F06F0231D149700D1FFAB /* YXYThrid_liveVideoPreView.h */,
 				F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */,
 				F17F06F3231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.h */,
@@ -469,6 +584,58 @@
 				F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */,
 			);
 			path = "设置App语言";
+			sourceTree = "<group>";
+		};
+		F17F06FC231FAA3100D1FFAB /* UI篇 */ = {
+			isa = PBXGroup;
+			children = (
+				F1375F5E2332381900F49328 /* UI_UILabel */,
+				F11643C0232F31A500C3C7CE /* UI_UIView */,
+				F17F06FD231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.h */,
+				F17F06FE231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m */,
+			);
+			path = "UI篇";
+			sourceTree = "<group>";
+		};
+		F17F07012320DE5D00D1FFAB /* 常用功能 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F07022320DFD000D1FFAB /* YXYOftenFunctionRootVC.h */,
+				F17F07032320DFD000D1FFAB /* YXYOftenFunctionRootVC.m */,
+				F11643BF232F315800C3C7CE /* 倒计时动画 */,
+				F17F070C2320E0D800D1FFAB /* 指纹登录 */,
+			);
+			path = "常用功能";
+			sourceTree = "<group>";
+		};
+		F17F070C2320E0D800D1FFAB /* 指纹登录 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F070D2320E0D800D1FFAB /* app指纹登录流程图.pdf */,
+				F17F070F2320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.h */,
+				F17F07102320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.m */,
+				F17F07122320FAF400D1FFAB /* TDTouchID.h */,
+				F17F07132320FAF400D1FFAB /* TDTouchID.m */,
+			);
+			path = "指纹登录";
+			sourceTree = "<group>";
+		};
+		F17F0715232633CF00D1FFAB /* 友盟 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F071A23265ADA00D1FFAB /* YXYThrid_UmengRootVC.h */,
+				F17F071B23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m */,
+			);
+			path = "友盟";
+			sourceTree = "<group>";
+		};
+		F17F0716232633CF00D1FFAB /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				F17F0717232633FB00D1FFAB /* YXYThrid_BuglyRootVC.h */,
+				F17F0718232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m */,
+			);
+			path = Bugly;
 			sourceTree = "<group>";
 		};
 		F1CD8DF22282CCE500C4A856 /* Common */ = {
@@ -516,6 +683,9 @@
 		F1CD8DFB2282CCE500C4A856 /* ios基础 */ = {
 			isa = PBXGroup;
 			children = (
+				F17F06F9231FA6FB00D1FFAB /* YXYIosBasic_RootVC.h */,
+				F17F06FA231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m */,
+				F17F06FC231FAA3100D1FFAB /* UI篇 */,
 				F17F06EB231D09DC00D1FFAB /* Xcode配置 */,
 				F1CD8DFC2282CCE500C4A856 /* PCH添加 */,
 				F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */,
@@ -570,13 +740,6 @@
 			children = (
 			);
 			path = "热门开源";
-			sourceTree = "<group>";
-		};
-		F1CD8E082282CCE500C4A856 /* 常见UI样式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "常见UI样式";
 			sourceTree = "<group>";
 		};
 		F1E3559F230FB6ED00A7CFB3 /* 第三方登录 */ = {
@@ -688,7 +851,9 @@
 			files = (
 				F12CAAC22282CC4A0004704C /* LaunchScreen.storyboard in Resources */,
 				F17F06D123191A7F00D1FFAB /* AlivcLibFaceResource.bundle in Resources */,
+				F17F070E2320E0D900D1FFAB /* app指纹登录流程图.pdf in Resources */,
 				F17F06D423191A7F00D1FFAB /* AliyunLanguageSource.bundle in Resources */,
+				F11643CD232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib in Resources */,
 				F1372C5B228EBE15006771F0 /* mapapi.bundle in Resources */,
 				F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */,
 				F12CAABD2282CC480004704C /* Main.storyboard in Resources */,
@@ -749,37 +914,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17F0719232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m in Sources */,
 				F1CD8E0E2282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m in Sources */,
 				F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */,
+				F17F06FB231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m in Sources */,
+				F1375F6123323F1800F49328 /* YXYIosBasic_UILabelVC.m in Sources */,
 				F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */,
 				F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */,
 				F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */,
 				F10E0C1E229BDD790076B663 /* BMKCluster.m in Sources */,
 				F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */,
+				F17F07042320DFD000D1FFAB /* YXYOftenFunctionRootVC.m in Sources */,
+				F11643C9232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.m in Sources */,
+				F17F07112320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.m in Sources */,
 				F1E355AB2314D84900A7CFB3 /* ToastManager.m in Sources */,
+				F1375F642332434D00F49328 /* YXYIosBasic_UILabelFontVC.m in Sources */,
 				F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */,
+				F11643C6232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m in Sources */,
 				F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */,
 				F12CAABA2282CC480004704C /* ViewController.m in Sources */,
 				F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */,
+				F1375F67233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m in Sources */,
 				F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */,
 				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,
 				F12CAAC52282CC4A0004704C /* main.m in Sources */,
 				F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */,
 				F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */,
+				F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */,
+				F11643DC2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m in Sources */,
 				F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */,
-				F17F06E6231CAF3F00D1FFAB /* YXYThrid_liveVideo_aliRoomNameVC.m in Sources */,
 				F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */,
+				F11643D623307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m in Sources */,
 				F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */,
 				F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */,
+				F11643D3232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m in Sources */,
 				F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */,
 				F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */,
 				F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */,
 				F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */,
 				F12CAAB72282CC480004704C /* AppDelegate.m in Sources */,
 				F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */,
+				F11643C3232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m in Sources */,
 				F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */,
+				F1375F6A233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m in Sources */,
 				F17F06F8231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m in Sources */,
 				F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */,
+				F1A8AB322332003600C84532 /* YXYIosBasic_UIViewFrameVC.m in Sources */,
+				F11643D0232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m in Sources */,
+				F11643D92330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m in Sources */,
+				F17F071C23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m in Sources */,
+				F17F06FF231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m in Sources */,
+				F17F07142320FAF400D1FFAB /* TDTouchID.m in Sources */,
 				F10E0C20229BDD790076B663 /* BMKClusterQuadtree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
