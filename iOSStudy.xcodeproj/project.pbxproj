@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2732211F05D2361049D1566E /* libPods-iOSStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */; };
+		F105F0EB233AF9750090DAE9 /* YXYThrid_AudioRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F105F0EA233AF9750090DAE9 /* YXYThrid_AudioRootVC.m */; };
+		F105F0FE233AFD7C0090DAE9 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0ED233AFD7C0090DAE9 /* 8.m4a */; };
+		F105F0FF233AFD7C0090DAE9 /* 9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0EE233AFD7C0090DAE9 /* 9.m4a */; };
+		F105F100233AFD7C0090DAE9 /* hundred.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0EF233AFD7C0090DAE9 /* hundred.m4a */; };
+		F105F101233AFD7C0090DAE9 /* unit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F0233AFD7C0090DAE9 /* unit.m4a */; };
+		F105F102233AFD7C0090DAE9 /* 10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F1233AFD7C0090DAE9 /* 10.m4a */; };
+		F105F103233AFD7C0090DAE9 /* thousand.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F2233AFD7C0090DAE9 /* thousand.m4a */; };
+		F105F104233AFD7C0090DAE9 /* count.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F3233AFD7C0090DAE9 /* count.m4a */; };
+		F105F105233AFD7C0090DAE9 /* pay.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F4233AFD7C0090DAE9 /* pay.m4a */; };
+		F105F106233AFD7C0090DAE9 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F5233AFD7C0090DAE9 /* 1.m4a */; };
+		F105F107233AFD7C0090DAE9 /* 0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F6233AFD7C0090DAE9 /* 0.m4a */; };
+		F105F108233AFD7C0090DAE9 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F7233AFD7C0090DAE9 /* 2.m4a */; };
+		F105F109233AFD7C0090DAE9 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F8233AFD7C0090DAE9 /* 3.m4a */; };
+		F105F10A233AFD7C0090DAE9 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0F9233AFD7C0090DAE9 /* 7.m4a */; };
+		F105F10B233AFD7C0090DAE9 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0FA233AFD7C0090DAE9 /* 6.m4a */; };
+		F105F10C233AFD7C0090DAE9 /* wan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0FB233AFD7C0090DAE9 /* wan.m4a */; };
+		F105F10D233AFD7C0090DAE9 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0FC233AFD7C0090DAE9 /* 4.m4a */; };
+		F105F10E233AFD7C0090DAE9 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F105F0FD233AFD7C0090DAE9 /* 5.m4a */; };
 		F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C012293DEC20076B663 /* YXYAlertViewController.m */; };
 		F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C042293FA210076B663 /* YXYPresentationRightController.m */; };
 		F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C0A2297E6C30076B663 /* CustomPaopaoView.m */; };
@@ -27,6 +45,9 @@
 		F11643D92330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643D82330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m */; };
 		F11643DC2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */; };
 		F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */; };
+		F126BAC8233B59270083923A /* QQResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F126BAC7233B59270083923A /* QQResources.bundle */; };
+		F126BACB233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F126BACA233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m */; };
+		F126BACF233B609B0083923A /* PathUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F126BACD233B609B0083923A /* PathUtility.m */; };
 		F12CAAB72282CC480004704C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB62282CC480004704C /* AppDelegate.m */; };
 		F12CAABA2282CC480004704C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB92282CC480004704C /* ViewController.m */; };
 		F12CAABD2282CC480004704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CAABB2282CC480004704C /* Main.storyboard */; };
@@ -135,6 +156,25 @@
 /* Begin PBXFileReference section */
 		2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE671F4901D84D23C40CBFC /* Pods-iOSStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSStudy.release.xcconfig"; path = "Target Support Files/Pods-iOSStudy/Pods-iOSStudy.release.xcconfig"; sourceTree = "<group>"; };
+		F105F0E9233AF9750090DAE9 /* YXYThrid_AudioRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_AudioRootVC.h; sourceTree = "<group>"; };
+		F105F0EA233AF9750090DAE9 /* YXYThrid_AudioRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_AudioRootVC.m; sourceTree = "<group>"; };
+		F105F0ED233AFD7C0090DAE9 /* 8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.m4a; sourceTree = "<group>"; };
+		F105F0EE233AFD7C0090DAE9 /* 9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.m4a; sourceTree = "<group>"; };
+		F105F0EF233AFD7C0090DAE9 /* hundred.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hundred.m4a; sourceTree = "<group>"; };
+		F105F0F0233AFD7C0090DAE9 /* unit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = unit.m4a; sourceTree = "<group>"; };
+		F105F0F1233AFD7C0090DAE9 /* 10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.m4a; sourceTree = "<group>"; };
+		F105F0F2233AFD7C0090DAE9 /* thousand.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = thousand.m4a; sourceTree = "<group>"; };
+		F105F0F3233AFD7C0090DAE9 /* count.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = count.m4a; sourceTree = "<group>"; };
+		F105F0F4233AFD7C0090DAE9 /* pay.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pay.m4a; sourceTree = "<group>"; };
+		F105F0F5233AFD7C0090DAE9 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		F105F0F6233AFD7C0090DAE9 /* 0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.m4a; sourceTree = "<group>"; };
+		F105F0F7233AFD7C0090DAE9 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		F105F0F8233AFD7C0090DAE9 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		F105F0F9233AFD7C0090DAE9 /* 7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.m4a; sourceTree = "<group>"; };
+		F105F0FA233AFD7C0090DAE9 /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = "<group>"; };
+		F105F0FB233AFD7C0090DAE9 /* wan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wan.m4a; sourceTree = "<group>"; };
+		F105F0FC233AFD7C0090DAE9 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		F105F0FD233AFD7C0090DAE9 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
 		F10E0C002293DEC20076B663 /* YXYAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYAlertViewController.h; sourceTree = "<group>"; };
 		F10E0C012293DEC20076B663 /* YXYAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYAlertViewController.m; sourceTree = "<group>"; };
 		F10E0C032293FA210076B663 /* YXYPresentationRightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYPresentationRightController.h; sourceTree = "<group>"; };
@@ -172,6 +212,11 @@
 		F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewAnimationOptionsVC.m; sourceTree = "<group>"; };
 		F11643DD2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h; sourceTree = "<group>"; };
 		F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m; sourceTree = "<group>"; };
+		F126BAC7233B59270083923A /* QQResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QQResources.bundle; path = "../../../../../../../Downloads/iOSProject-master/iOSProject/iOSProject/Classes/QQ音乐/QQResources.bundle"; sourceTree = "<group>"; };
+		F126BAC9233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_Audio_locationPlayerVC.h; sourceTree = "<group>"; };
+		F126BACA233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_Audio_locationPlayerVC.m; sourceTree = "<group>"; };
+		F126BACD233B609B0083923A /* PathUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathUtility.m; sourceTree = "<group>"; };
+		F126BACE233B609B0083923A /* PathUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathUtility.h; sourceTree = "<group>"; };
 		F12CAAB22282CC480004704C /* iOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12CAAB52282CC480004704C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F12CAAB62282CC480004704C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -336,6 +381,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F105F0E8233AF80D0090DAE9 /* 音频 */ = {
+			isa = PBXGroup;
+			children = (
+				F105F10F233B02030090DAE9 /* 音乐播放器 */,
+				F105F0EC233AFD7C0090DAE9 /* 录音 */,
+				F105F0E9233AF9750090DAE9 /* YXYThrid_AudioRootVC.h */,
+				F105F0EA233AF9750090DAE9 /* YXYThrid_AudioRootVC.m */,
+				F126BAC9233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.h */,
+				F126BACA233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m */,
+			);
+			path = "音频";
+			sourceTree = "<group>";
+		};
+		F105F0EC233AFD7C0090DAE9 /* 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				F105F0ED233AFD7C0090DAE9 /* 8.m4a */,
+				F105F0EE233AFD7C0090DAE9 /* 9.m4a */,
+				F105F0EF233AFD7C0090DAE9 /* hundred.m4a */,
+				F105F0F0233AFD7C0090DAE9 /* unit.m4a */,
+				F105F0F1233AFD7C0090DAE9 /* 10.m4a */,
+				F105F0F2233AFD7C0090DAE9 /* thousand.m4a */,
+				F105F0F3233AFD7C0090DAE9 /* count.m4a */,
+				F105F0F4233AFD7C0090DAE9 /* pay.m4a */,
+				F105F0F5233AFD7C0090DAE9 /* 1.m4a */,
+				F105F0F6233AFD7C0090DAE9 /* 0.m4a */,
+				F105F0F7233AFD7C0090DAE9 /* 2.m4a */,
+				F105F0F8233AFD7C0090DAE9 /* 3.m4a */,
+				F105F0F9233AFD7C0090DAE9 /* 7.m4a */,
+				F105F0FA233AFD7C0090DAE9 /* 6.m4a */,
+				F105F0FB233AFD7C0090DAE9 /* wan.m4a */,
+				F105F0FC233AFD7C0090DAE9 /* 4.m4a */,
+				F105F0FD233AFD7C0090DAE9 /* 5.m4a */,
+			);
+			path = "录音";
+			sourceTree = "<group>";
+		};
+		F105F10F233B02030090DAE9 /* 音乐播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				F126BAC7233B59270083923A /* QQResources.bundle */,
+			);
+			path = "音乐播放器";
+			sourceTree = "<group>";
+		};
 		F10E0C15229BDD0A0076B663 /* 点聚合 */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +475,15 @@
 			path = UI_UIView;
 			sourceTree = "<group>";
 		};
+		F126BACC233B60630083923A /* 文件管理 */ = {
+			isa = PBXGroup;
+			children = (
+				F126BACE233B609B0083923A /* PathUtility.h */,
+				F126BACD233B609B0083923A /* PathUtility.m */,
+			);
+			path = "文件管理";
+			sourceTree = "<group>";
+		};
 		F12CAAA92282CC480004704C = {
 			isa = PBXGroup;
 			children = (
@@ -432,8 +531,10 @@
 		F1372C27228E669D006771F0 /* 常用第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				F126BACC233B60630083923A /* 文件管理 */,
 				F1372C2A228E6758006771F0 /* YXYThrid_RootVC.h */,
 				F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */,
+				F105F0E8233AF80D0090DAE9 /* 音频 */,
 				F17F068A23190FDE00D1FFAB /* 直播 */,
 				F1E355AC23150A4800A7CFB3 /* 吐司 */,
 				F1E3559F230FB6ED00A7CFB3 /* 第三方登录 */,
@@ -849,14 +950,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F105F108233AFD7C0090DAE9 /* 2.m4a in Resources */,
+				F105F102233AFD7C0090DAE9 /* 10.m4a in Resources */,
+				F105F105233AFD7C0090DAE9 /* pay.m4a in Resources */,
+				F105F10A233AFD7C0090DAE9 /* 7.m4a in Resources */,
 				F12CAAC22282CC4A0004704C /* LaunchScreen.storyboard in Resources */,
+				F105F10C233AFD7C0090DAE9 /* wan.m4a in Resources */,
 				F17F06D123191A7F00D1FFAB /* AlivcLibFaceResource.bundle in Resources */,
+				F105F100233AFD7C0090DAE9 /* hundred.m4a in Resources */,
+				F105F103233AFD7C0090DAE9 /* thousand.m4a in Resources */,
+				F105F10D233AFD7C0090DAE9 /* 4.m4a in Resources */,
 				F17F070E2320E0D900D1FFAB /* app指纹登录流程图.pdf in Resources */,
+				F105F109233AFD7C0090DAE9 /* 3.m4a in Resources */,
+				F105F104233AFD7C0090DAE9 /* count.m4a in Resources */,
+				F105F10B233AFD7C0090DAE9 /* 6.m4a in Resources */,
+				F105F10E233AFD7C0090DAE9 /* 5.m4a in Resources */,
+				F126BAC8233B59270083923A /* QQResources.bundle in Resources */,
+				F105F101233AFD7C0090DAE9 /* unit.m4a in Resources */,
+				F105F107233AFD7C0090DAE9 /* 0.m4a in Resources */,
+				F105F0FE233AFD7C0090DAE9 /* 8.m4a in Resources */,
 				F17F06D423191A7F00D1FFAB /* AliyunLanguageSource.bundle in Resources */,
 				F11643CD232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib in Resources */,
+				F105F0FF233AFD7C0090DAE9 /* 9.m4a in Resources */,
 				F1372C5B228EBE15006771F0 /* mapapi.bundle in Resources */,
 				F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */,
 				F12CAABD2282CC480004704C /* Main.storyboard in Resources */,
+				F105F106233AFD7C0090DAE9 /* 1.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,6 +1037,7 @@
 				F1CD8E0E2282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m in Sources */,
 				F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */,
 				F17F06FB231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m in Sources */,
+				F105F0EB233AF9750090DAE9 /* YXYThrid_AudioRootVC.m in Sources */,
 				F1375F6123323F1800F49328 /* YXYIosBasic_UILabelVC.m in Sources */,
 				F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */,
 				F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */,
@@ -933,7 +1053,9 @@
 				F11643C6232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m in Sources */,
 				F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */,
 				F12CAABA2282CC480004704C /* ViewController.m in Sources */,
+				F126BACB233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m in Sources */,
 				F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */,
+				F126BACF233B609B0083923A /* PathUtility.m in Sources */,
 				F1375F67233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m in Sources */,
 				F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */,
 				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,

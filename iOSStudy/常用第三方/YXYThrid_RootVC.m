@@ -22,8 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrayData = @[@"Toast（MB）",@"地图",@"登录",@"支付",@"音频播放",@"视频播放",@"直播",@"友盟",@"bugly"];
-    self.arrayVC = @[@"YXYThrid_ToastListVC",@"YXYThrid_MapVC", @"YXYThrid_AuthLoginVC", @"", @"", @"", @"YXYThrid_liveVideoRootVC", @"YXYThrid_UmengRootVC",@"YXYThrid_BuglyRootVC",@""];
+    self.arrayData = @[@"Toast（MB）",@"文件管理",@"地图",@"登录",@"支付",@"音频播放",@"视频播放",@"直播",@"友盟",@"bugly"];
+    self.arrayVC = @[@"YXYThrid_ToastListVC",@"YXYThrid_ManagerListVC",@"YXYThrid_MapVC", @"YXYThrid_AuthLoginVC", @"", @"YXYThrid_AudioRootVC", @"", @"YXYThrid_liveVideoRootVC", @"YXYThrid_UmengRootVC",@"YXYThrid_BuglyRootVC",@""];
     [self.view addSubview:self.tableView];
 //    self.tableView mas
 }
