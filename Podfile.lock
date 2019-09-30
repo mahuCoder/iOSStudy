@@ -8,6 +8,7 @@ PODS:
     - UMCCommon
   - UMCCommon (2.0.1)
   - WechatOpenSDK (1.8.4)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - Bugly
@@ -18,6 +19,7 @@ DEPENDENCIES:
   - UMCAnalytics
   - UMCCommon
   - WechatOpenSDK
+  - YYModel (= 1.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -29,6 +31,7 @@ SPEC REPOS:
     - UMCAnalytics
     - UMCCommon
     - WechatOpenSDK
+    - YYModel
 
 SPEC CHECKSUMS:
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
@@ -39,7 +42,8 @@ SPEC CHECKSUMS:
   UMCAnalytics: ff58714ada407682c4a07548156f94bcec92f055
   UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 2194bf3ad631fe0863be3dcd11e5fb6c6636967b
+PODFILE CHECKSUM: 2126748f1aca219783f9871698ac1de3333e63da
 
 COCOAPODS: 1.6.1

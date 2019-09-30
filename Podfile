@@ -20,6 +20,8 @@ platform :ios, '9.3'
    pod 'UMCAnalytics'
    #友盟- 调试日志
    #pod 'UMCCommonLog'
+   #yymodel
+   pod 'YYModel',                           '1.0.4'
 ##百度地图SDK
 #pod 'BaiduMapKit'
 

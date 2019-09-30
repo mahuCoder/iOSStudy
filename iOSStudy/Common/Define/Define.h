@@ -17,5 +17,6 @@
 #endif
 #import "ToastManager.h"
 #import "MacroDefine.h"
+#import "YYModel.h"
 
 #endif /* Define_h */
