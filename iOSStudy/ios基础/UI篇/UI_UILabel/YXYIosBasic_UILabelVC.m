@@ -22,8 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] init];
-    NSLineBreakByWordWrapping;
 //   label.attributedText
 //    UIFont;
     self.arrayData = @[@"字体",@"NSLineBreakMode",@"富文本",@"sizetofit",@"UIViewAnimationOptions",@"UIViewKeyframeAnimationOptions(关键帧动画，可做多种动画叠加)",@"frame和bounds、rect"];

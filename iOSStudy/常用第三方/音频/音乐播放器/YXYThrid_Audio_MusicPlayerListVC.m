@@ -8,7 +8,8 @@
 
 #import "YXYThrid_Audio_MusicPlayerListVC.h"
 #import "YXYThrid_Audio_MusicPlayerModel.h"
-
+#import "MusicPlayerVC.h"
+#import "MusicOperationTool.h"
 @interface YXYThrid_Audio_MusicPlayerListVC ()<UITableViewDelegate, UITableViewDataSource>
 {
     
@@ -23,10 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//                                                              QQResources.bundle
-    NSString *path = [[NSBundle mainBundle] pathForResource:QQResources(@"Musics") ofType:@"plist"];
-    NSArray *array = [NSArray arrayWithContentsOfFile:path];
-    self.arrayData = [NSArray yy_modelArrayWithClass:[YXYThrid_Audio_MusicPlayerModel class] json:array];
+
+    self.arrayData = MusicOperationTool.shareInstance.musicMList;
 
     [self.view addSubview:self.tableView];
     
@@ -86,33 +85,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    switch (indexPath.row) {
-        case 0:
-            {
-            }
-            break;
-        case 1:
-            {
-
-            }
-            break;
-        case 2:
-            {
-                UIViewController *vc = [[NSClassFromString(self.arrayVC[indexPath.row]) alloc] init];
-                  vc.title = self.arrayData[indexPath.row];
-                  [self.navigationController pushViewController:vc animated:YES];
-
-            }
-            break;
-        case 3:
-        {
-            UIViewController *vc = (UIViewController *) [[NSClassFromString(self.arrayVC[indexPath.row])  alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        default:
-            break;
-    }
+    MusicPlayerVC *nextVC = [[MusicPlayerVC alloc] init];
+    [MusicOperationTool.shareInstance playMusic:MusicOperationTool.shareInstance.musicMList[indexPath.row]];
+    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 

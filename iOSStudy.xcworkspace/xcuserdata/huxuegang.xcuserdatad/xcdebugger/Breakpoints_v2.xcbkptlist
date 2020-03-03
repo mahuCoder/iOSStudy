@@ -58,22 +58,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D910D99A-8C73-454F-8D48-C9A7A3E1CC61"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOSStudy/&#x5e38;&#x7528;&#x7b2c;&#x4e09;&#x65b9;/&#x97f3;&#x9891;/YXYThrid_Audio_MultiplePlayerVC.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "276"
-            endingLineNumber = "276"
-            landmarkName = "-audioPlayerDecodeErrorDidOccur:error:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "3ECBF1B4-6B9C-4693-B9CF-6B3F8168CC04"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -85,6 +69,102 @@
             endingLineNumber = "38"
             landmarkName = "YXYThrid_Audio_MusicPlayerListVC"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39708FDB-793E-41B6-812A-1EFB681837B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/&#x5e38;&#x7528;&#x7b2c;&#x4e09;&#x65b9;/&#x97f3;&#x9891;/&#x97f3;&#x4e50;&#x64ad;&#x653e;&#x5668;/&#x6838;&#x5fc3;&#x4e1a;&#x52a1;/MusicPlayerTool.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "-seekTo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21A1B792-62F0-40B8-BA4D-7281BA4F66BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/&#x5e38;&#x7528;&#x7b2c;&#x4e09;&#x65b9;/&#x97f3;&#x9891;/&#x97f3;&#x4e50;&#x64ad;&#x653e;&#x5668;/&#x6838;&#x5fc3;&#x4e1a;&#x52a1;/LrcCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-setProgress:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49495BF0-EF7E-4DDB-859D-E6721A1AD747"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/ios&#x57fa;&#x7840;/UI&#x7bc7;/UI_WKWebView/YXYIosBasic_UIWKWebViewVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A6D91BD-7D7D-4BA0-B582-FA4D3DAFB52F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/ios&#x57fa;&#x7840;/UI&#x7bc7;/UI_WKWebView/YXYIosBasic_UIWKWebViewVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-dealloc"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBD6B7EE-0C4A-4E57-B0ED-777F8D4BF185"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/ios&#x57fa;&#x7840;/UI&#x7bc7;/UI_WKWebView/WeakScriptMessageDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1698C375-56E1-4199-9299-2BD2D86994F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSStudy/ios&#x57fa;&#x7840;/UI&#x7bc7;/UI_WKWebView/WeakScriptMessageDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-dealloc"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

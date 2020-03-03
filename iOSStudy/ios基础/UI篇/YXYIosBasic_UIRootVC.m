@@ -23,8 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"ios基础";
-    self.arrayData = @[@"View",@"Label",@"Button",@"Image View",@"Segmented Control",@"Text Field",@"Slider",@"Switch",@"Activity Indicator View",@"Progress View",@"Page Control",@"Stepper",@"Horizonal Stack View",@"Vertical Stack View",@"Table View",@"Table View Cell",@"Collection View", @"Collection View Cell", @"Collection Resable View", @"Text View", @"Scroll View", @"Date picker", @"Picker View", @"Visual Effect View with Blur", @"Visual Effect Views with Blur and Vibrancy", @"Map Kit View", @"MetalKit View", @"GLKit View", @"SceneKit View",@"SpirteKit View",@"ARKit SceneKit View",@"ARKit SpirteKit View",@"Web View",@"WebKit View",@"Container View",@"Navigation Bar",@"Navigation Item", @"Toolbar", @"Bar Button Item"];
-    self.arrayVC = @[@"YXYIosBasic_UIViewVC",@"YXYIosBasic_UILabelVC", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @""];
+    self.arrayData = @[@"View",@"Label",@"Button",@"Image View",@"WKWebView",@"Segmented Control",@"Text Field",@"Slider",@"Switch",@"Activity Indicator View",@"Progress View",@"Page Control",@"Stepper",@"Horizonal Stack View",@"Vertical Stack View",@"Table View",@"Table View Cell",@"Collection View", @"Collection View Cell", @"Collection Resable View", @"Text View", @"Scroll View", @"Date picker", @"Picker View", @"Visual Effect View with Blur", @"Visual Effect Views with Blur and Vibrancy", @"Map Kit View", @"MetalKit View", @"GLKit View", @"SceneKit View",@"SpirteKit View",@"ARKit SceneKit View",@"ARKit SpirteKit View",@"Web View",@"WebKit View",@"Container View",@"Navigation Bar",@"Navigation Item", @"Toolbar", @"Bar Button Item"];
+    self.arrayVC = @[@"YXYIosBasic_UIViewVC",@"YXYIosBasic_UILabelVC", @"", @"", @"YXYIosBasic_UIWKWebViewVC", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @""];
     [self.view addSubview:self.tableView];
 //    vie
     //    self.tableView mas

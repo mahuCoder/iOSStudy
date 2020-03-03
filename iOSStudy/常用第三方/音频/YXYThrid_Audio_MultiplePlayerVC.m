@@ -217,25 +217,7 @@
                }
            }];
 }
-- (void)actionSynchAudioPlayer
-{
-      NSArray *array = [self getVoiceListWithPrice:[self getPrice]];
-        if (!array.count) {
-            return;
-        }
-    for (NSString *item in array) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:item ofType:@"mp3"];
-        if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
-            break;
-        }
-        AVURLAsset *audioAsset = [AVURLAsset assetWithURL:[NSURL fileURLWithPath:path]];
-        NSError *error;
-        self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL URLWithString:path] error:&error];
-        [self.player play];
-        double time = audioAsset.duration.value / (audioAsset.duration.timescale * 1.0000000);
-        usleep(time * 1000000);
-    }
-}
+
 - (void)actionAudioPlayer
 {
     self.arrayData = [self getVoiceListWithPrice:[self getPrice]].mutableCopy;
@@ -313,7 +295,7 @@
         _synchAudioPlayer = [UIButton buttonWithType:(UIButtonTypeCustom)];
         [_synchAudioPlayer setTitle:@"循环同步播放" forState:(UIControlStateNormal)];
         [_synchAudioPlayer setTitleColor: [UIColor redColor] forState:UIControlStateNormal];
-        [_synchAudioPlayer addTarget:self action:@selector(actionSynchAudioPlayer) forControlEvents:(UIControlEventTouchUpInside)];
+//        [_synchAudioPlayer addTarget:self action:@selector(actionSynchAudioPlayer) forControlEvents:(UIControlEventTouchUpInside)];
     }
     return _synchAudioPlayer;
 }

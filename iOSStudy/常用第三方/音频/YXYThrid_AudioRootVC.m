@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrayData = @[@"播放系统音频",@"播放本地音频",@"音乐播放器",@"播放多段音频"];
+    self.arrayData = @[@"播放系统音频",@"播放本地音频",@"音乐播放器",@"播放多段音频",@"AVAudioSession了解"];
     self.arrayVC = @[@"", @"YXYThrid_Audio_locationPlayerVC",@"YXYThrid_Audio_MusicPlayerListVC",@"YXYThrid_Audio_MultiplePlayerVC"];
     [self.view addSubview:self.tableView];
     

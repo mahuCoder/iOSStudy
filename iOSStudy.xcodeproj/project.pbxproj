@@ -60,6 +60,12 @@
 		F1375F642332434D00F49328 /* YXYIosBasic_UILabelFontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F632332434D00F49328 /* YXYIosBasic_UILabelFontVC.m */; };
 		F1375F67233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F66233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m */; };
 		F1375F6A233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1375F69233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m */; };
+		F1382697235425E0007EB7CA /* CALayer+MUSAmi.m in Sources */ = {isa = PBXBuildFile; fileRef = F1382696235425E0007EB7CA /* CALayer+MUSAmi.m */; };
+		F138269A23548435007EB7CA /* LrcLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F138269923548435007EB7CA /* LrcLabel.m */; };
+		F138269D23549053007EB7CA /* LrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F138269C23549053007EB7CA /* LrcModel.m */; };
+		F13826A023549085007EB7CA /* LrcDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F138269F23549085007EB7CA /* LrcDataTool.m */; };
+		F13826BE235844A4007EB7CA /* MUsicLrcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13826BD235844A4007EB7CA /* MUsicLrcViewController.m */; };
+		F13826CD2358858B007EB7CA /* LrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F13826CC2358858B007EB7CA /* LrcCell.m */; };
 		F1651808233DECD400E8B197 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F7233DECD400E8B197 /* 7.mp3 */; };
 		F1651809233DECD400E8B197 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F8233DECD400E8B197 /* 6.mp3 */; };
 		F165180A233DECD400E8B197 /* wan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F9233DECD400E8B197 /* wan.mp3 */; };
@@ -78,6 +84,8 @@
 		F1651817233DECD400E8B197 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1651806233DECD400E8B197 /* 8.mp3 */; };
 		F1651818233DECD400E8B197 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1651807233DECD400E8B197 /* 9.mp3 */; };
 		F17820C3233C492E007D80B2 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F17820C1233C492E007D80B2 /* NSString+Common.m */; };
+		F179D5552362993000630521 /* YXYIosBasic_UIWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F179D5542362993000630521 /* YXYIosBasic_UIWKWebViewVC.m */; };
+		F179D5582362A84C00630521 /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F179D5572362A84C00630521 /* WeakScriptMessageDelegate.m */; };
 		F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */; };
 		F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F069B231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m */; };
 		F17F06D023191A7F00D1FFAB /* AlivcLibRtmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17F06C823191A7F00D1FFAB /* AlivcLibRtmp.framework */; };
@@ -103,7 +111,6 @@
 		F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06EE231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m */; };
 		F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */; };
 		F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */; };
-		F17F06F8231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */; };
 		F17F06FB231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06FA231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m */; };
 		F17F06FF231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F06FE231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m */; };
 		F17F07042320DFD000D1FFAB /* YXYOftenFunctionRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F07032320DFD000D1FFAB /* YXYOftenFunctionRootVC.m */; };
@@ -112,6 +119,10 @@
 		F17F07142320FAF400D1FFAB /* TDTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F07132320FAF400D1FFAB /* TDTouchID.m */; };
 		F17F0719232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F0718232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m */; };
 		F17F071C23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F071B23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m */; };
+		F181F998234C3C85004D6EC0 /* MusicPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F181F997234C3C85004D6EC0 /* MusicPlayerVC.m */; };
+		F181F99B234C5FEF004D6EC0 /* MusicPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F181F99A234C5FEF004D6EC0 /* MusicPlayerTool.m */; };
+		F181F99E234C7FBB004D6EC0 /* MusicMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F181F99D234C7FBB004D6EC0 /* MusicMessageModel.m */; };
+		F181F9A0234D877B004D6EC0 /* QQMusic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F181F99F234D877B004D6EC0 /* QQMusic.xcassets */; };
 		F1A52EE0233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A52EDF233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m */; };
 		F1A52EE3233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A52EE2233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m */; };
 		F1A52EE6234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A52EE5234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m */; };
@@ -245,6 +256,18 @@
 		F1375F66233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelNSLineBreakModeVC.m; sourceTree = "<group>"; };
 		F1375F68233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UILabelAttributedTextVC.h; sourceTree = "<group>"; };
 		F1375F69233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelAttributedTextVC.m; sourceTree = "<group>"; };
+		F1382695235425E0007EB7CA /* CALayer+MUSAmi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MUSAmi.h"; sourceTree = "<group>"; };
+		F1382696235425E0007EB7CA /* CALayer+MUSAmi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MUSAmi.m"; sourceTree = "<group>"; };
+		F138269823548435007EB7CA /* LrcLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcLabel.h; sourceTree = "<group>"; };
+		F138269923548435007EB7CA /* LrcLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcLabel.m; sourceTree = "<group>"; };
+		F138269B23549053007EB7CA /* LrcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcModel.h; sourceTree = "<group>"; };
+		F138269C23549053007EB7CA /* LrcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcModel.m; sourceTree = "<group>"; };
+		F138269E23549085007EB7CA /* LrcDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcDataTool.h; sourceTree = "<group>"; };
+		F138269F23549085007EB7CA /* LrcDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcDataTool.m; sourceTree = "<group>"; };
+		F13826BC235844A4007EB7CA /* MUsicLrcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUsicLrcViewController.h; sourceTree = "<group>"; };
+		F13826BD235844A4007EB7CA /* MUsicLrcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUsicLrcViewController.m; sourceTree = "<group>"; };
+		F13826CB2358858B007EB7CA /* LrcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcCell.h; sourceTree = "<group>"; };
+		F13826CC2358858B007EB7CA /* LrcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcCell.m; sourceTree = "<group>"; };
 		F16517F7233DECD400E8B197 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
 		F16517F8233DECD400E8B197 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		F16517F9233DECD400E8B197 /* wan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wan.mp3; sourceTree = "<group>"; };
@@ -264,6 +287,10 @@
 		F1651807233DECD400E8B197 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
 		F17820C1233C492E007D80B2 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		F17820C2233C492E007D80B2 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		F179D5532362993000630521 /* YXYIosBasic_UIWKWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIWKWebViewVC.h; sourceTree = "<group>"; };
+		F179D5542362993000630521 /* YXYIosBasic_UIWKWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIWKWebViewVC.m; sourceTree = "<group>"; };
+		F179D5562362A84C00630521 /* WeakScriptMessageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		F179D5572362A84C00630521 /* WeakScriptMessageDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageDelegate.m; sourceTree = "<group>"; };
 		F17F06972319112900D1FFAB /* YXYThrid_liveVideoRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideoRootVC.h; sourceTree = "<group>"; };
 		F17F06982319112900D1FFAB /* YXYThrid_liveVideoRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoRootVC.m; sourceTree = "<group>"; };
 		F17F069A231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideo_aliVC.h; sourceTree = "<group>"; };
@@ -283,8 +310,6 @@
 		F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoPreView.m; sourceTree = "<group>"; };
 		F17F06F3231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_liveVideoPreSkinSetView.h; sourceTree = "<group>"; };
 		F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_liveVideoPreSkinSetView.m; sourceTree = "<group>"; };
-		F17F06F6231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXY_CountdowTimeLabel.h; sourceTree = "<group>"; };
-		F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXY_CountdowTimeLabel.m; sourceTree = "<group>"; };
 		F17F06F9231FA6FB00D1FFAB /* YXYIosBasic_RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_RootVC.h; sourceTree = "<group>"; };
 		F17F06FA231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_RootVC.m; sourceTree = "<group>"; };
 		F17F06FD231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIRootVC.h; sourceTree = "<group>"; };
@@ -300,6 +325,13 @@
 		F17F0718232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_BuglyRootVC.m; sourceTree = "<group>"; };
 		F17F071A23265ADA00D1FFAB /* YXYThrid_UmengRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_UmengRootVC.h; sourceTree = "<group>"; };
 		F17F071B23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_UmengRootVC.m; sourceTree = "<group>"; };
+		F181F996234C3C85004D6EC0 /* MusicPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerVC.h; sourceTree = "<group>"; };
+		F181F997234C3C85004D6EC0 /* MusicPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerVC.m; sourceTree = "<group>"; };
+		F181F999234C5FEF004D6EC0 /* MusicPlayerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerTool.h; sourceTree = "<group>"; };
+		F181F99A234C5FEF004D6EC0 /* MusicPlayerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTool.m; sourceTree = "<group>"; };
+		F181F99C234C7FBB004D6EC0 /* MusicMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicMessageModel.h; sourceTree = "<group>"; };
+		F181F99D234C7FBB004D6EC0 /* MusicMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicMessageModel.m; sourceTree = "<group>"; };
+		F181F99F234D877B004D6EC0 /* QQMusic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QQMusic.xcassets; sourceTree = "<group>"; };
 		F1A52EDE233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_Audio_MultiplePlayerVC.h; sourceTree = "<group>"; };
 		F1A52EDF233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_Audio_MultiplePlayerVC.m; sourceTree = "<group>"; };
 		F1A52EE1233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_Audio_MusicPlayerListVC.h; sourceTree = "<group>"; };
@@ -656,6 +688,17 @@
 			path = "新录音";
 			sourceTree = "<group>";
 		};
+		F179D552236298E600630521 /* UI_WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F179D5532362993000630521 /* YXYIosBasic_UIWKWebViewVC.h */,
+				F179D5542362993000630521 /* YXYIosBasic_UIWKWebViewVC.m */,
+				F179D5562362A84C00630521 /* WeakScriptMessageDelegate.h */,
+				F179D5572362A84C00630521 /* WeakScriptMessageDelegate.m */,
+			);
+			path = UI_WKWebView;
+			sourceTree = "<group>";
+		};
 		F17F068A23190FDE00D1FFAB /* 直播 */ = {
 			isa = PBXGroup;
 			children = (
@@ -676,8 +719,6 @@
 				F17F06F1231D149800D1FFAB /* YXYThrid_liveVideoPreView.m */,
 				F17F06F3231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.h */,
 				F17F06F4231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m */,
-				F17F06F6231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.h */,
-				F17F06F7231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m */,
 			);
 			path = "阿里云直播";
 			sourceTree = "<group>";
@@ -717,6 +758,7 @@
 		F17F06FC231FAA3100D1FFAB /* UI篇 */ = {
 			isa = PBXGroup;
 			children = (
+				F179D552236298E600630521 /* UI_WKWebView */,
 				F1375F5E2332381900F49328 /* UI_UILabel */,
 				F11643C0232F31A500C3C7CE /* UI_UIView */,
 				F17F06FD231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.h */,
@@ -769,10 +811,29 @@
 		F1A52EE723405EA400600C06 /* 核心业务 */ = {
 			isa = PBXGroup;
 			children = (
+				F181F996234C3C85004D6EC0 /* MusicPlayerVC.h */,
+				F181F997234C3C85004D6EC0 /* MusicPlayerVC.m */,
 				F1A52EE823405EC000600C06 /* MusicOperationTool.h */,
 				F1A52EE923405EC000600C06 /* MusicOperationTool.m */,
 				F1A52EEB23405F0C00600C06 /* MusicModel.h */,
 				F1A52EEC23405F0C00600C06 /* MusicModel.m */,
+				F181F99C234C7FBB004D6EC0 /* MusicMessageModel.h */,
+				F181F99D234C7FBB004D6EC0 /* MusicMessageModel.m */,
+				F181F999234C5FEF004D6EC0 /* MusicPlayerTool.h */,
+				F181F99A234C5FEF004D6EC0 /* MusicPlayerTool.m */,
+				F1382695235425E0007EB7CA /* CALayer+MUSAmi.h */,
+				F1382696235425E0007EB7CA /* CALayer+MUSAmi.m */,
+				F138269823548435007EB7CA /* LrcLabel.h */,
+				F138269923548435007EB7CA /* LrcLabel.m */,
+				F138269B23549053007EB7CA /* LrcModel.h */,
+				F138269C23549053007EB7CA /* LrcModel.m */,
+				F138269E23549085007EB7CA /* LrcDataTool.h */,
+				F138269F23549085007EB7CA /* LrcDataTool.m */,
+				F13826BC235844A4007EB7CA /* MUsicLrcViewController.h */,
+				F13826BD235844A4007EB7CA /* MUsicLrcViewController.m */,
+				F13826CB2358858B007EB7CA /* LrcCell.h */,
+				F13826CC2358858B007EB7CA /* LrcCell.m */,
+				F181F99F234D877B004D6EC0 /* QQMusic.xcassets */,
 			);
 			path = "核心业务";
 			sourceTree = "<group>";
@@ -939,7 +1000,6 @@
 				F12CAAB02282CC480004704C /* Resources */,
 				F17F06A62319133B00D1FFAB /* Embed Frameworks */,
 				F17F06A72319133B00D1FFAB /* Embed PlugIns */,
-				04A2383A017B010DBFDB9DAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1007,6 +1067,7 @@
 				F165180D233DECD400E8B197 /* 1.mp3 in Resources */,
 				F165180F233DECD400E8B197 /* 2.mp3 in Resources */,
 				F1651810233DECD400E8B197 /* 3.mp3 in Resources */,
+				F181F9A0234D877B004D6EC0 /* QQMusic.xcassets in Resources */,
 				F17F06D423191A7F00D1FFAB /* AliyunLanguageSource.bundle in Resources */,
 				F1651818233DECD400E8B197 /* 9.mp3 in Resources */,
 				F11643CD232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib in Resources */,
@@ -1020,28 +1081,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04A2383A017B010DBFDB9DAF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		20C183284E62E3D104DA38A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1075,7 +1114,9 @@
 				F1CD8E0E2282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m in Sources */,
 				F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */,
 				F17F06FB231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m in Sources */,
+				F138269D23549053007EB7CA /* LrcModel.m in Sources */,
 				F105F0EB233AF9750090DAE9 /* YXYThrid_AudioRootVC.m in Sources */,
+				F181F99B234C5FEF004D6EC0 /* MusicPlayerTool.m in Sources */,
 				F1375F6123323F1800F49328 /* YXYIosBasic_UILabelVC.m in Sources */,
 				F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */,
 				F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */,
@@ -1088,11 +1129,14 @@
 				F1E355AB2314D84900A7CFB3 /* ToastManager.m in Sources */,
 				F1375F642332434D00F49328 /* YXYIosBasic_UILabelFontVC.m in Sources */,
 				F17820C3233C492E007D80B2 /* NSString+Common.m in Sources */,
+				F179D5582362A84C00630521 /* WeakScriptMessageDelegate.m in Sources */,
 				F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */,
 				F1A52EE6234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m in Sources */,
 				F11643C6232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m in Sources */,
 				F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */,
+				F181F998234C3C85004D6EC0 /* MusicPlayerVC.m in Sources */,
 				F12CAABA2282CC480004704C /* ViewController.m in Sources */,
+				F13826CD2358858B007EB7CA /* LrcCell.m in Sources */,
 				F126BACB233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m in Sources */,
 				F1A52EEA23405EC000600C06 /* MusicOperationTool.m in Sources */,
 				F1A52EED23405F0C00600C06 /* MusicModel.m in Sources */,
@@ -1103,9 +1147,12 @@
 				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,
 				F12CAAC52282CC4A0004704C /* main.m in Sources */,
 				F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */,
+				F138269A23548435007EB7CA /* LrcLabel.m in Sources */,
 				F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */,
+				F1382697235425E0007EB7CA /* CALayer+MUSAmi.m in Sources */,
 				F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */,
 				F11643DC2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m in Sources */,
+				F181F99E234C7FBB004D6EC0 /* MusicMessageModel.m in Sources */,
 				F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */,
 				F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */,
 				F11643D623307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m in Sources */,
@@ -1115,17 +1162,19 @@
 				F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */,
 				F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */,
 				F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */,
+				F179D5552362993000630521 /* YXYIosBasic_UIWKWebViewVC.m in Sources */,
 				F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */,
 				F12CAAB72282CC480004704C /* AppDelegate.m in Sources */,
 				F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */,
 				F11643C3232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m in Sources */,
 				F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */,
 				F1375F6A233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m in Sources */,
-				F17F06F8231E0A8B00D1FFAB /* YXY_CountdowTimeLabel.m in Sources */,
 				F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */,
 				F1A8AB322332003600C84532 /* YXYIosBasic_UIViewFrameVC.m in Sources */,
 				F11643D0232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m in Sources */,
+				F13826BE235844A4007EB7CA /* MUsicLrcViewController.m in Sources */,
 				F1A52EE3233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m in Sources */,
+				F13826A023549085007EB7CA /* LrcDataTool.m in Sources */,
 				F1A52EE0233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m in Sources */,
 				F11643D92330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m in Sources */,
 				F17F071C23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m in Sources */,
