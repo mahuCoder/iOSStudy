@@ -23,8 +23,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"ios基础";
-    self.arrayData = @[@"View",@"Label",@"Button",@"Image View",@"WKWebView",@"Segmented Control",@"Text Field",@"Slider",@"Switch",@"Activity Indicator View",@"Progress View",@"Page Control",@"Stepper",@"Horizonal Stack View",@"Vertical Stack View",@"Table View",@"Table View Cell",@"Collection View", @"Collection View Cell", @"Collection Resable View", @"Text View", @"Scroll View", @"Date picker", @"Picker View", @"Visual Effect View with Blur", @"Visual Effect Views with Blur and Vibrancy", @"Map Kit View", @"MetalKit View", @"GLKit View", @"SceneKit View",@"SpirteKit View",@"ARKit SceneKit View",@"ARKit SpirteKit View",@"Web View",@"WebKit View",@"Container View",@"Navigation Bar",@"Navigation Item", @"Toolbar", @"Bar Button Item"];
-    self.arrayVC = @[@"YXYIosBasic_UIViewVC",@"YXYIosBasic_UILabelVC", @"", @"", @"YXYIosBasic_UIWKWebViewVC", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @""];
+    self.arrayData = @[@"View",@"Label",@"Button",@"Image View",@"Text Field",@"Table View",@"Collection View", @"Navigation Bar&Item", @"Toolbar", @"Text View", @"Scroll View", @"Date picker", @"Picker View",@"WKWebView",@"Segmented Control",@"Slider",@"Switch",@"Activity Indicator View",@"Progress View",@"Page Control",@"Stepper",@"Horizonal Stack View",@"Vertical Stack View", @"Visual Effect View with Blur", @"Visual Effect Views with Blur and Vibrancy", @"Map Kit View", @"MetalKit View", @"GLKit View", @"SceneKit View",@"SpirteKit View",@"ARKit SceneKit View",@"ARKit SpirteKit View",@"Web View",@"WebKit View",@"Container View"];
+    self.arrayVC = @[@"YXYIosBasic_UIViewVC",@"YXYIosBasic_UILabelVC",
+                     @"YXYIosBasic_UIButtonVC",@"YXYIosBasic_UIImageViewVC",
+                     @"YXYIosBasic_UITextFieldVC",@"YXYIosBasic_UITableView",
+                     @"",@"YXYIosBasic_UINavigation",
+                     @"YXYIosBasic_UIToolbar",@"YXYIosBasic_UITextView",
+                     @"YXYIosBasic_UIScrollView",@"",
+                     @"",@"YXYIosBasic_UIWKWebViewVC",
+                     @"YXYIosBasic_UISegmentedControl",@"YXYIosBasic_UISliderVC",
+                     @"YXYIosBasic_UISwitchVC",@"YXYIosBasic_UIActivityIndicatorView",
+                     @"YXYIosBasic_UIProgressView",@"YXYIosBasic_UIPageControl",
+                     @"", @"",
+                     @"", @"",
+                     @"", @"",
+                     @"", @"", @"",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""];
+    
     [self.view addSubview:self.tableView];
 //    vie
     //    self.tableView mas
@@ -89,24 +103,7 @@
 }
 
 
-#pragma mark --------------------------初始化UI---------------------------
 
-#pragma mark --------------------------懒加载-----------------------------
-#pragma mark tableView-lazy
--(UITableView *)tableView
-{
-    if (!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:(UITableViewStyleGrouped)];
-        _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        _tableView.backgroundColor = [UIColor clearColor];
-        //        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _tableView.delegate = self;
-        _tableView.dataSource = self;
-        _tableView.estimatedRowHeight = 0;
-        _tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
-        //[_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:yhCellID];
-    }
-    return _tableView;
-}
+
 @end
 

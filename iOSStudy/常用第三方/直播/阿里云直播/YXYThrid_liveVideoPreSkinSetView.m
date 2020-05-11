@@ -113,7 +113,7 @@ static NSString *const kYXYThrid_liveVideoPreSkinSetCellID = @"kYXYThrid_liveVid
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.offset(44);
         make.left.right.offset(0);
-        make.bottom.offset(-Height_NOTabBar);
+        make.bottom.offset(-Height_SafeToTabBar);
     }];
     [self addSubview:self.defaulttBtn];
     [self addSubview:self.switchOn];

@@ -12,9 +12,7 @@
 {
     
 }
-@property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSArray *arrayData;
-@property (nonatomic, strong) NSArray *arrayVC;
+
 
 @end
 
@@ -23,8 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"ios基础";
-    self.arrayData = @[@"UI篇",@"生命周期",@"block",@"通知",@"KVC/KVO",@"手势",@"代理",@"协议",@"类拓展",@"继承和多态",@"动画",@"定时器",@"线程",@"RunTime",@"RunLoop",];
-    self.arrayVC = @[@"YXYIosBasic_UIRootVC",@"", @"", @"", @"", @"", @"", @""];
+    self.arrayData = @[@"UI篇",@"生命周期",@"block",@"通知",@"KVC/KVO",@"手势",@"代理",@"协议",@"类拓展",@"继承和多态",@"动画",@"定时器",@"线程",@"RunTime",@"RunLoop",@"infoPlist"];
+    self.arrayVC = @[@"YXYIosBasic_UIRootVC",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"",@"",@"YXYIosBasic_infoPlistVC"];
     [self.view addSubview:self.tableView];
     //    self.tableView mas
 }
@@ -56,6 +54,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:@"CellID"];
     }
     cell.textLabel.text = self.arrayData[indexPath.row];
+//    cell.textLabel.textColor = HEXCOLOR(0x999999);
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }

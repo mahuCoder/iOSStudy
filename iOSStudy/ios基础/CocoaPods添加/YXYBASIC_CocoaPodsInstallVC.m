@@ -25,10 +25,14 @@
     //gem sources -l
     //如果不是https://gems.ruby-china.com/ 输入gem sources --remove “刚才得到的地址”
     //gem sources --add https://gems.ruby-china.com/。接下来查看下源路径是否更换了
+    //备注失败可能需要 重启电脑或者---
     //gem sources -l
     //如果是：跳过刚才这一步
     //接下来安装Cocoapods了
     //
+    //安装RVM
+    //curl -L https://get.rvm.io | bash -s stable
+    
     //sudo gem install -n /usr/local/bin cocoapods
     //等待....
     //安装完后你可以输入下面的命令查看是否成功，当前CocoaPods版本   pod --version

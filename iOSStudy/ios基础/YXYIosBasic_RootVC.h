@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YXYIosBasic_RootVC : YXYBaseViewController
 
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSArray *arrayData;
+@property (nonatomic, strong) NSArray *arrayVC;
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 @end
 
 NS_ASSUME_NONNULL_END

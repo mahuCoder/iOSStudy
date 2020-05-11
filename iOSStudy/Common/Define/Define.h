@@ -12,12 +12,13 @@
 
 #ifdef __OBJC__
 
-//#define MAS_SHORTHAND
-//
-//#endif
-
+#define MAS_SHORTHAND
 #import <Masonry.h>
+
+#endif
+
 #import "ToastManager.h"
+#import "DevicesDefine.h"
 #import "MacroDefine.h"
 #import "YYModel.h"
 

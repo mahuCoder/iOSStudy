@@ -6,11 +6,11 @@
 //  Copyright © 2019 yunhun. All rights reserved.
 //
 
-#import "YXYBaseViewController.h"
+#import "YXYIosBasic_RootVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YXYIosBasic_UIRootVC : YXYBaseViewController
+@interface YXYIosBasic_UIRootVC : YXYIosBasic_RootVC
 
 @end
 

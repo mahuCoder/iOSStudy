@@ -280,7 +280,7 @@
     [nextButton addTarget:self action:@selector(actionNextMusic:) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:nextButton];
     [self.playOrPauseBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.offset(-Height_NOTabBar -  44);
+        make.bottom.offset(-Height_SafeToTabBar -  44);
         make.centerX.offset(0);
         make.height.equalTo(@64);
     }];

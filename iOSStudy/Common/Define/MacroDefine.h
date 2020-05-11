@@ -130,48 +130,15 @@ NSLog((@"%@(%d) " fmt), [file lastPathComponent], __LINE__, ##__VA_ARGS__); \
 /**
  * 设备类型
  */
-#define IS_IPHONE5 (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)
-#define IS_IPHONE4 (([[UIScreen mainScreen] bounds].size.height-480)?NO:YES)
-#define IS_OS_5_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
-#define IS_OS_6_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
-#define IS_OS_7_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
-#define IS_OS_8_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 
-#define IS_OS_10_BEFOR    ([[[UIDevice currentDevice] systemVersion] floatValue] < 10.0)
-
-#define isIPhone ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640,960),[[UIScreen mainScreen] currentMode].size) : NO)
-
-
-#define isIPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640,1136),[[UIScreen mainScreen] currentMode].size) : NO)
-
-
-
-#define isIPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-
-#define isIPad2 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(768,1024),[[UIScreen mainScreen] currentMode].size) : NO)
-
-
-#define isIPad3_4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1536,2048),[[UIScreen mainScreen] currentMode].size) : NO)
 
 
 #define NLSystemVersionGreaterOrEqualThan(version) ([[[UIDevice currentDevice] systemVersion] floatValue] >= version)
 #define IOS7_OR_LATER NLSystemVersionGreaterOrEqualThan(7.0)
 
-//判断是否是ipad
-#define isPad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
-//判断iPhoneX
-#define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
-//判断iPHoneXr
-#define IS_IPHONE_Xr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
-//判断iPhoneXs
-#define IS_IPHONE_Xs ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
-//判断iPhoneXs Max
-#define IS_IPHONE_Xs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
 
-#define Height_StatusBar ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 44.0 : 20.0)
-#define Height_NavBar ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 88.0 : 64.0)
-#define Height_TabBar ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 83.0 : 49.0)
-#define Height_NOTabBar ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 34.0 :0)
+
+
 
 
 
@@ -193,8 +160,7 @@ NSLog((@"%@(%d) " fmt), [file lastPathComponent], __LINE__, ##__VA_ARGS__); \
 #define NavBarHeight                        self.navigationController.navigationBar.bounds.size.height
 #define StatusBarHeight                     22
 #define TabBarHeight                        self.tabBarController.tabBar.bounds.size.height
-#define ScreenWidth                         [[UIScreen mainScreen] bounds].size.width
-#define ScreenHeight                        [[UIScreen mainScreen] bounds].size.height
+
 #define TouchHeightDefault                  44
 #define TouchHeightSmall                    32
 #define ViewWidth(v)                        v.frame.size.width

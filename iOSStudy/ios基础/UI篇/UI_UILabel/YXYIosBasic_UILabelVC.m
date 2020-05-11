@@ -24,11 +24,9 @@
     [super viewDidLoad];
 //   label.attributedText
 //    UIFont;
-    self.arrayData = @[@"字体",@"NSLineBreakMode",@"富文本",@"sizetofit",@"UIViewAnimationOptions",@"UIViewKeyframeAnimationOptions(关键帧动画，可做多种动画叠加)",@"frame和bounds、rect"];
-    self.arrayVC = @[@"YXYIosBasic_UILabelFontVC",@"YXYIosBasic_UILabelNSLineBreakModeVC", @"YXYIosBasic_UILabelAttributedTextVC", @"YXYIosBasic_UIViewAnimationTransitionVC", @"YXYIosBasic_UIViewAnimationOptionsVC",@"YXYIosBasic_UIViewKeyframeAnimationOptionsVC",@"YXYIosBasic_UIViewFrameVC"];
+    self.arrayData = @[@"字体",@"NSLineBreakMode",@"富文本",@"sizeToFit/sizeThatFit"];
+    self.arrayVC = @[@"YXYIosBasic_UILabelFontVC",@"YXYIosBasic_UILabelNSLineBreakModeVC", @"YXYIosBasic_UILabelAttributedTextVC", @"YXYIosBasic_UILabelFitVC"];
     [self.view addSubview:self.tableView];
-    //    vie
-    //    self.tableView mas
 }
 
 #pragma mark --------------------------网络处理--------------------------

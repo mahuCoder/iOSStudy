@@ -83,12 +83,12 @@
             [self.skinView mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.left.right.offset(0);
                 make.top.equalTo(self.mas_bottom);
-                make.height.mas_equalTo(200 + Height_NOTabBar);
+                make.height.mas_equalTo(200 + Height_SafeToTabBar);
             }];
         }
         self.skinView.pushConfig = self.pushConfig;
         [UIView animateWithDuration:0.5 animations:^{
-            self.skinView.transform = CGAffineTransformMakeTranslation(0, -200 - Height_NOTabBar);
+            self.skinView.transform = CGAffineTransformMakeTranslation(0, -200 - Height_SafeToTabBar);
         }];
         __weak typeof(self) wSelf = self;
         self.skinView.skinBlock = ^(YXYThrid_liveVideoPreViewEvent event) {
@@ -130,7 +130,7 @@
         make.height.equalTo(@50);
     }];
     [self.skinCareBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.offset(Height_StatusBar);
+        make.top.offset(Height_SafeStatusBar);
         make.right.offset(-70);
         make.size.mas_equalTo(CGSizeMake(38, 38));
     }];

@@ -20,7 +20,7 @@
     //需要在infoplist 添加。
    //iphoneX新增 Privacy - Face ID Usage Description 字段 获取面部识别权限
     NSString *title = @"指纹登录";
-    if (Height_NOTabBar) {
+    if (IS_IPHONE_X_UP) {
         title = @"刷脸登录";
     }
     UIButton *touchBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];

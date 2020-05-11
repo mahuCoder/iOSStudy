@@ -3,11 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2732211F05D2361049D1566E /* libPods-iOSStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */; };
+		A32CE7E12431E9E600971CC1 /* YXYIosBasic_UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A32CE7E02431E9E600971CC1 /* YXYIosBasic_UIScrollView.m */; };
+		A32CE7E42431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = A32CE7E32431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.m */; };
+		A32CE7E72431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.m in Sources */ = {isa = PBXBuildFile; fileRef = A32CE7E62431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.m */; };
+		A32CE7EA2432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = A32CE7E92432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m */; };
+		A335F62C24221C5A001B1B24 /* QQResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A335F62B24221C5A001B1B24 /* QQResources.bundle */; };
+		A335F63124237794001B1B24 /* YXYIosBasic_infoPlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A335F63024237794001B1B24 /* YXYIosBasic_infoPlistVC.m */; };
+		A335F634242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A335F633242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.m */; };
+		A335F638242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A335F637242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m */; };
+		A335F63B24246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A335F63A24246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.m */; };
+		A335F63E2426043C001B1B24 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A335F63D2426043C001B1B24 /* UIButton+Additions.m */; };
+		A335F64224260B18001B1B24 /* YXYIosBasic_UIImageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A335F64124260B18001B1B24 /* YXYIosBasic_UIImageViewVC.m */; };
+		A383BE0124261ACA00037747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A383BE0024261AC900037747 /* Assets.xcassets */; };
+		A383BE09242702B500037747 /* YXYIosBasic_UISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE08242702B500037747 /* YXYIosBasic_UISegmentedControl.m */; };
+		A383BE0D2427455E00037747 /* YXYIosBasic_UITextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE0C2427455E00037747 /* YXYIosBasic_UITextFieldVC.m */; };
+		A383BE10242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE0F242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.m */; };
+		A383BE14242866A400037747 /* YXYIosBasic_UISliderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE13242866A400037747 /* YXYIosBasic_UISliderVC.m */; };
+		A383BE182428A57300037747 /* YXYIosBasic_UISwitchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE172428A57300037747 /* YXYIosBasic_UISwitchVC.m */; };
+		A383BE1C2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE1B2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.m */; };
+		A383BE202428E26B00037747 /* YXYIosBasic_UIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE1F2428E26B00037747 /* YXYIosBasic_UIProgressView.m */; };
+		A383BE2424299EA700037747 /* YXYIosBasic_UIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE2324299EA700037747 /* YXYIosBasic_UIPageControl.m */; };
+		A383BE272429A0D900037747 /* YXYIosBasic_UIPageControlDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE262429A0D900037747 /* YXYIosBasic_UIPageControlDefault.m */; };
+		A383BE2B2429FC4400037747 /* YXYIosBasic_UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE2A2429FC4400037747 /* YXYIosBasic_UITableView.m */; };
+		A383BE2E2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE2D2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.m */; };
+		A383BE31242A4B9700037747 /* YXYIosBasic_UITableViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE30242A4B9700037747 /* YXYIosBasic_UITableViewGroup.m */; };
+		A383BE34242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.m in Sources */ = {isa = PBXBuildFile; fileRef = A383BE33242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.m */; };
+		A38F29AC242AC329003CFC6C /* YXYIosBasic_UINavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F29AB242AC329003CFC6C /* YXYIosBasic_UINavigation.m */; };
+		A38F29AF242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F29AE242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.m */; };
+		A38F29B2242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F29B1242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.m */; };
+		A38F29B6242C45F6003CFC6C /* YXYIosBasic_UIToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F29B5242C45F6003CFC6C /* YXYIosBasic_UIToolbar.m */; };
+		A38F29BA242D00FA003CFC6C /* YXYIosBasic_UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F29B9242D00FA003CFC6C /* YXYIosBasic_UITextView.m */; };
 		F105F0EB233AF9750090DAE9 /* YXYThrid_AudioRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F105F0EA233AF9750090DAE9 /* YXYThrid_AudioRootVC.m */; };
 		F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C012293DEC20076B663 /* YXYAlertViewController.m */; };
 		F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0C042293FA210076B663 /* YXYPresentationRightController.m */; };
@@ -28,13 +58,11 @@
 		F11643D92330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643D82330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m */; };
 		F11643DC2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */; };
 		F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */; };
-		F126BAC8233B59270083923A /* QQResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F126BAC7233B59270083923A /* QQResources.bundle */; };
 		F126BACB233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F126BACA233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m */; };
 		F126BACF233B609B0083923A /* PathUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F126BACD233B609B0083923A /* PathUtility.m */; };
 		F12CAAB72282CC480004704C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB62282CC480004704C /* AppDelegate.m */; };
 		F12CAABA2282CC480004704C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAB92282CC480004704C /* ViewController.m */; };
 		F12CAABD2282CC480004704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CAABB2282CC480004704C /* Main.storyboard */; };
-		F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12CAABE2282CC4A0004704C /* Assets.xcassets */; };
 		F12CAAC22282CC4A0004704C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CAAC02282CC4A0004704C /* LaunchScreen.storyboard */; };
 		F12CAAC52282CC4A0004704C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CAAC42282CC4A0004704C /* main.m */; };
 		F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1372C2B228E6758006771F0 /* YXYThrid_RootVC.m */; };
@@ -172,6 +200,65 @@
 
 /* Begin PBXFileReference section */
 		2B6DED83235913B50EC2F0E3 /* libPods-iOSStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32CE7DF2431E9E600971CC1 /* YXYIosBasic_UIScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIScrollView.h; sourceTree = "<group>"; };
+		A32CE7E02431E9E600971CC1 /* YXYIosBasic_UIScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIScrollView.m; sourceTree = "<group>"; };
+		A32CE7E22431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIScrollViewDefault.h; sourceTree = "<group>"; };
+		A32CE7E32431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIScrollViewDefault.m; sourceTree = "<group>"; };
+		A32CE7E52431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIScrollViewMove.h; sourceTree = "<group>"; };
+		A32CE7E62431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIScrollViewMove.m; sourceTree = "<group>"; };
+		A32CE7E82432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIScrollViewTouch.h; sourceTree = "<group>"; };
+		A32CE7E92432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIScrollViewTouch.m; sourceTree = "<group>"; };
+		A335F62B24221C5A001B1B24 /* QQResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QQResources.bundle; sourceTree = "<group>"; };
+		A335F62D24221FB2001B1B24 /* DevicesDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevicesDefine.h; sourceTree = "<group>"; };
+		A335F62F24237794001B1B24 /* YXYIosBasic_infoPlistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_infoPlistVC.h; sourceTree = "<group>"; };
+		A335F63024237794001B1B24 /* YXYIosBasic_infoPlistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_infoPlistVC.m; sourceTree = "<group>"; };
+		A335F632242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UILabelFitVC.h; sourceTree = "<group>"; };
+		A335F633242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UILabelFitVC.m; sourceTree = "<group>"; };
+		A335F636242464BE001B1B24 /* YXYIosBasic_UIButtonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIButtonVC.h; sourceTree = "<group>"; };
+		A335F637242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIButtonVC.m; sourceTree = "<group>"; };
+		A335F63924246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIButtonStatusVC.h; sourceTree = "<group>"; };
+		A335F63A24246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIButtonStatusVC.m; sourceTree = "<group>"; };
+		A335F63C2426043C001B1B24 /* UIButton+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		A335F63D2426043C001B1B24 /* UIButton+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		A335F64024260B18001B1B24 /* YXYIosBasic_UIImageViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIImageViewVC.h; sourceTree = "<group>"; };
+		A335F64124260B18001B1B24 /* YXYIosBasic_UIImageViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIImageViewVC.m; sourceTree = "<group>"; };
+		A383BE0024261AC900037747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A383BE07242702B500037747 /* YXYIosBasic_UISegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UISegmentedControl.h; sourceTree = "<group>"; };
+		A383BE08242702B500037747 /* YXYIosBasic_UISegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UISegmentedControl.m; sourceTree = "<group>"; };
+		A383BE0B2427455E00037747 /* YXYIosBasic_UITextFieldVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITextFieldVC.h; sourceTree = "<group>"; };
+		A383BE0C2427455E00037747 /* YXYIosBasic_UITextFieldVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITextFieldVC.m; sourceTree = "<group>"; };
+		A383BE0E242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITextFieldCommonVC.h; sourceTree = "<group>"; };
+		A383BE0F242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITextFieldCommonVC.m; sourceTree = "<group>"; };
+		A383BE12242866A400037747 /* YXYIosBasic_UISliderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UISliderVC.h; sourceTree = "<group>"; };
+		A383BE13242866A400037747 /* YXYIosBasic_UISliderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UISliderVC.m; sourceTree = "<group>"; };
+		A383BE162428A57300037747 /* YXYIosBasic_UISwitchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UISwitchVC.h; sourceTree = "<group>"; };
+		A383BE172428A57300037747 /* YXYIosBasic_UISwitchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UISwitchVC.m; sourceTree = "<group>"; };
+		A383BE1A2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIActivityIndicatorView.h; sourceTree = "<group>"; };
+		A383BE1B2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIActivityIndicatorView.m; sourceTree = "<group>"; };
+		A383BE1E2428E26B00037747 /* YXYIosBasic_UIProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIProgressView.h; sourceTree = "<group>"; };
+		A383BE1F2428E26B00037747 /* YXYIosBasic_UIProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIProgressView.m; sourceTree = "<group>"; };
+		A383BE2224299EA700037747 /* YXYIosBasic_UIPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIPageControl.h; sourceTree = "<group>"; };
+		A383BE2324299EA700037747 /* YXYIosBasic_UIPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIPageControl.m; sourceTree = "<group>"; };
+		A383BE252429A0D900037747 /* YXYIosBasic_UIPageControlDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIPageControlDefault.h; sourceTree = "<group>"; };
+		A383BE262429A0D900037747 /* YXYIosBasic_UIPageControlDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIPageControlDefault.m; sourceTree = "<group>"; };
+		A383BE292429FC4400037747 /* YXYIosBasic_UITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITableView.h; sourceTree = "<group>"; };
+		A383BE2A2429FC4400037747 /* YXYIosBasic_UITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITableView.m; sourceTree = "<group>"; };
+		A383BE2C2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITableViewPlain.h; sourceTree = "<group>"; };
+		A383BE2D2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITableViewPlain.m; sourceTree = "<group>"; };
+		A383BE2F242A4B9700037747 /* YXYIosBasic_UITableViewGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITableViewGroup.h; sourceTree = "<group>"; };
+		A383BE30242A4B9700037747 /* YXYIosBasic_UITableViewGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITableViewGroup.m; sourceTree = "<group>"; };
+		A383BE32242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITableViewInsetGrouped.h; sourceTree = "<group>"; };
+		A383BE33242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITableViewInsetGrouped.m; sourceTree = "<group>"; };
+		A38F29AA242AC329003CFC6C /* YXYIosBasic_UINavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UINavigation.h; sourceTree = "<group>"; };
+		A38F29AB242AC329003CFC6C /* YXYIosBasic_UINavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UINavigation.m; sourceTree = "<group>"; };
+		A38F29AD242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UINavigationDefault.h; sourceTree = "<group>"; };
+		A38F29AE242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UINavigationDefault.m; sourceTree = "<group>"; };
+		A38F29B0242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UINavigationDefaultExample.h; sourceTree = "<group>"; };
+		A38F29B1242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UINavigationDefaultExample.m; sourceTree = "<group>"; };
+		A38F29B4242C45F6003CFC6C /* YXYIosBasic_UIToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIToolbar.h; sourceTree = "<group>"; };
+		A38F29B5242C45F6003CFC6C /* YXYIosBasic_UIToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIToolbar.m; sourceTree = "<group>"; };
+		A38F29B8242D00FA003CFC6C /* YXYIosBasic_UITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UITextView.h; sourceTree = "<group>"; };
+		A38F29B9242D00FA003CFC6C /* YXYIosBasic_UITextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UITextView.m; sourceTree = "<group>"; };
 		AAE671F4901D84D23C40CBFC /* Pods-iOSStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSStudy.release.xcconfig"; path = "Target Support Files/Pods-iOSStudy/Pods-iOSStudy.release.xcconfig"; sourceTree = "<group>"; };
 		F105F0E9233AF9750090DAE9 /* YXYThrid_AudioRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_AudioRootVC.h; sourceTree = "<group>"; };
 		F105F0EA233AF9750090DAE9 /* YXYThrid_AudioRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_AudioRootVC.m; sourceTree = "<group>"; };
@@ -212,7 +299,6 @@
 		F11643DB2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewAnimationOptionsVC.m; sourceTree = "<group>"; };
 		F11643DD2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIViewKeyframeAnimationOptionsVC.h; sourceTree = "<group>"; };
 		F11643DE2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m; sourceTree = "<group>"; };
-		F126BAC7233B59270083923A /* QQResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QQResources.bundle; path = "../../../../../../../Downloads/iOSProject-master/iOSProject/iOSProject/Classes/QQ音乐/QQResources.bundle"; sourceTree = "<group>"; };
 		F126BAC9233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_Audio_locationPlayerVC.h; sourceTree = "<group>"; };
 		F126BACA233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_Audio_locationPlayerVC.m; sourceTree = "<group>"; };
 		F126BACD233B609B0083923A /* PathUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathUtility.m; sourceTree = "<group>"; };
@@ -223,7 +309,6 @@
 		F12CAAB82282CC480004704C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F12CAAB92282CC480004704C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F12CAABC2282CC480004704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F12CAABE2282CC4A0004704C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12CAAC12282CC4A0004704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F12CAAC32282CC4A0004704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12CAAC42282CC4A0004704C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -431,6 +516,184 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A32CE7DE2431E9A500971CC1 /* UI_UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A32CE7DF2431E9E600971CC1 /* YXYIosBasic_UIScrollView.h */,
+				A32CE7E02431E9E600971CC1 /* YXYIosBasic_UIScrollView.m */,
+				A32CE7E22431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.h */,
+				A32CE7E32431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.m */,
+				A32CE7E52431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.h */,
+				A32CE7E62431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.m */,
+				A32CE7E82432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.h */,
+				A32CE7E92432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m */,
+			);
+			path = UI_UIScrollView;
+			sourceTree = "<group>";
+		};
+		A335F62E2423775C001B1B24 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				A335F62F24237794001B1B24 /* YXYIosBasic_infoPlistVC.h */,
+				A335F63024237794001B1B24 /* YXYIosBasic_infoPlistVC.m */,
+			);
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		A335F63524246486001B1B24 /* UI_UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				A335F636242464BE001B1B24 /* YXYIosBasic_UIButtonVC.h */,
+				A335F637242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m */,
+				A335F63924246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.h */,
+				A335F63A24246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.m */,
+			);
+			path = UI_UIButton;
+			sourceTree = "<group>";
+		};
+		A335F63F24260AFD001B1B24 /* UI_UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A335F64024260B18001B1B24 /* YXYIosBasic_UIImageViewVC.h */,
+				A335F64124260B18001B1B24 /* YXYIosBasic_UIImageViewVC.m */,
+			);
+			path = UI_UIImageView;
+			sourceTree = "<group>";
+		};
+		A383BE062427013E00037747 /* UI_UISegmentedVC */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE07242702B500037747 /* YXYIosBasic_UISegmentedControl.h */,
+				A383BE08242702B500037747 /* YXYIosBasic_UISegmentedControl.m */,
+			);
+			path = UI_UISegmentedVC;
+			sourceTree = "<group>";
+		};
+		A383BE0A2427453700037747 /* UI_UItextField */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE0B2427455E00037747 /* YXYIosBasic_UITextFieldVC.h */,
+				A383BE0C2427455E00037747 /* YXYIosBasic_UITextFieldVC.m */,
+				A383BE0E242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.h */,
+				A383BE0F242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.m */,
+			);
+			path = UI_UItextField;
+			sourceTree = "<group>";
+		};
+		A383BE1124285E9500037747 /* UI_UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE12242866A400037747 /* YXYIosBasic_UISliderVC.h */,
+				A383BE13242866A400037747 /* YXYIosBasic_UISliderVC.m */,
+			);
+			path = UI_UISlider;
+			sourceTree = "<group>";
+		};
+		A383BE152428A56A00037747 /* UI_UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE162428A57300037747 /* YXYIosBasic_UISwitchVC.h */,
+				A383BE172428A57300037747 /* YXYIosBasic_UISwitchVC.m */,
+			);
+			path = UI_UISwitch;
+			sourceTree = "<group>";
+		};
+		A383BE192428AE3E00037747 /* UI_UIActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE1A2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.h */,
+				A383BE1B2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.m */,
+			);
+			path = UI_UIActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		A383BE1D2428E1E100037747 /* YXYIosBasic_UIProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE1E2428E26B00037747 /* YXYIosBasic_UIProgressView.h */,
+				A383BE1F2428E26B00037747 /* YXYIosBasic_UIProgressView.m */,
+			);
+			path = YXYIosBasic_UIProgressView;
+			sourceTree = "<group>";
+		};
+		A383BE2124299E8900037747 /* UI_UIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE2224299EA700037747 /* YXYIosBasic_UIPageControl.h */,
+				A383BE2324299EA700037747 /* YXYIosBasic_UIPageControl.m */,
+				A383BE252429A0D900037747 /* YXYIosBasic_UIPageControlDefault.h */,
+				A383BE262429A0D900037747 /* YXYIosBasic_UIPageControlDefault.m */,
+			);
+			path = UI_UIPageControl;
+			sourceTree = "<group>";
+		};
+		A383BE282429FC1F00037747 /* UI_UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				A383BE292429FC4400037747 /* YXYIosBasic_UITableView.h */,
+				A383BE2A2429FC4400037747 /* YXYIosBasic_UITableView.m */,
+				A383BE2C2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.h */,
+				A383BE2D2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.m */,
+				A383BE2F242A4B9700037747 /* YXYIosBasic_UITableViewGroup.h */,
+				A383BE30242A4B9700037747 /* YXYIosBasic_UITableViewGroup.m */,
+				A383BE32242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.h */,
+				A383BE33242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.m */,
+			);
+			path = UI_UITableView;
+			sourceTree = "<group>";
+		};
+		A38F29A9242AC30A003CFC6C /* UI_UINvigation */ = {
+			isa = PBXGroup;
+			children = (
+				A38F29AA242AC329003CFC6C /* YXYIosBasic_UINavigation.h */,
+				A38F29AB242AC329003CFC6C /* YXYIosBasic_UINavigation.m */,
+				A38F29AD242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.h */,
+				A38F29AE242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.m */,
+				A38F29B0242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.h */,
+				A38F29B1242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.m */,
+			);
+			path = UI_UINvigation;
+			sourceTree = "<group>";
+		};
+		A38F29B3242C45C4003CFC6C /* UI_UIToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				A38F29B4242C45F6003CFC6C /* YXYIosBasic_UIToolbar.h */,
+				A38F29B5242C45F6003CFC6C /* YXYIosBasic_UIToolbar.m */,
+			);
+			path = UI_UIToolbar;
+			sourceTree = "<group>";
+		};
+		A38F29B7242D00E6003CFC6C /* UI_UItextView */ = {
+			isa = PBXGroup;
+			children = (
+				A38F29B8242D00FA003CFC6C /* YXYIosBasic_UITextView.h */,
+				A38F29B9242D00FA003CFC6C /* YXYIosBasic_UITextView.m */,
+			);
+			path = UI_UItextView;
+			sourceTree = "<group>";
+		};
+		A38F29BB242D0589003CFC6C /* UI_UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI_UIScrollView;
+			sourceTree = "<group>";
+		};
+		A38F29BC242D05BE003CFC6C /* UI_UIDataPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI_UIDataPicker;
+			sourceTree = "<group>";
+		};
+		A38F29BD242D05BF003CFC6C /* UI_UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI_UIPickerView;
+			sourceTree = "<group>";
+		};
 		F105F0E8233AF80D0090DAE9 /* 音频 */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,8 +712,8 @@
 		F105F10F233B02030090DAE9 /* 音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				A335F62B24221C5A001B1B24 /* QQResources.bundle */,
 				F1A52EE723405EA400600C06 /* 核心业务 */,
-				F126BAC7233B59270083923A /* QQResources.bundle */,
 				F1A52EE1233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.h */,
 				F1A52EE2233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m */,
 				F1A52EE4234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.h */,
@@ -548,6 +811,7 @@
 				F1CD8E052282CCE500C4A856 /* ios进阶 */,
 				F17F07012320DE5D00D1FFAB /* 常用功能 */,
 				F1CD8E092282CCE500C4A856 /* PrefixHeader.pch */,
+				A383BE0024261AC900037747 /* Assets.xcassets */,
 				F12CAAB52282CC480004704C /* AppDelegate.h */,
 				F12CAAB62282CC480004704C /* AppDelegate.m */,
 				F1CD8E102282CD2900C4A856 /* YXYTabBarViewController.h */,
@@ -555,7 +819,6 @@
 				F12CAAB82282CC480004704C /* ViewController.h */,
 				F12CAAB92282CC480004704C /* ViewController.m */,
 				F12CAABB2282CC480004704C /* Main.storyboard */,
-				F12CAABE2282CC4A0004704C /* Assets.xcassets */,
 				F12CAAC02282CC4A0004704C /* LaunchScreen.storyboard */,
 				F12CAAC32282CC4A0004704C /* Info.plist */,
 				F12CAAC42282CC4A0004704C /* main.m */,
@@ -660,6 +923,8 @@
 				F1375F66233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m */,
 				F1375F68233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.h */,
 				F1375F69233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m */,
+				A335F632242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.h */,
+				A335F633242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.m */,
 			);
 			path = UI_UILabel;
 			sourceTree = "<group>";
@@ -761,6 +1026,23 @@
 				F179D552236298E600630521 /* UI_WKWebView */,
 				F1375F5E2332381900F49328 /* UI_UILabel */,
 				F11643C0232F31A500C3C7CE /* UI_UIView */,
+				A335F63524246486001B1B24 /* UI_UIButton */,
+				A335F63F24260AFD001B1B24 /* UI_UIImageView */,
+				A383BE062427013E00037747 /* UI_UISegmentedVC */,
+				A383BE0A2427453700037747 /* UI_UItextField */,
+				A383BE282429FC1F00037747 /* UI_UITableView */,
+				A383BE1124285E9500037747 /* UI_UISlider */,
+				A383BE152428A56A00037747 /* UI_UISwitch */,
+				A383BE192428AE3E00037747 /* UI_UIActivityIndicatorView */,
+				A383BE1D2428E1E100037747 /* YXYIosBasic_UIProgressView */,
+				A383BE2124299E8900037747 /* UI_UIPageControl */,
+				A38F29A9242AC30A003CFC6C /* UI_UINvigation */,
+				A38F29B3242C45C4003CFC6C /* UI_UIToolbar */,
+				A38F29B7242D00E6003CFC6C /* UI_UItextView */,
+				A38F29BB242D0589003CFC6C /* UI_UIScrollView */,
+				A38F29BC242D05BE003CFC6C /* UI_UIDataPicker */,
+				A38F29BD242D05BF003CFC6C /* UI_UIPickerView */,
+				A32CE7DE2431E9A500971CC1 /* UI_UIScrollView */,
 				F17F06FD231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.h */,
 				F17F06FE231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m */,
 			);
@@ -854,6 +1136,7 @@
 			children = (
 				F1CD8DF42282CCE500C4A856 /* Define.h */,
 				F17F06EA231CC70A00D1FFAB /* MacroDefine.h */,
+				A335F62D24221FB2001B1B24 /* DevicesDefine.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -863,6 +1146,8 @@
 			children = (
 				F1CD8DF62282CCE500C4A856 /* UIView+Additions.m */,
 				F1CD8DF72282CCE500C4A856 /* UIView+Additions.h */,
+				A335F63C2426043C001B1B24 /* UIButton+Additions.h */,
+				A335F63D2426043C001B1B24 /* UIButton+Additions.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -889,7 +1174,7 @@
 				F17F06EB231D09DC00D1FFAB /* Xcode配置 */,
 				F1CD8DFC2282CCE500C4A856 /* PCH添加 */,
 				F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */,
-				F1CD8E042282CCE500C4A856 /* 终端命令 */,
+				A335F62E2423775C001B1B24 /* InfoPlist */,
 			);
 			path = "ios基础";
 			sourceTree = "<group>";
@@ -912,13 +1197,6 @@
 				F1CD8E012282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m */,
 			);
 			path = "CocoaPods添加";
-			sourceTree = "<group>";
-		};
-		F1CD8E042282CCE500C4A856 /* 终端命令 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "终端命令";
 			sourceTree = "<group>";
 		};
 		F1CD8E052282CCE500C4A856 /* ios进阶 */ = {
@@ -1000,6 +1278,7 @@
 				F12CAAB02282CC480004704C /* Resources */,
 				F17F06A62319133B00D1FFAB /* Embed Frameworks */,
 				F17F06A72319133B00D1FFAB /* Embed PlugIns */,
+				C6AA65AE82740EF670E3A2AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1016,7 +1295,7 @@
 		F12CAAAA2282CC480004704C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = YXY;
+				CLASSPREFIX = YXYIosBasic;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = yunhun;
 				TargetAttributes = {
@@ -1055,6 +1334,7 @@
 				F1651814233DECD400E8B197 /* unit.mp3 in Resources */,
 				F1651817233DECD400E8B197 /* 8.mp3 in Resources */,
 				F1651816233DECD400E8B197 /* 10.mp3 in Resources */,
+				A335F62C24221C5A001B1B24 /* QQResources.bundle in Resources */,
 				F165180E233DECD400E8B197 /* 0.mp3 in Resources */,
 				F17F06D123191A7F00D1FFAB /* AlivcLibFaceResource.bundle in Resources */,
 				F165180A233DECD400E8B197 /* wan.mp3 in Resources */,
@@ -1062,9 +1342,9 @@
 				F17F070E2320E0D900D1FFAB /* app指纹登录流程图.pdf in Resources */,
 				F1651812233DECD400E8B197 /* count.mp3 in Resources */,
 				F165180B233DECD400E8B197 /* 4.mp3 in Resources */,
-				F126BAC8233B59270083923A /* QQResources.bundle in Resources */,
 				F1651811233DECD400E8B197 /* thousand.mp3 in Resources */,
 				F165180D233DECD400E8B197 /* 1.mp3 in Resources */,
+				A383BE0124261ACA00037747 /* Assets.xcassets in Resources */,
 				F165180F233DECD400E8B197 /* 2.mp3 in Resources */,
 				F1651810233DECD400E8B197 /* 3.mp3 in Resources */,
 				F181F9A0234D877B004D6EC0 /* QQMusic.xcassets in Resources */,
@@ -1073,7 +1353,6 @@
 				F11643CD232F93D000C3C7CE /* YXYIosBasic_UIViewLiftTestView.xib in Resources */,
 				F1372C5B228EBE15006771F0 /* mapapi.bundle in Resources */,
 				F1651815233DECD400E8B197 /* hundred.mp3 in Resources */,
-				F12CAABF2282CC4A0004704C /* Assets.xcassets in Resources */,
 				F12CAABD2282CC480004704C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1103,6 +1382,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C6AA65AE82740EF670E3A2AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1110,7 +1406,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32CE7E72431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.m in Sources */,
+				A383BE31242A4B9700037747 /* YXYIosBasic_UITableViewGroup.m in Sources */,
 				F17F0719232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m in Sources */,
+				A383BE10242754C900037747 /* YXYIosBasic_UITextFieldCommonVC.m in Sources */,
 				F1CD8E0E2282CCE500C4A856 /* YXYBASIC_CocoaPodsUseVC.m in Sources */,
 				F1372C2C228E6758006771F0 /* YXYThrid_RootVC.m in Sources */,
 				F17F06FB231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m in Sources */,
@@ -1120,25 +1419,37 @@
 				F1375F6123323F1800F49328 /* YXYIosBasic_UILabelVC.m in Sources */,
 				F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */,
 				F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */,
+				A335F64224260B18001B1B24 /* YXYIosBasic_UIImageViewVC.m in Sources */,
+				A383BE2E2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.m in Sources */,
 				F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */,
+				A335F63124237794001B1B24 /* YXYIosBasic_infoPlistVC.m in Sources */,
 				F10E0C1E229BDD790076B663 /* BMKCluster.m in Sources */,
+				A383BE0D2427455E00037747 /* YXYIosBasic_UITextFieldVC.m in Sources */,
 				F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */,
+				A32CE7E12431E9E600971CC1 /* YXYIosBasic_UIScrollView.m in Sources */,
 				F17F07042320DFD000D1FFAB /* YXYOftenFunctionRootVC.m in Sources */,
 				F11643C9232F3AD000C3C7CE /* YXYIosBasic_UIViewLiftTestView.m in Sources */,
 				F17F07112320E11900D1FFAB /* YXYOfenFimction_TouchLoginVC.m in Sources */,
 				F1E355AB2314D84900A7CFB3 /* ToastManager.m in Sources */,
+				A335F63B24246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.m in Sources */,
 				F1375F642332434D00F49328 /* YXYIosBasic_UILabelFontVC.m in Sources */,
 				F17820C3233C492E007D80B2 /* NSString+Common.m in Sources */,
+				A383BE182428A57300037747 /* YXYIosBasic_UISwitchVC.m in Sources */,
 				F179D5582362A84C00630521 /* WeakScriptMessageDelegate.m in Sources */,
 				F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */,
+				A335F63E2426043C001B1B24 /* UIButton+Additions.m in Sources */,
 				F1A52EE6234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m in Sources */,
 				F11643C6232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m in Sources */,
 				F1CD8E0B2282CCE500C4A856 /* YXYBaseViewController.m in Sources */,
 				F181F998234C3C85004D6EC0 /* MusicPlayerVC.m in Sources */,
+				A383BE2B2429FC4400037747 /* YXYIosBasic_UITableView.m in Sources */,
 				F12CAABA2282CC480004704C /* ViewController.m in Sources */,
+				A383BE14242866A400037747 /* YXYIosBasic_UISliderVC.m in Sources */,
 				F13826CD2358858B007EB7CA /* LrcCell.m in Sources */,
+				A32CE7E42431EA9300971CC1 /* YXYIosBasic_UIScrollViewDefault.m in Sources */,
 				F126BACB233B5BAF0083923A /* YXYThrid_Audio_locationPlayerVC.m in Sources */,
 				F1A52EEA23405EC000600C06 /* MusicOperationTool.m in Sources */,
+				A335F634242392F3001B1B24 /* YXYIosBasic_UILabelFitVC.m in Sources */,
 				F1A52EED23405F0C00600C06 /* MusicModel.m in Sources */,
 				F17F06F2231D149800D1FFAB /* YXYThrid_liveVideoPreView.m in Sources */,
 				F126BACF233B609B0083923A /* PathUtility.m in Sources */,
@@ -1147,28 +1458,39 @@
 				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,
 				F12CAAC52282CC4A0004704C /* main.m in Sources */,
 				F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */,
+				A32CE7EA2432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m in Sources */,
+				A383BE09242702B500037747 /* YXYIosBasic_UISegmentedControl.m in Sources */,
 				F138269A23548435007EB7CA /* LrcLabel.m in Sources */,
 				F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */,
 				F1382697235425E0007EB7CA /* CALayer+MUSAmi.m in Sources */,
 				F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */,
 				F11643DC2330FA0900C3C7CE /* YXYIosBasic_UIViewAnimationOptionsVC.m in Sources */,
+				A383BE1C2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.m in Sources */,
 				F181F99E234C7FBB004D6EC0 /* MusicMessageModel.m in Sources */,
 				F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */,
+				A335F638242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m in Sources */,
+				A383BE2424299EA700037747 /* YXYIosBasic_UIPageControl.m in Sources */,
 				F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */,
 				F11643D623307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m in Sources */,
 				F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */,
+				A38F29B6242C45F6003CFC6C /* YXYIosBasic_UIToolbar.m in Sources */,
 				F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */,
+				A38F29B2242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.m in Sources */,
 				F11643D3232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m in Sources */,
 				F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */,
 				F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */,
 				F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */,
 				F179D5552362993000630521 /* YXYIosBasic_UIWKWebViewVC.m in Sources */,
 				F10E0C21229BDD790076B663 /* BMKClusterManager.m in Sources */,
+				A38F29BA242D00FA003CFC6C /* YXYIosBasic_UITextView.m in Sources */,
+				A383BE34242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.m in Sources */,
+				A38F29AF242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.m in Sources */,
 				F12CAAB72282CC480004704C /* AppDelegate.m in Sources */,
 				F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */,
 				F11643C3232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m in Sources */,
 				F1E355AF23150A9400A7CFB3 /* YXYThrid_ToastListVC.m in Sources */,
 				F1375F6A233325FD00F49328 /* YXYIosBasic_UILabelAttributedTextVC.m in Sources */,
+				A383BE202428E26B00037747 /* YXYIosBasic_UIProgressView.m in Sources */,
 				F17F06F5231D294300D1FFAB /* YXYThrid_liveVideoPreSkinSetView.m in Sources */,
 				F1A8AB322332003600C84532 /* YXYIosBasic_UIViewFrameVC.m in Sources */,
 				F11643D0232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m in Sources */,
@@ -1176,6 +1498,8 @@
 				F1A52EE3233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m in Sources */,
 				F13826A023549085007EB7CA /* LrcDataTool.m in Sources */,
 				F1A52EE0233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m in Sources */,
+				A38F29AC242AC329003CFC6C /* YXYIosBasic_UINavigation.m in Sources */,
+				A383BE272429A0D900037747 /* YXYIosBasic_UIPageControlDefault.m in Sources */,
 				F11643D92330C9D400C3C7CE /* YXYIosBasic_UIViewAnimationTransitionVC.m in Sources */,
 				F17F071C23265ADA00D1FFAB /* YXYThrid_UmengRootVC.m in Sources */,
 				F17F06FF231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m in Sources */,

@@ -200,7 +200,7 @@
     [self.view addSubview:self.closeBtn];
     [self.closeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.offset(-15);
-        make.top.offset(Height_StatusBar);
+        make.top.offset(Height_SafeStatusBar);
     }];
     
     _preView.pushConfig = self.pushConfig;
