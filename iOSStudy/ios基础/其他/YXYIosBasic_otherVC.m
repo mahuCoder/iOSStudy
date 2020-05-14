@@ -1,27 +1,27 @@
 //
-//  YXYIosBasic_UIScrollView.m
+//  YXYIosBasic_otherVC.m
 //  iOSStudy
 //
-//  Created by sunny on 2020/3/30.
+//  Created by 胡雪刚 on 2020/5/14.
 //  Copyright © 2020 yunhun. All rights reserved.
 //
 
-#import "YXYIosBasic_UIScrollView.h"
+#import "YXYIosBasic_otherVC.h"
 
-@interface YXYIosBasic_UIScrollView ()
+@interface YXYIosBasic_otherVC ()
 
 @end
 
-@implementation YXYIosBasic_UIScrollView
+@implementation YXYIosBasic_otherVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.arrayData = @[@"基础",@"移动",@"缩放",@"手势和代理"];
-    self.arrayVC = @[@"YXYIosBasic_UIScrollViewDefault",@"YXYIosBasic_UIScrollViewMove",@"YXYIosBasic_UIScrollViewZoom",@"YXYIosBasic_UIScrollViewTouch"];
+    self.arrayData = @[@"xcode配置",@"pch添加",@"cocoapods安装"];
     // Do any additional setup after loading the view.
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [ToastManager showToast:@"详见内部代码"];
+}
 /*
 #pragma mark - Navigation
 

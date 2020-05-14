@@ -17,12 +17,17 @@
 @end
 
 @implementation YXYIosBasic_RootVC
-
+- (instancetype)init {
+    if (self = [super init]) {
+        self.title =  @"ios基础";
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"ios基础";
-    self.arrayData = @[@"UI篇",@"生命周期",@"block",@"通知",@"KVC/KVO",@"手势",@"代理",@"协议",@"类拓展",@"继承和多态",@"动画",@"定时器",@"线程",@"RunTime",@"RunLoop",@"infoPlist"];
-    self.arrayVC = @[@"YXYIosBasic_UIRootVC",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"", @"", @"", @"",@"",@"YXYIosBasic_infoPlistVC"];
+    
+    self.arrayData = @[@"UI篇",@"生命周期",@"block",@"通知",@"KVC/KVO",@"手势",@"代理",@"协议",@"类拓展",@"继承和多态",@"动画",@"OponGL",@"定时器",@"线程",@"RunTime",@"RunLoop",@"infoPlist",@"其他"];
+    self.arrayVC = @[@"YXYIosBasic_UIRootVC",@"", @"", @"", @"", @"", @"", @"",@"", @"", @"https://github.com/smalldu/IOS-Animations",@"", @"", @"", @"",@"",@"https://github.com/smalldu/IOS-Animations",@"YXYIosBasic_otherVC"];
     [self.view addSubview:self.tableView];
     //    self.tableView mas
 }
@@ -86,7 +91,9 @@
     }
 }
 
-
+- (void)setTitle:(NSString *)title {
+    self.navigationItem.title = title;
+}
 #pragma mark --------------------------初始化UI---------------------------
 
 #pragma mark --------------------------懒加载-----------------------------

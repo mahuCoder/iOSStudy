@@ -1,24 +1,21 @@
 //
-//  YXYIosBasic_UIScrollView.m
+//  YXYIosBasic_appLifeCycleVC.m
 //  iOSStudy
 //
-//  Created by sunny on 2020/3/30.
+//  Created by 胡雪刚 on 2020/5/14.
 //  Copyright © 2020 yunhun. All rights reserved.
 //
 
-#import "YXYIosBasic_UIScrollView.h"
+#import "YXYIosBasic_appLifeCycleVC.h"
 
-@interface YXYIosBasic_UIScrollView ()
+@interface YXYIosBasic_appLifeCycleVC ()
 
 @end
 
-@implementation YXYIosBasic_UIScrollView
+@implementation YXYIosBasic_appLifeCycleVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.arrayData = @[@"基础",@"移动",@"缩放",@"手势和代理"];
-    self.arrayVC = @[@"YXYIosBasic_UIScrollViewDefault",@"YXYIosBasic_UIScrollViewMove",@"YXYIosBasic_UIScrollViewZoom",@"YXYIosBasic_UIScrollViewTouch"];
     // Do any additional setup after loading the view.
 }
 

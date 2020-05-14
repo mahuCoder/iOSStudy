@@ -94,6 +94,9 @@
 		F13826A023549085007EB7CA /* LrcDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F138269F23549085007EB7CA /* LrcDataTool.m */; };
 		F13826BE235844A4007EB7CA /* MUsicLrcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13826BD235844A4007EB7CA /* MUsicLrcViewController.m */; };
 		F13826CD2358858B007EB7CA /* LrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F13826CC2358858B007EB7CA /* LrcCell.m */; };
+		F1544204246D48E6000CBDCE /* YXYIosBasic_otherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1544203246D48E6000CBDCE /* YXYIosBasic_otherVC.m */; };
+		F1544208246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1544207246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m */; };
+		F154420B246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F154420A246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m */; };
 		F1651808233DECD400E8B197 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F7233DECD400E8B197 /* 7.mp3 */; };
 		F1651809233DECD400E8B197 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F8233DECD400E8B197 /* 6.mp3 */; };
 		F165180A233DECD400E8B197 /* wan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F9233DECD400E8B197 /* wan.mp3 */; };
@@ -151,6 +154,12 @@
 		F181F99B234C5FEF004D6EC0 /* MusicPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F181F99A234C5FEF004D6EC0 /* MusicPlayerTool.m */; };
 		F181F99E234C7FBB004D6EC0 /* MusicMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F181F99D234C7FBB004D6EC0 /* MusicMessageModel.m */; };
 		F181F9A0234D877B004D6EC0 /* QQMusic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F181F99F234D877B004D6EC0 /* QQMusic.xcassets */; };
+		F18816362469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F18816352469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.m */; };
+		F188163A246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1881639246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.m */; };
+		F188163E246A904400FF7A67 /* YXYIosBasic_UIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F188163D246A904400FF7A67 /* YXYIosBasic_UIPickerView.m */; };
+		F1881642246AA98700FF7A67 /* YXYIosBasic_UIStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1881641246AA98700FF7A67 /* YXYIosBasic_UIStepper.m */; };
+		F1881646246B978800FF7A67 /* YXYIosBasic_UIStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1881645246B978800FF7A67 /* YXYIosBasic_UIStackView.m */; };
+		F188164A246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1881649246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.m */; };
 		F1A52EE0233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A52EDF233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m */; };
 		F1A52EE3233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A52EE2233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m */; };
 		F1A52EE6234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A52EE5234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m */; };
@@ -353,6 +362,12 @@
 		F13826BD235844A4007EB7CA /* MUsicLrcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUsicLrcViewController.m; sourceTree = "<group>"; };
 		F13826CB2358858B007EB7CA /* LrcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcCell.h; sourceTree = "<group>"; };
 		F13826CC2358858B007EB7CA /* LrcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcCell.m; sourceTree = "<group>"; };
+		F1544202246D48E6000CBDCE /* YXYIosBasic_otherVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_otherVC.h; sourceTree = "<group>"; };
+		F1544203246D48E6000CBDCE /* YXYIosBasic_otherVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_otherVC.m; sourceTree = "<group>"; };
+		F1544206246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_lifeCycleVC.h; sourceTree = "<group>"; };
+		F1544207246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_lifeCycleVC.m; sourceTree = "<group>"; };
+		F1544209246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_appLifeCycleVC.h; sourceTree = "<group>"; };
+		F154420A246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_appLifeCycleVC.m; sourceTree = "<group>"; };
 		F16517F7233DECD400E8B197 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
 		F16517F8233DECD400E8B197 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		F16517F9233DECD400E8B197 /* wan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wan.mp3; sourceTree = "<group>"; };
@@ -417,6 +432,18 @@
 		F181F99C234C7FBB004D6EC0 /* MusicMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicMessageModel.h; sourceTree = "<group>"; };
 		F181F99D234C7FBB004D6EC0 /* MusicMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicMessageModel.m; sourceTree = "<group>"; };
 		F181F99F234D877B004D6EC0 /* QQMusic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QQMusic.xcassets; sourceTree = "<group>"; };
+		F18816342469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIScrollViewZoom.h; sourceTree = "<group>"; };
+		F18816352469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIScrollViewZoom.m; sourceTree = "<group>"; };
+		F1881638246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIDatePickerView.h; sourceTree = "<group>"; };
+		F1881639246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIDatePickerView.m; sourceTree = "<group>"; };
+		F188163C246A904400FF7A67 /* YXYIosBasic_UIPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIPickerView.h; sourceTree = "<group>"; };
+		F188163D246A904400FF7A67 /* YXYIosBasic_UIPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIPickerView.m; sourceTree = "<group>"; };
+		F1881640246AA98700FF7A67 /* YXYIosBasic_UIStepper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIStepper.h; sourceTree = "<group>"; };
+		F1881641246AA98700FF7A67 /* YXYIosBasic_UIStepper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIStepper.m; sourceTree = "<group>"; };
+		F1881644246B978800FF7A67 /* YXYIosBasic_UIStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIStackView.h; sourceTree = "<group>"; };
+		F1881645246B978800FF7A67 /* YXYIosBasic_UIStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIStackView.m; sourceTree = "<group>"; };
+		F1881648246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_UIVisualEffectView.h; sourceTree = "<group>"; };
+		F1881649246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_UIVisualEffectView.m; sourceTree = "<group>"; };
 		F1A52EDE233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_Audio_MultiplePlayerVC.h; sourceTree = "<group>"; };
 		F1A52EDF233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYThrid_Audio_MultiplePlayerVC.m; sourceTree = "<group>"; };
 		F1A52EE1233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYThrid_Audio_MusicPlayerListVC.h; sourceTree = "<group>"; };
@@ -527,6 +554,8 @@
 				A32CE7E62431F5A400971CC1 /* YXYIosBasic_UIScrollViewMove.m */,
 				A32CE7E82432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.h */,
 				A32CE7E92432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m */,
+				F18816342469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.h */,
+				F18816352469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.m */,
 			);
 			path = UI_UIScrollView;
 			sourceTree = "<group>";
@@ -543,6 +572,7 @@
 		A335F63524246486001B1B24 /* UI_UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				A383BE062427013E00037747 /* UI_UISegmentedVC */,
 				A335F636242464BE001B1B24 /* YXYIosBasic_UIButtonVC.h */,
 				A335F637242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m */,
 				A335F63924246AAB001B1B24 /* YXYIosBasic_UIButtonStatusVC.h */,
@@ -671,27 +701,6 @@
 				A38F29B9242D00FA003CFC6C /* YXYIosBasic_UITextView.m */,
 			);
 			path = UI_UItextView;
-			sourceTree = "<group>";
-		};
-		A38F29BB242D0589003CFC6C /* UI_UIScrollView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI_UIScrollView;
-			sourceTree = "<group>";
-		};
-		A38F29BC242D05BE003CFC6C /* UI_UIDataPicker */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI_UIDataPicker;
-			sourceTree = "<group>";
-		};
-		A38F29BD242D05BF003CFC6C /* UI_UIPickerView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI_UIPickerView;
 			sourceTree = "<group>";
 		};
 		F105F0E8233AF80D0090DAE9 /* 音频 */ = {
@@ -929,6 +938,29 @@
 			path = UI_UILabel;
 			sourceTree = "<group>";
 		};
+		F1544201246D48A6000CBDCE /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				F17F06EB231D09DC00D1FFAB /* Xcode配置 */,
+				F1CD8DFC2282CCE500C4A856 /* PCH添加 */,
+				F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */,
+				F1544202246D48E6000CBDCE /* YXYIosBasic_otherVC.h */,
+				F1544203246D48E6000CBDCE /* YXYIosBasic_otherVC.m */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		F1544205246D4A78000CBDCE /* 生命周期 */ = {
+			isa = PBXGroup;
+			children = (
+				F1544206246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.h */,
+				F1544207246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m */,
+				F1544209246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.h */,
+				F154420A246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m */,
+			);
+			path = "生命周期";
+			sourceTree = "<group>";
+		};
 		F16517F6233DECD400E8B197 /* 新录音 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1028,7 +1060,6 @@
 				F11643C0232F31A500C3C7CE /* UI_UIView */,
 				A335F63524246486001B1B24 /* UI_UIButton */,
 				A335F63F24260AFD001B1B24 /* UI_UIImageView */,
-				A383BE062427013E00037747 /* UI_UISegmentedVC */,
 				A383BE0A2427453700037747 /* UI_UItextField */,
 				A383BE282429FC1F00037747 /* UI_UITableView */,
 				A383BE1124285E9500037747 /* UI_UISlider */,
@@ -1039,10 +1070,12 @@
 				A38F29A9242AC30A003CFC6C /* UI_UINvigation */,
 				A38F29B3242C45C4003CFC6C /* UI_UIToolbar */,
 				A38F29B7242D00E6003CFC6C /* UI_UItextView */,
-				A38F29BB242D0589003CFC6C /* UI_UIScrollView */,
-				A38F29BC242D05BE003CFC6C /* UI_UIDataPicker */,
-				A38F29BD242D05BF003CFC6C /* UI_UIPickerView */,
 				A32CE7DE2431E9A500971CC1 /* UI_UIScrollView */,
+				F188163724697EEA00FF7A67 /* UI_UIDataPickerView */,
+				F188163B246A8F7500FF7A67 /* UI_UIPickerView */,
+				F188163F246A9DE300FF7A67 /* UI_UIStepper */,
+				F1881643246B976800FF7A67 /* UI_UIStackView */,
+				F1881647246BE2B700FF7A67 /* UI_UIVisualEffectView */,
 				F17F06FD231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.h */,
 				F17F06FE231FAA5700D1FFAB /* YXYIosBasic_UIRootVC.m */,
 			);
@@ -1088,6 +1121,51 @@
 				F17F0718232633FB00D1FFAB /* YXYThrid_BuglyRootVC.m */,
 			);
 			path = Bugly;
+			sourceTree = "<group>";
+		};
+		F188163724697EEA00FF7A67 /* UI_UIDataPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F1881638246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.h */,
+				F1881639246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.m */,
+			);
+			path = UI_UIDataPickerView;
+			sourceTree = "<group>";
+		};
+		F188163B246A8F7500FF7A67 /* UI_UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F188163C246A904400FF7A67 /* YXYIosBasic_UIPickerView.h */,
+				F188163D246A904400FF7A67 /* YXYIosBasic_UIPickerView.m */,
+			);
+			path = UI_UIPickerView;
+			sourceTree = "<group>";
+		};
+		F188163F246A9DE300FF7A67 /* UI_UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				F1881640246AA98700FF7A67 /* YXYIosBasic_UIStepper.h */,
+				F1881641246AA98700FF7A67 /* YXYIosBasic_UIStepper.m */,
+			);
+			path = UI_UIStepper;
+			sourceTree = "<group>";
+		};
+		F1881643246B976800FF7A67 /* UI_UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				F1881644246B978800FF7A67 /* YXYIosBasic_UIStackView.h */,
+				F1881645246B978800FF7A67 /* YXYIosBasic_UIStackView.m */,
+			);
+			path = UI_UIStackView;
+			sourceTree = "<group>";
+		};
+		F1881647246BE2B700FF7A67 /* UI_UIVisualEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				F1881648246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.h */,
+				F1881649246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.m */,
+			);
+			path = UI_UIVisualEffectView;
 			sourceTree = "<group>";
 		};
 		F1A52EE723405EA400600C06 /* 核心业务 */ = {
@@ -1171,10 +1249,9 @@
 				F17F06F9231FA6FB00D1FFAB /* YXYIosBasic_RootVC.h */,
 				F17F06FA231FA6FB00D1FFAB /* YXYIosBasic_RootVC.m */,
 				F17F06FC231FAA3100D1FFAB /* UI篇 */,
-				F17F06EB231D09DC00D1FFAB /* Xcode配置 */,
-				F1CD8DFC2282CCE500C4A856 /* PCH添加 */,
-				F1CD8DFF2282CCE500C4A856 /* CocoaPods添加 */,
+				F1544205246D4A78000CBDCE /* 生命周期 */,
 				A335F62E2423775C001B1B24 /* InfoPlist */,
+				F1544201246D48A6000CBDCE /* 其他 */,
 			);
 			path = "ios基础";
 			sourceTree = "<group>";
@@ -1423,8 +1500,11 @@
 				A383BE2E2429FD2B00037747 /* YXYIosBasic_UITableViewPlain.m in Sources */,
 				F1CD8E0A2282CCE500C4A856 /* UIView+Additions.m in Sources */,
 				A335F63124237794001B1B24 /* YXYIosBasic_infoPlistVC.m in Sources */,
+				F1544204246D48E6000CBDCE /* YXYIosBasic_otherVC.m in Sources */,
 				F10E0C1E229BDD790076B663 /* BMKCluster.m in Sources */,
+				F188163A246A36BF00FF7A67 /* YXYIosBasic_UIDatePickerView.m in Sources */,
 				A383BE0D2427455E00037747 /* YXYIosBasic_UITextFieldVC.m in Sources */,
+				F1881642246AA98700FF7A67 /* YXYIosBasic_UIStepper.m in Sources */,
 				F1372C752292830A006771F0 /* YXYThrid_BaiduMapRootVC.m in Sources */,
 				A32CE7E12431E9E600971CC1 /* YXYIosBasic_UIScrollView.m in Sources */,
 				F17F07042320DFD000D1FFAB /* YXYOftenFunctionRootVC.m in Sources */,
@@ -1437,6 +1517,7 @@
 				A383BE182428A57300037747 /* YXYIosBasic_UISwitchVC.m in Sources */,
 				F179D5582362A84C00630521 /* WeakScriptMessageDelegate.m in Sources */,
 				F1CD8E0D2282CCE500C4A856 /* YXYBASIC_CocoaPodsInstallVC.m in Sources */,
+				F1881646246B978800FF7A67 /* YXYIosBasic_UIStackView.m in Sources */,
 				A335F63E2426043C001B1B24 /* UIButton+Additions.m in Sources */,
 				F1A52EE6234052BA00600C06 /* YXYThrid_Audio_MusicPlayerModel.m in Sources */,
 				F11643C6232F337900C3C7CE /* YXYIosBasic_UIViewLifeVC.m in Sources */,
@@ -1455,8 +1536,10 @@
 				F126BACF233B609B0083923A /* PathUtility.m in Sources */,
 				F1375F67233313DA00F49328 /* YXYIosBasic_UILabelNSLineBreakModeVC.m in Sources */,
 				F17F06992319112900D1FFAB /* YXYThrid_liveVideoRootVC.m in Sources */,
+				F188164A246BE38700FF7A67 /* YXYIosBasic_UIVisualEffectView.m in Sources */,
 				F10E0C27229BE2DF0076B663 /* YXYThrid_BaiduMapLoadingVC.m in Sources */,
 				F12CAAC52282CC4A0004704C /* main.m in Sources */,
+				F1544208246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m in Sources */,
 				F1E355A7230FCC4500A7CFB3 /* YXYVThrid_AuthLogin_wechatVC.m in Sources */,
 				A32CE7EA2432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m in Sources */,
 				A383BE09242702B500037747 /* YXYIosBasic_UISegmentedControl.m in Sources */,
@@ -1469,14 +1552,17 @@
 				F181F99E234C7FBB004D6EC0 /* MusicMessageModel.m in Sources */,
 				F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */,
 				A335F638242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m in Sources */,
+				F188163E246A904400FF7A67 /* YXYIosBasic_UIPickerView.m in Sources */,
 				A383BE2424299EA700037747 /* YXYIosBasic_UIPageControl.m in Sources */,
 				F1CD8E112282CD2900C4A856 /* YXYTabBarViewController.m in Sources */,
 				F11643D623307D9200C3C7CE /* YXYIosBasic_UIViewContentModeDetailVC.m in Sources */,
 				F1372C7222927885006771F0 /* YXYThrid_MapVC.m in Sources */,
 				A38F29B6242C45F6003CFC6C /* YXYIosBasic_UIToolbar.m in Sources */,
+				F18816362469311300FF7A67 /* YXYIosBasic_UIScrollViewZoom.m in Sources */,
 				F10E0C052293FA210076B663 /* YXYPresentationRightController.m in Sources */,
 				A38F29B2242AFD8E003CFC6C /* YXYIosBasic_UINavigationDefaultExample.m in Sources */,
 				F11643D3232FAB8300C3C7CE /* YXYIosBasic_UIViewContentModeVC.m in Sources */,
+				F154420B246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m in Sources */,
 				F10E0C022293DEC20076B663 /* YXYAlertViewController.m in Sources */,
 				F1E355A4230FB90900A7CFB3 /* YXYThrid_AuthLoginVC.m in Sources */,
 				F17F069C231911B800D1FFAB /* YXYThrid_liveVideo_aliVC.m in Sources */,

@@ -69,6 +69,8 @@
     hud.bezelView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7f];
     hud.label.textColor = [UIColor whiteColor];
     hud.label.text = text;
+    hud.label.numberOfLines = 0;
+    hud.label.preferredMaxLayoutWidth = ScreenWidth - 30;
     hud.removeFromSuperViewOnHide = YES;
     CGFloat delay = 1.0f;
     if (text.length >= 20) {
