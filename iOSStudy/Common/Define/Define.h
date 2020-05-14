@@ -21,5 +21,6 @@
 #import "DevicesDefine.h"
 #import "MacroDefine.h"
 #import "YYModel.h"
+#import "YXYIosBasic_dataCenter.h"
 
 #endif /* Define_h */
