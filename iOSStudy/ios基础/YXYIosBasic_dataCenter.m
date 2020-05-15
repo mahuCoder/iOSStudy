@@ -17,10 +17,22 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         dataCenter = [YXYIosBasic_dataCenter yy_modelWithJSON:@{}];
+        dataCenter.lifeCycleSelectorList = [NSMutableArray array];
     });
     return dataCenter;
 }
 
+//- (void)setLifeCycleSelectorList:(NSMutableArray *)lifeCycleSelectorList {
+//    if (!lifeCycleSelectorList) {
+//        lifeCycleSelectorList = [NSMutableArray array];
+//    }
+//    _lifeCycleSelectorList = lifeCycleSelectorList;
+//}
 
-
+//- (NSMutableArray *)lifeCycleSelectorList {
+//    if (!_lifeCycleSelectorList) {
+//        _lifeCycleSelectorList = [NSMutableArray array];
+//    }
+//    return _lifeCycleSelectorList;
+//}
 @end

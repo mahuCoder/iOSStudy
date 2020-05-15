@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.arrayData = YXYIosBasic_dataCenter.shareDataCenter.lifeCycleSelectorList;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"查看图片" style:(UIBarButtonItemStyleDone) target:self action:@selector(actionCheckImage)];
+    
 }
 
 /*
