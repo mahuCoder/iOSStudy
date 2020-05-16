@@ -29,6 +29,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 #百度地图SDK
 #pod 'BaiduMapKit'
 
+    pod 'IDMPhotoBrowser'
+
   pod 'mahuSecond', :source =>'https://github.com/mahuCoder/Specs.git'
 
         end

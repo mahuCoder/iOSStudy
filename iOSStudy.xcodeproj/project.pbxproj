@@ -98,6 +98,9 @@
 		F1544208246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1544207246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m */; };
 		F154420B246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F154420A246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m */; };
 		F154420E246D71A2000CBDCE /* YXYIosBasic_dataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F154420D246D71A2000CBDCE /* YXYIosBasic_dataCenter.m */; };
+		F1544215246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1544214246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.m */; };
+		F1544219246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1544217246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.m */; };
+		F154421A246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1544218246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.xib */; };
 		F1651808233DECD400E8B197 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F7233DECD400E8B197 /* 7.mp3 */; };
 		F1651809233DECD400E8B197 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F8233DECD400E8B197 /* 6.mp3 */; };
 		F165180A233DECD400E8B197 /* wan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F9233DECD400E8B197 /* wan.mp3 */; };
@@ -371,6 +374,11 @@
 		F154420A246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_appLifeCycleVC.m; sourceTree = "<group>"; };
 		F154420C246D71A2000CBDCE /* YXYIosBasic_dataCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_dataCenter.h; sourceTree = "<group>"; };
 		F154420D246D71A2000CBDCE /* YXYIosBasic_dataCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_dataCenter.m; sourceTree = "<group>"; };
+		F1544213246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_viewControllerLifeCycleVC.h; sourceTree = "<group>"; };
+		F1544214246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_viewControllerLifeCycleVC.m; sourceTree = "<group>"; };
+		F1544216246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_viewControllerLifeCycleTestVC.h; sourceTree = "<group>"; };
+		F1544217246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_viewControllerLifeCycleTestVC.m; sourceTree = "<group>"; };
+		F1544218246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YXYIosBasic_viewControllerLifeCycleTestVC.xib; sourceTree = "<group>"; };
 		F16517F7233DECD400E8B197 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
 		F16517F8233DECD400E8B197 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		F16517F9233DECD400E8B197 /* wan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wan.mp3; sourceTree = "<group>"; };
@@ -960,6 +968,11 @@
 				F1544207246D4A99000CBDCE /* YXYIosBasic_lifeCycleVC.m */,
 				F1544209246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.h */,
 				F154420A246D4B25000CBDCE /* YXYIosBasic_appLifeCycleVC.m */,
+				F1544213246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.h */,
+				F1544214246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.m */,
+				F1544216246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.h */,
+				F1544217246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.m */,
+				F1544218246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.xib */,
 			);
 			path = "生命周期";
 			sourceTree = "<group>";
@@ -1421,6 +1434,7 @@
 				F17F06D123191A7F00D1FFAB /* AlivcLibFaceResource.bundle in Resources */,
 				F165180A233DECD400E8B197 /* wan.mp3 in Resources */,
 				F1651808233DECD400E8B197 /* 7.mp3 in Resources */,
+				F154421A246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.xib in Resources */,
 				F17F070E2320E0D900D1FFAB /* app指纹登录流程图.pdf in Resources */,
 				F1651812233DECD400E8B197 /* count.mp3 in Resources */,
 				F165180B233DECD400E8B197 /* 4.mp3 in Resources */,
@@ -1550,6 +1564,7 @@
 				A32CE7EA2432394700971CC1 /* YXYIosBasic_UIScrollViewTouch.m in Sources */,
 				A383BE09242702B500037747 /* YXYIosBasic_UISegmentedControl.m in Sources */,
 				F138269A23548435007EB7CA /* LrcLabel.m in Sources */,
+				F1544215246F91F8000CBDCE /* YXYIosBasic_viewControllerLifeCycleVC.m in Sources */,
 				F10E0C0E2297F2A10076B663 /* BMKAnimationAnnotationView.m in Sources */,
 				F1382697235425E0007EB7CA /* CALayer+MUSAmi.m in Sources */,
 				F11643DF2331004000C3C7CE /* YXYIosBasic_UIViewKeyframeAnimationOptionsVC.m in Sources */,
@@ -1588,6 +1603,7 @@
 				F11643D0232FA76B00C3C7CE /* YXYIosBasic_UIViewAnimationCureVC.m in Sources */,
 				F13826BE235844A4007EB7CA /* MUsicLrcViewController.m in Sources */,
 				F1A52EE3233E3A7700600C06 /* YXYThrid_Audio_MusicPlayerListVC.m in Sources */,
+				F1544219246FD3D9000CBDCE /* YXYIosBasic_viewControllerLifeCycleTestVC.m in Sources */,
 				F13826A023549085007EB7CA /* LrcDataTool.m in Sources */,
 				F1A52EE0233DF90B00600C06 /* YXYThrid_Audio_MultiplePlayerVC.m in Sources */,
 				A38F29AC242AC329003CFC6C /* YXYIosBasic_UINavigation.m in Sources */,

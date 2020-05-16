@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-iOSStudy/Pods-iOSStudy-resources.sh
+${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle
+${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle
 ${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle

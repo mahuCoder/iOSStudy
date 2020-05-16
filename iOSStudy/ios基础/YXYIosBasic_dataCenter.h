@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong)NSMutableArray *lifeCycleSelectorList;
 
+@property (nonatomic, strong)NSMutableArray *lifeCycleViewControllerSelectorList;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

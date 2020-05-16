@@ -8,7 +8,11 @@
 
 #import "YXYIosBasic_appLifeCycleVC.h"
 
+#import "IDMPhotoBrowser.h"
+
 @interface YXYIosBasic_appLifeCycleVC ()
+
+
 
 @end
 
@@ -16,9 +20,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.arrayData = YXYIosBasic_dataCenter.shareDataCenter.lifeCycleSelectorList;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"查看图片" style:(UIBarButtonItemStyleDone) target:self action:@selector(actionCheckImage)];
+    
+}
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    self.arrayData = YXYIosBasic_dataCenter.shareDataCenter.lifeCycleSelectorList;
+    [self.tableView reloadData];
+}
+- (void)actionCheckImage {
+    UIImage *image = [UIImage imageNamed:@"app生命周期管理"];
+    IDMPhoto *photo =   [[IDMPhoto alloc] initWithImage:image];
+    IDMPhotoBrowser *browser = [[IDMPhotoBrowser alloc] initWithPhotos:@[photo]];
+    [self presentViewController:browser animated:YES completion:nil];
+    
     
 }
 

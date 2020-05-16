@@ -18,6 +18,7 @@
     dispatch_once(&onceToken, ^{
         dataCenter = [YXYIosBasic_dataCenter yy_modelWithJSON:@{}];
         dataCenter.lifeCycleSelectorList = [NSMutableArray array];
+        dataCenter.lifeCycleViewControllerSelectorList = [NSMutableArray array];
     });
     return dataCenter;
 }

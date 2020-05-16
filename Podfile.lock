@@ -1,11 +1,20 @@
 PODS:
   - Bugly (2.5.2)
+  - DACircularProgress (2.3.1)
+  - IDMPhotoBrowser (1.11.3):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
   - IQKeyboardManager (6.5.5)
   - mahuPods (0.0.1)
   - mahuSecond (0.0.1):
     - mahuPods
   - Masonry (1.0.2)
   - MBProgressHUD (1.2.0)
+  - pop (1.0.12)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - Toast (4.0.0)
   - UMCAnalytics (6.0.5):
     - UMCCommon
@@ -16,6 +25,7 @@ PODS:
 
 DEPENDENCIES:
   - Bugly
+  - IDMPhotoBrowser
   - IQKeyboardManager
   - mahuSecond
   - Masonry (~> 1.0.0)
@@ -30,9 +40,13 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Bugly
+    - DACircularProgress
+    - IDMPhotoBrowser
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
+    - pop
+    - SDWebImage
     - Toast
     - UMCAnalytics
     - UMCCommon
@@ -45,11 +59,15 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  IDMPhotoBrowser: b96159fe4adb991a844068eb17dab9c0b7d7e51a
   IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   mahuPods: ae3cbe6f01e0a773ec5ca9a11d36e8653912cfab
   mahuSecond: 11450006ca6d9bdd9f6b1a649f615d179057d0ae
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
   UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
@@ -57,6 +75,6 @@ SPEC CHECKSUMS:
   WechatOpenSDK: 8b3ba4239193d1112205c139c94e21934e8f369a
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 7183e0bb33d733e8bc19b225a323cae426e45fa3
+PODFILE CHECKSUM: 698ba235d9410d4996381e95ad3e00dcbbda9b9d
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.0
