@@ -8,6 +8,7 @@
 
 #import "YXYIosBasic_viewControllerLifeCycleVC.h"
 #import "YXYIosBasic_dataCenter.h"
+#import "YXYIosBasic_viewControllerLifeCycleTestVC.h"
 
 @interface YXYIosBasic_viewControllerLifeCycleVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -17,10 +18,15 @@
 @end
 
 @implementation YXYIosBasic_viewControllerLifeCycleVC
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.arrayData = [YXYIosBasic_dataCenter shareDataCenter].lifeCycleViewControllerSelectorList;
-    [self.tableView reloadData];
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    @weakify(self)
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        @strongify(self)
+        self.arrayData = [YXYIosBasic_dataCenter shareDataCenter].lifeCycleViewControllerSelectorList;
+        [self.tableView reloadData];
+    });
+    
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -41,13 +47,15 @@
    
 }
 - (void)actionSegment:(UISegmentedControl *)sender {
+    [self.arrayData removeAllObjects];
+    YXYIosBasic_viewControllerLifeCycleTestVC *testVC = nil;
     switch (sender.selectedSegmentIndex) {
         case 0: {
-            
+            testVC = [[YXYIosBasic_viewControllerLifeCycleTestVC alloc] init];
         }
             break;
         case 1: {
-            
+            testVC = [[NSBundle mainBundle] loadNibNamed:@"" owner:nil options:nil];
         }
             break;
         case 2: {
@@ -57,6 +65,7 @@
         default:
             break;
     }
+    [self.navigationController pushViewController:testVC animated:YES];
 }
 #pragma mark  -------------deleget & dataSource------------------
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -119,7 +128,12 @@
     return _tableView;
 }
 
-
+- (NSMutableArray *)arrayData {
+    if (!_arrayData) {
+        _arrayData = [NSMutableArray array];
+    }
+    return _arrayData;
+}
 
 
 @end
