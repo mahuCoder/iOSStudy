@@ -54,12 +54,13 @@
             testVC = [[YXYIosBasic_viewControllerLifeCycleTestVC alloc] init];
         }
             break;
-        case 1: {
-            testVC = [[NSBundle mainBundle] loadNibNamed:@"" owner:nil options:nil];
+        case 1: { 
+            testVC = [[YXYIosBasic_viewControllerLifeCycleTestVC alloc] initWithNibName:@"YXYIosBasic_viewControllerLifeCycleTestVC" bundle:[NSBundle mainBundle]];
         }
             break;
         case 2: {
-            
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            testVC = [storyboard instantiateViewControllerWithIdentifier:@"YXYIosBasic_viewControllerLifeCycleTestVC"];
         }
             break;
         default:
