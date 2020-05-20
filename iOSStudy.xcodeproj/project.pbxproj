@@ -105,6 +105,9 @@
 		F15442262473871E000CBDCE /* YXYIosBasic_block_writeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F15442252473871D000CBDCE /* YXYIosBasic_block_writeVC.m */; };
 		F15442292473D40F000CBDCE /* YXYIosBasicWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15442282473D40F000CBDCE /* YXYIosBasicWebViewController.m */; };
 		F154422C2473E47B000CBDCE /* YXYIosBasic_block_exapmleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F154422B2473E47B000CBDCE /* YXYIosBasic_block_exapmleVC.m */; };
+		F154423024751918000CBDCE /* YXYIosBasic_NotificationListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F154422F24751917000CBDCE /* YXYIosBasic_NotificationListVC.m */; };
+		F154423324751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F154423224751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.m */; };
+		F154423624751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F154423524751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.m */; };
 		F1651808233DECD400E8B197 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F7233DECD400E8B197 /* 7.mp3 */; };
 		F1651809233DECD400E8B197 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F8233DECD400E8B197 /* 6.mp3 */; };
 		F165180A233DECD400E8B197 /* wan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F16517F9233DECD400E8B197 /* wan.mp3 */; };
@@ -391,6 +394,12 @@
 		F15442282473D40F000CBDCE /* YXYIosBasicWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasicWebViewController.m; sourceTree = "<group>"; };
 		F154422A2473E47B000CBDCE /* YXYIosBasic_block_exapmleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_block_exapmleVC.h; sourceTree = "<group>"; };
 		F154422B2473E47B000CBDCE /* YXYIosBasic_block_exapmleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_block_exapmleVC.m; sourceTree = "<group>"; };
+		F154422E24751917000CBDCE /* YXYIosBasic_NotificationListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_NotificationListVC.h; sourceTree = "<group>"; };
+		F154422F24751917000CBDCE /* YXYIosBasic_NotificationListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_NotificationListVC.m; sourceTree = "<group>"; };
+		F154423124751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_NotificationCenterAcceptVC.h; sourceTree = "<group>"; };
+		F154423224751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_NotificationCenterAcceptVC.m; sourceTree = "<group>"; };
+		F154423424751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYIosBasic_NotificationCenterPostVC.h; sourceTree = "<group>"; };
+		F154423524751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYIosBasic_NotificationCenterPostVC.m; sourceTree = "<group>"; };
 		F16517F7233DECD400E8B197 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
 		F16517F8233DECD400E8B197 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		F16517F9233DECD400E8B197 /* wan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wan.mp3; sourceTree = "<group>"; };
@@ -1002,6 +1011,19 @@
 			path = Block;
 			sourceTree = "<group>";
 		};
+		F154422D247518A5000CBDCE /* 通知 */ = {
+			isa = PBXGroup;
+			children = (
+				F154422E24751917000CBDCE /* YXYIosBasic_NotificationListVC.h */,
+				F154422F24751917000CBDCE /* YXYIosBasic_NotificationListVC.m */,
+				F154423124751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.h */,
+				F154423224751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.m */,
+				F154423424751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.h */,
+				F154423524751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.m */,
+			);
+			path = "通知";
+			sourceTree = "<group>";
+		};
 		F16517F6233DECD400E8B197 /* 新录音 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1294,6 +1316,7 @@
 				F17F06FC231FAA3100D1FFAB /* UI篇 */,
 				F1544205246D4A78000CBDCE /* 生命周期 */,
 				F154421D24737F8F000CBDCE /* Block */,
+				F154422D247518A5000CBDCE /* 通知 */,
 				A335F62E2423775C001B1B24 /* InfoPlist */,
 				F1544201246D48A6000CBDCE /* 其他 */,
 				F154420C246D71A2000CBDCE /* YXYIosBasic_dataCenter.h */,
@@ -1542,6 +1565,7 @@
 				F105F0EB233AF9750090DAE9 /* YXYThrid_AudioRootVC.m in Sources */,
 				F181F99B234C5FEF004D6EC0 /* MusicPlayerTool.m in Sources */,
 				F1375F6123323F1800F49328 /* YXYIosBasic_UILabelVC.m in Sources */,
+				F154423624751CE9000CBDCE /* YXYIosBasic_NotificationCenterPostVC.m in Sources */,
 				F10E0C0B2297E6C30076B663 /* CustomPaopaoView.m in Sources */,
 				F1CD8E0C2282CCE500C4A856 /* YXYBasic_PCHAddVC.m in Sources */,
 				A335F64224260B18001B1B24 /* YXYIosBasic_UIImageViewVC.m in Sources */,
@@ -1603,6 +1627,7 @@
 				A383BE1C2428AE5900037747 /* YXYIosBasic_UIActivityIndicatorView.m in Sources */,
 				F181F99E234C7FBB004D6EC0 /* MusicMessageModel.m in Sources */,
 				F17F06EF231D0A3400D1FFAB /* YXYBASIC_xcode_setLanguageVC.m in Sources */,
+				F154423324751CD7000CBDCE /* YXYIosBasic_NotificationCenterAcceptVC.m in Sources */,
 				A335F638242464BE001B1B24 /* YXYIosBasic_UIButtonVC.m in Sources */,
 				F188163E246A904400FF7A67 /* YXYIosBasic_UIPickerView.m in Sources */,
 				A383BE2424299EA700037747 /* YXYIosBasic_UIPageControl.m in Sources */,
@@ -1624,6 +1649,7 @@
 				A383BE34242A4C8600037747 /* YXYIosBasic_UITableViewInsetGrouped.m in Sources */,
 				F154422C2473E47B000CBDCE /* YXYIosBasic_block_exapmleVC.m in Sources */,
 				A38F29AF242AE7D0003CFC6C /* YXYIosBasic_UINavigationDefault.m in Sources */,
+				F154423024751918000CBDCE /* YXYIosBasic_NotificationListVC.m in Sources */,
 				F12CAAB72282CC480004704C /* AppDelegate.m in Sources */,
 				F10E0C24229BDFAD0076B663 /* YXYThrid_BaiduMap_Define.m in Sources */,
 				F11643C3232F31BF00C3C7CE /* YXYIosBasic_UIViewVC.m in Sources */,
